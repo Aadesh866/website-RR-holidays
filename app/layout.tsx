@@ -1,28 +1,25 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Inter } from "next/font/google";
+import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { SmoothScroll } from "@/components/smooth-scroll";
 
-const playfair = Playfair_Display({
-  variable: "--font-playfair",
+const geistSans = Geist({
+  variable: "--font-geist-sans",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  display: "swap",
 });
 
-const inter = Inter({
-  variable: "--font-inter",
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
   subsets: ["latin"],
-  weight: ["400", "500", "600"],
-  display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "RR Holidays - Crafting Journeys That Last a Lifetime",
-  description: "Premium domestic & international holiday packages across 500+ destinations. Handcrafted itineraries, best price guarantee, 24/7 support, and zero EMI options.",
-  keywords: ["travel agency", "holiday packages", "international tours", "domestic tours", "honeymoon packages", "group tours", "India travel"],
+  title: "RR Holidays - Best Tours and Travel Packages from India",
+  description: "Book the best domestic and international holiday tour packages and enjoy the best deals & offers at affordable prices at RR Holidays. 500+ destinations, 10,000+ happy travelers.",
+  keywords: ["travel agency", "holiday packages", "international tours", "domestic tours", "honeymoon packages", "group tours", "India travel", "RR Holidays", "Coimbatore"],
   authors: [{ name: "RR Holidays" }],
   openGraph: {
-    title: "RR Holidays - Crafting Journeys That Last a Lifetime",
+    title: "RR Holidays - Best Tours and Travel Packages from India",
     description: "Premium domestic & international holiday packages across 500+ destinations",
     type: "website",
   },
@@ -34,11 +31,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${playfair.variable} ${inter.variable}`}
-    >
-      <body className="antialiased">{children}</body>
+    <html lang="en">
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased selection:bg-[#E31E24] selection:text-white`}
+      >
+        <SmoothScroll>
+          {children}
+        </SmoothScroll>
+      </body>
     </html>
   );
 }
