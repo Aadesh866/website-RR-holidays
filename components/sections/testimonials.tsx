@@ -33,36 +33,7 @@ function ReviewCard({ testimonial }: { testimonial: Testimonial }) {
   )
 }
 
-function MarqueeColumn({ items, direction = "up", speed = 30 }: { items: Testimonial[], direction?: "up" | "down", speed?: number }) {
-  const duplicatedItems = [...items, ...items]
-
-  return (
-    <div className="relative h-full w-full overflow-hidden">
-      <motion.div
-        animate={{
-          y: direction === "up" ? ["0%", "-50%"] : ["-50%", "0%"]
-        }}
-        transition={{
-          repeat: Infinity,
-          ease: "linear",
-          duration: speed,
-        }}
-        className="flex flex-col"
-      >
-        {duplicatedItems.map((testimonial, idx) => (
-          <ReviewCard key={`${testimonial.id}-${idx}`} testimonial={testimonial} />
-        ))}
-      </motion.div>
-    </div>
-  )
-}
-
 export function Testimonials() {
-  // Split testimonials into 3 columns
-  const col1 = [testimonials[0], testimonials[3], testimonials[6]]
-  const col2 = [testimonials[1], testimonials[4], testimonials[7]]
-  const col3 = [testimonials[2], testimonials[5], testimonials[0]] // Padded to balance columns
-
   return (
     <section id="testimonials" className="py-24 md:py-32 bg-[#f0f1fa] relative overflow-hidden">
       {/* Decorative gradient blur */}
@@ -85,23 +56,20 @@ export function Testimonials() {
           </h2>
         </motion.div>
 
-        {/* Marquee Columns */}
-        <div className="h-[500px] md:h-[600px] relative overflow-hidden">
-          {/* Top/Bottom gradient fades to hide scrolling cuts */}
-          <div className="absolute top-0 inset-x-0 h-12 bg-gradient-to-b from-[#f0f1fa] to-transparent z-20 pointer-events-none" />
-          <div className="absolute bottom-0 inset-x-0 h-12 bg-gradient-to-t from-[#f0f1fa] to-transparent z-20 pointer-events-none" />
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 h-full">
-            <div className="h-full">
-              <MarqueeColumn items={col1} direction="up" speed={40} />
-            </div>
-            <div className="h-full hidden md:block">
-              <MarqueeColumn items={col2} direction="down" speed={45} />
-            </div>
-            <div className="h-full hidden lg:block">
-              <MarqueeColumn items={col3} direction="up" speed={35} />
-            </div>
-          </div>
+        {/* Masonry Grid */}
+        <div className="columns-1 md:columns-2 lg:columns-3 gap-6 space-y-6">
+          {testimonials.map((testimonial, idx) => (
+            <motion.div
+              key={testimonial.id}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: idx * 0.1 }}
+              className="break-inside-avoid"
+            >
+              <ReviewCard testimonial={testimonial} />
+            </motion.div>
+          ))}
         </div>
       </div>
     </section>

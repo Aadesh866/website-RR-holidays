@@ -4,7 +4,7 @@ import { useState } from "react"
 import Image from "next/image"
 import { motion } from "framer-motion"
 import { Badge } from "@/components/ui/badge"
-import { Button } from "@/components/ui/button"
+import { Button, buttonVariants } from "@/components/ui/button"
 import { Check } from "lucide-react"
 import Link from "next/link"
 import type { Package } from "@/data/packages"
@@ -78,14 +78,11 @@ export function PackageCard({ package: pkg }: PackageCardProps) {
               ₹{pkg.originalPrice.toLocaleString("en-IN")}
             </div>
           </div>
-          <Link href={`/packages/${pkg.id}`}>
-            <Button
-              size="sm"
-              rounded="full"
-              variant="default"
-            >
-              View Details
-            </Button>
+          <Link 
+            href={`/packages/${pkg.id}`}
+            className={buttonVariants({ size: "sm", rounded: "full", variant: "default" })}
+          >
+            View Details
           </Link>
         </div>
       </div>

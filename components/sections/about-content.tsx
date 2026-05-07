@@ -3,14 +3,12 @@
 import { motion } from "framer-motion"
 import Image from "next/image"
 import { Globe, Users, Award, Heart, Plane, Shield, Star, TrendingUp } from "lucide-react"
-import { useCountUp } from "@/hooks/use-count-up"
 
 function AnimatedStat({ value, suffix, label }: { value: number; suffix: string; label: string }) {
-  const { count, elementRef } = useCountUp(value, 2.5)
   return (
-    <div ref={elementRef as React.RefObject<HTMLDivElement>} className="text-center">
+    <div className="text-center">
       <div className="text-4xl md:text-5xl font-bold font-heading text-[#E31E24] mb-2">
-        {count}{suffix}
+        {value}{suffix}
       </div>
       <div className="text-white/70 text-sm uppercase tracking-wider">{label}</div>
     </div>

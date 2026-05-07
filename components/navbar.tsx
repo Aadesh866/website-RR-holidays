@@ -55,7 +55,7 @@ export function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center">
             <Image
-              src="/api/logo"
+              src="/logo.png"
               alt="RR Holidays"
               width={220}
               height={70}
@@ -164,7 +164,7 @@ export function Navbar() {
           <div className="flex flex-col h-full p-8">
             <div className="flex items-center justify-between mb-10">
               <Image
-                src="/api/logo"
+                src="/logo.png"
                 alt="RR Holidays"
                 width={140}
                 height={45}

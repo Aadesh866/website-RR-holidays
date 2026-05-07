@@ -4,7 +4,6 @@ import { useEffect, useRef, useState, useCallback } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { ArrowRight, MessageCircle, Globe, Users, Award, Headphones, ChevronLeft, ChevronRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import { useCountUp } from "@/hooks/use-count-up"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -35,19 +34,14 @@ const stats = [
 ]
 
 function StatCounter({ icon: Icon, label, value, suffix }: typeof stats[0]) {
-  const { count, elementRef } = useCountUp(value, 2)
-
   return (
     <div className="flex items-center space-x-3">
       <div className="flex-shrink-0 w-12 h-12 rounded-full bg-[#E31E24]/10 flex items-center justify-center">
         <Icon className="w-6 h-6 text-[#E31E24]" />
       </div>
       <div>
-        <div
-          ref={elementRef as React.RefObject<HTMLDivElement>}
-          className="text-2xl font-bold text-[#1a1f4e] font-heading"
-        >
-          {count}{suffix}
+        <div className="text-2xl font-bold text-[#1a1f4e] font-heading">
+          {value}{suffix}
         </div>
         <div className="text-sm text-[#4b5563]">{label}</div>
       </div>

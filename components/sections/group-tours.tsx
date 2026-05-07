@@ -11,8 +11,8 @@ export function GroupTours() {
       {/* Background */}
       <div className="absolute inset-0 w-full h-full">
         <Image
-          src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1920&q=80&auto=format&fit=crop"
-          alt="Group of travelers on mountain hiking adventure"
+          src="https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=1920&q=80&auto=format&fit=crop"
+          alt="Group of travelers at Paris Eiffel Tower"
           fill
           className="object-cover"
           sizes="100vw"

@@ -33,8 +33,8 @@ export function WhyChooseUs() {
       {/* Background Image with Parallax effect */}
       <div className="absolute inset-0 w-full h-full">
         <Image
-          src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1920&q=80&auto=format&fit=crop"
-          alt="Travel Landscape"
+          src="https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?w=1920&q=80&auto=format&fit=crop"
+          alt="Pristine Tropical Beach"
           fill
           className="object-cover scale-105"
         />
