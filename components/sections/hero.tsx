@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState, useCallback } from "react"
 import { motion, AnimatePresence } from "framer-motion"
-import { ArrowRight, MessageCircle, Globe, Users, Award, Headphones, ChevronLeft, ChevronRight } from "lucide-react"
+import { ArrowRight, MessageCircle, Globe, Users, Award, Headphones, ChevronLeft, ChevronRight, Plane } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import Link from "next/link"
@@ -75,80 +75,57 @@ export function Hero() {
 
   return (
     <>
-    <section className="relative h-screen w-full overflow-hidden">
-      {/* Carousel Background with Ken Burns */}
-      <AnimatePresence mode="popLayout">
-        <motion.div
-          key={animationKey}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          exit={{ opacity: 0 }}
-          transition={{ duration: 1.5, ease: [0.22, 1, 0.36, 1] }}
-          className="absolute inset-0 w-full h-full"
-        >
-          <div className="absolute inset-0 w-full h-full animate-kenburns">
-            <Image
-              src={heroImages[currentSlide].src}
-              alt={heroImages[currentSlide].alt}
-              fill
-              priority
-              className="object-cover"
-              sizes="100vw"
-            />
-          </div>
-          <div className="absolute inset-0 bg-gradient-to-b from-[#1a1f4e]/40 via-[#1a1f4e]/50 to-[#1a1f4e]/85" />
-        </motion.div>
-      </AnimatePresence>
-
-      {/* Slide Navigation Arrows */}
-      <div className="absolute inset-y-0 left-0 right-0 z-20 flex items-center justify-between px-6 pointer-events-none">
-        <button
-          onClick={prevSlide}
-          className="w-12 h-12 rounded-full bg-white/10 backdrop-blur-sm flex items-center justify-center text-white hover:bg-white/20 transition-all pointer-events-auto"
-          aria-label="Previous slide"
-        >
-          <ChevronLeft className="w-6 h-6" />
-        </button>
-        <button
-          onClick={nextSlide}
-          className="w-12 h-12 rounded-full bg-white/10 backdrop-blur-sm flex items-center justify-center text-white hover:bg-white/20 transition-all pointer-events-auto"
-          aria-label="Next slide"
-        >
-          <ChevronRight className="w-6 h-6" />
-        </button>
+    <section className="relative min-h-[90vh] md:h-[95vh] w-full overflow-hidden bg-[#0d1130]">
+      {/* Background with subtle overlay */}
+      <div className="absolute inset-0 w-full h-full opacity-60">
+        <Image
+          src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1920&q=80&auto=format&fit=crop"
+          alt="Beautiful mountain landscape"
+          fill
+          priority
+          className="object-cover animate-kenburns"
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-gradient-to-r from-[#1a1f4e]/95 via-[#1a1f4e]/80 to-transparent" />
       </div>
 
-      {/* Slide Indicators */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex gap-2">
-        {heroImages.map((_, index) => (
-          <button
-            key={index}
-            onClick={() => { setCurrentSlide(index); setAnimationKey((p) => p + 1) }}
-            className={`h-1.5 rounded-full transition-all duration-300 ${
-              index === currentSlide ? "w-8 bg-[#E31E24]" : "w-4 bg-white/40"
-            }`}
-            aria-label={`Go to slide ${index + 1}`}
-          />
-        ))}
+      {/* Floating Airplanes Motif */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <motion.div
+          animate={{ x: ["-10vw", "110vw"], y: ["10vh", "-10vh"] }}
+          transition={{ duration: 15, repeat: Infinity, ease: "linear" }}
+          className="absolute top-[10%] left-0 opacity-10 text-white"
+        >
+          <Plane className="w-16 h-16 -rotate-12" />
+        </motion.div>
+        <motion.div
+          animate={{ x: ["110vw", "-10vw"], y: ["50vh", "30vh"] }}
+          transition={{ duration: 25, repeat: Infinity, ease: "linear", delay: 5 }}
+          className="absolute top-[40%] right-0 opacity-5 text-white"
+        >
+          <Plane className="w-24 h-24 rotate-[190deg]" />
+        </motion.div>
       </div>
 
       {/* Content */}
-      <div className="relative z-10 h-full flex items-center">
-        <div className="w-full max-w-[1600px] mx-auto px-6 sm:px-8 lg:px-12">
-          <div className="max-w-3xl">
-            {/* Eyebrow */}
+      <div className="relative z-10 h-full flex items-center pt-20">
+        <div className="w-full max-w-[1600px] mx-auto px-6 sm:px-8 lg:px-12 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+          
+          {/* Left Text */}
+          <div className="max-w-2xl py-10">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-              className="text-[#E31E24] text-sm font-medium uppercase tracking-[0.25em] mb-8"
+              className="mb-4"
             >
-              Discover the Extraordinary
+              <span className="font-cursive text-4xl md:text-5xl text-[#FFD700] drop-shadow-md">
+                South India's No.1
+              </span>
             </motion.div>
 
-            {/* Headline */}
-            <h1 className="text-5xl md:text-7xl font-heading font-bold text-white leading-[1.1] tracking-tight mb-8">
-              {["Crafting", "Journeys", "That", "Last", "a", "Lifetime"].map((word, index) => (
+            <h1 className="text-5xl md:text-6xl lg:text-7xl font-heading font-bold text-white leading-[1.1] tracking-tight mb-8">
+              {["Premium", "Journeys", "Crafted", "For", "You"].map((word, index) => (
                 <motion.span
                   key={index}
                   initial={{ y: 40, opacity: 0 }}
@@ -158,38 +135,35 @@ export function Hero() {
                     duration: 1,
                     ease: [0.22, 1, 0.36, 1],
                   }}
-                  className="inline-block"
-                  style={{ marginRight: '0.25em' }}
+                  className="inline-block mr-[0.25em]"
                 >
                   {word}
                 </motion.span>
               ))}
             </h1>
 
-            {/* Subheadline */}
             <motion.p
               initial={{ y: 30, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.6, duration: 1, ease: [0.22, 1, 0.36, 1] }}
-              className="text-white/80 text-lg md:text-xl max-w-2xl mb-10 leading-relaxed"
+              className="text-white/80 text-lg md:text-xl max-w-xl mb-10 leading-relaxed font-light"
             >
-              From the backwaters of Kerala to the peaks of Switzerland — curated domestic & international holiday packages across 500+ destinations.
+              Experience the world like never before. Handcrafted domestic & international holiday packages designed to create memories that last a lifetime.
             </motion.p>
 
-            {/* CTAs */}
             <motion.div
               initial={{ y: 30, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.7, duration: 1, ease: [0.22, 1, 0.36, 1] }}
               className="flex flex-col sm:flex-row gap-5"
             >
-              <Button asChild size="lg" rounded="full" className="bg-[#E31E24] hover:bg-[#c9171d]">
+              <Button asChild size="lg" rounded="full" className="bg-[#E31E24] hover:bg-[#c9171d] text-white shadow-lg shadow-[#E31E24]/20 border-0 h-14 px-8 text-[15px]">
                 <Link href="#packages">
                   Explore Packages
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
-              <Button asChild size="lg" rounded="full" variant="outline" className="bg-white/10 border-white text-white hover:bg-white hover:text-[#1a1f4e]">
+              <Button asChild size="lg" rounded="full" variant="outline" className="bg-white/10 backdrop-blur-md border-white/30 text-white hover:bg-white hover:text-[#1a1f4e] h-14 px-8 text-[15px]">
                 <a href="https://wa.me/919842334325?text=Hi,%20I'm%20interested%20in%20RR%20Holidays%20packages.%20Please%20share%20more%20details." target="_blank" rel="noopener noreferrer">
                   <MessageCircle className="mr-2 h-5 w-5" />
                   Plan My Trip
@@ -197,6 +171,28 @@ export function Hero() {
               </Button>
             </motion.div>
           </div>
+
+          {/* Right Image (Vanakam Lady) */}
+          <motion.div 
+            initial={{ opacity: 0, scale: 0.9, x: 50 }}
+            animate={{ opacity: 1, scale: 1, x: 0 }}
+            transition={{ delay: 0.5, duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
+            className="hidden lg:flex justify-end items-end h-[85vh] relative"
+          >
+            {/* Glow behind the lady */}
+            <div className="absolute bottom-[20%] right-[10%] w-[400px] h-[400px] bg-[#E31E24]/30 rounded-full blur-[100px] pointer-events-none" />
+            
+            <div className="relative w-full h-full max-w-[650px]">
+              <Image
+                src="/vanakam-lady.png"
+                alt="RR Holidays Welcome"
+                fill
+                className="object-contain object-bottom drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)]"
+                priority
+              />
+            </div>
+          </motion.div>
+
         </div>
       </div>
     </section>

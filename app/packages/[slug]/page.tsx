@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation"
 import Image from "next/image"
 import Link from "next/link"
-import { ArrowLeft, Clock, Check, MapPin, Calendar } from "lucide-react"
+import { ArrowLeft, Clock, Check, MapPin, Calendar, Sun, Coffee, Utensils, Moon, Sunset } from "lucide-react"
 import { packages } from "@/data/packages"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
@@ -72,6 +72,21 @@ export default async function PackagePage({ params }: { params: { slug: string }
               
               {/* Left Column: Details */}
               <div className="lg:col-span-2 space-y-12">
+                
+                {/* Image Gallery */}
+                {pkg.gallery && pkg.gallery.length > 0 && (
+                  <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    <div className="col-span-2 md:col-span-2 row-span-2 relative rounded-2xl overflow-hidden h-[300px] md:h-[416px]">
+                      <Image src={pkg.gallery[0]} alt="Gallery 1" fill className="object-cover hover:scale-105 transition-transform duration-700" />
+                    </div>
+                    {pkg.gallery.slice(1, 5).map((img, i) => (
+                      <div key={i} className="relative rounded-2xl overflow-hidden h-[142px] md:h-[200px]">
+                        <Image src={img} alt={`Gallery ${i + 2}`} fill className="object-cover hover:scale-105 transition-transform duration-700" />
+                      </div>
+                    ))}
+                  </div>
+                )}
+
                 <div className="bg-white rounded-2xl p-8 shadow-sm">
                   <h2 className="text-2xl font-heading font-bold text-[#1a1f4e] mb-4">Overview</h2>
                   <p className="text-[#4b5563] text-lg leading-relaxed">
@@ -100,21 +115,51 @@ export default async function PackagePage({ params }: { params: { slug: string }
                 </div>
 
                 <div className="bg-white rounded-2xl p-8 shadow-sm">
-                  <h2 className="text-2xl font-heading font-bold text-[#1a1f4e] mb-6">Itinerary Summary</h2>
-                  <div className="space-y-6">
-                    {Array.from({ length: parseInt(pkg.duration.split(' ')[0]) }).map((_, i) => (
-                      <div key={i} className="flex gap-4">
-                        <div className="flex flex-col items-center">
-                          <div className="w-10 h-10 rounded-full bg-[#1a1f4e] text-white flex items-center justify-center font-bold">
-                            {i + 1}
-                          </div>
-                          {i !== parseInt(pkg.duration.split(' ')[0]) - 1 && (
-                            <div className="w-0.5 h-full bg-gray-200 mt-2" />
-                          )}
+                  <h2 className="text-2xl font-heading font-bold text-[#1a1f4e] mb-8">Detailed Itinerary</h2>
+                  <div className="space-y-0 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-gray-200 before:to-transparent">
+                    {pkg.itinerary && pkg.itinerary.map((day, i) => (
+                      <div key={i} className="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active mb-12 last:mb-0">
+                        {/* Timeline dot */}
+                        <div className="flex items-center justify-center w-10 h-10 rounded-full border-4 border-white bg-[#E31E24] text-white shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2 z-10 font-bold text-sm">
+                          D{day.day}
                         </div>
-                        <div className="pt-2 pb-6">
-                          <h3 className="text-lg font-bold text-[#1a1f4e] mb-2">Day {i + 1}</h3>
-                          <p className="text-[#4b5563]">Exciting activities and sightseeing experiences planned for today. Reach out to our travel experts for the detailed day-by-day PDF itinerary.</p>
+                        
+                        {/* Timeline content */}
+                        <div className="w-[calc(100%-4rem)] md:w-[calc(50%-3rem)] bg-white rounded-2xl border border-gray-100 p-6 shadow-lg shadow-gray-100/50 hover:border-[#E31E24]/30 hover:shadow-xl transition-all">
+                          <h3 className="font-heading font-bold text-[#1a1f4e] text-xl mb-4">{day.title}</h3>
+                          
+                          <div className="space-y-4">
+                            {day.morning && day.morning !== "N/A" && (
+                              <div className="flex items-start gap-3">
+                                <Sun className="w-4 h-4 text-[#E31E24] mt-0.5 shrink-0" />
+                                <p className="text-sm text-gray-600 leading-relaxed"><strong className="text-gray-800">Morning:</strong> {day.morning}</p>
+                              </div>
+                            )}
+                            {day.lunch && day.lunch !== "N/A" && (
+                              <div className="flex items-start gap-3">
+                                <Utensils className="w-4 h-4 text-[#E31E24] mt-0.5 shrink-0" />
+                                <p className="text-sm text-gray-600 leading-relaxed"><strong className="text-gray-800">Lunch:</strong> {day.lunch}</p>
+                              </div>
+                            )}
+                            {day.afternoon && day.afternoon !== "N/A" && (
+                              <div className="flex items-start gap-3">
+                                <Coffee className="w-4 h-4 text-[#E31E24] mt-0.5 shrink-0" />
+                                <p className="text-sm text-gray-600 leading-relaxed"><strong className="text-gray-800">Afternoon:</strong> {day.afternoon}</p>
+                              </div>
+                            )}
+                            {day.evening && day.evening !== "N/A" && (
+                              <div className="flex items-start gap-3">
+                                <Sunset className="w-4 h-4 text-[#E31E24] mt-0.5 shrink-0" />
+                                <p className="text-sm text-gray-600 leading-relaxed"><strong className="text-gray-800">Evening:</strong> {day.evening}</p>
+                              </div>
+                            )}
+                            {day.dinner && day.dinner !== "N/A" && (
+                              <div className="flex items-start gap-3">
+                                <Moon className="w-4 h-4 text-[#E31E24] mt-0.5 shrink-0" />
+                                <p className="text-sm text-gray-600 leading-relaxed"><strong className="text-gray-800">Dinner:</strong> {day.dinner}</p>
+                              </div>
+                            )}
+                          </div>
                         </div>
                       </div>
                     ))}

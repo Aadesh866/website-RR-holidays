@@ -34,9 +34,6 @@ export function Navbar() {
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
-  // Make navbar transparent initially on all pages
-  const showDarkText = isScrolled
-
   return (
     <>
       <SearchModal isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
@@ -44,12 +41,7 @@ export function Navbar() {
         initial={{ y: -20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-        className={cn(
-          "fixed top-0 left-0 right-0 z-50 h-28 transition-all duration-300",
-          showDarkText
-            ? "bg-white/95 backdrop-blur-lg shadow-sm"
-            : "bg-transparent"
-        )}
+        className="fixed top-0 left-0 right-0 z-50 h-[100px] bg-white border-b border-gray-100 shadow-sm transition-all duration-300"
       >
         <nav className="w-full max-w-[1600px] mx-auto px-6 sm:px-8 lg:px-12 h-full flex items-center justify-between">
           {/* Logo */}
@@ -57,9 +49,9 @@ export function Navbar() {
             <Image
               src="/logo.png"
               alt="RR Holidays"
-              width={220}
-              height={70}
-              className="h-16 w-auto object-contain drop-shadow-md"
+              width={240}
+              height={80}
+              className="h-20 w-auto object-contain saturate-[1.2] contrast-[1.1] drop-shadow-[0_1px_1px_rgba(0,0,0,0.3)] mix-blend-multiply"
               priority
             />
           </Link>
@@ -71,8 +63,8 @@ export function Navbar() {
                 key={link.name}
                 href={link.href}
                 className={cn(
-                  "text-sm font-medium transition-colors relative group py-2",
-                  showDarkText ? "text-[#1a1f4e]" : "text-white",
+                  "text-[15px] font-bold tracking-wide transition-colors relative group py-2",
+                  "text-[#1a1f4e] hover:text-[#E31E24]",
                   pathname === link.href && "text-[#E31E24]"
                 )}
               >
@@ -91,29 +83,26 @@ export function Navbar() {
               variant="ghost"
               size="icon"
               rounded="full"
-              className={cn(
-                showDarkText ? "text-[#1a1f4e] hover:bg-black/5" : "text-white hover:bg-white/10"
-              )}
+              className="text-[#1a1f4e] hover:bg-[#f0f1fa] hover:text-[#E31E24] transition-colors"
               onClick={() => setIsSearchOpen(true)}
               aria-label="Search packages"
             >
-              <Search className="h-5 w-5" />
+              <Search className="h-[22px] w-[22px]" />
             </Button>
             <Button
               variant="ghost"
               size="icon"
               rounded="full"
-              className={cn(
-                showDarkText ? "text-[#1a1f4e] hover:bg-black/5" : "text-white hover:bg-white/10"
-              )}
+              className="text-[#1a1f4e] hover:bg-[#f0f1fa] hover:text-[#E31E24] transition-colors"
               onClick={() => window.open("tel:+919842334325", "_self")}
               aria-label="Call us"
             >
-              <Phone className="h-5 w-5" />
+              <Phone className="h-[22px] w-[22px]" />
             </Button>
+            <div className="h-8 w-[1px] bg-gray-200 mx-2" />
             <Link
               href="/contact"
-              className="inline-flex items-center justify-center py-2.5 px-7 bg-[#E31E24] text-white text-sm font-medium rounded-full hover:bg-[#c9171d] hover:scale-[1.03] transition-all whitespace-nowrap"
+              className="inline-flex items-center justify-center py-3 px-8 bg-[#E31E24] text-white text-[15px] font-bold rounded-full hover:bg-[#c9171d] hover:scale-[1.03] shadow-md shadow-[#E31E24]/20 transition-all whitespace-nowrap"
             >
               Enquire Now
             </Link>
@@ -122,30 +111,21 @@ export function Navbar() {
           {/* Mobile Buttons */}
           <div className="md:hidden flex items-center gap-2">
             <button
-              className="p-2"
+              className="p-2 text-[#1a1f4e]"
               onClick={() => setIsSearchOpen(true)}
               aria-label="Search"
             >
-              <Search className={cn(
-                "h-6 w-6",
-                showDarkText ? "text-[#1a1f4e]" : "text-white"
-              )} />
+              <Search className="h-6 w-6" />
             </button>
             <button
-              className="p-2"
+              className="p-2 text-[#1a1f4e]"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               aria-label="Toggle menu"
             >
             {isMobileMenuOpen ? (
-              <X className={cn(
-                "h-6 w-6",
-                showDarkText ? "text-[#1a1f4e]" : "text-white"
-              )} />
+              <X className="h-6 w-6" />
             ) : (
-              <Menu className={cn(
-                "h-6 w-6",
-                showDarkText ? "text-[#1a1f4e]" : "text-white"
-              )} />
+              <Menu className="h-6 w-6" />
             )}
           </button>
           </div>
