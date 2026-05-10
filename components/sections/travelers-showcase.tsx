@@ -92,26 +92,8 @@ export function TravelersShowcase() {
         >
           <div className="relative h-64 rounded-2xl overflow-hidden group">
             <Image
-              src="https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=400&q=80&auto=format&fit=crop"
-              alt="Happy family travelers"
-              fill
-              className="object-cover group-hover:scale-110 transition-transform duration-700"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
-          </div>
-          <div className="relative h-64 rounded-2xl overflow-hidden group">
-            <Image
-              src="https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=400&q=80&auto=format&fit=crop"
-              alt="Couple enjoying vacation"
-              fill
-              className="object-cover group-hover:scale-110 transition-transform duration-700"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
-          </div>
-          <div className="relative h-64 rounded-2xl overflow-hidden group">
-            <Image
               src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=400&q=80&auto=format&fit=crop"
-              alt="Solo woman traveler"
+              alt="Happy woman traveler with backpack ready for adventure"
               fill
               className="object-cover group-hover:scale-110 transition-transform duration-700"
             />
@@ -119,8 +101,26 @@ export function TravelersShowcase() {
           </div>
           <div className="relative h-64 rounded-2xl overflow-hidden group">
             <Image
-              src="https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=400&q=80&auto=format&fit=crop"
-              alt="Group of friends traveling"
+              src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=400&q=80&auto=format&fit=crop"
+              alt="Couple travelers with luggage at airport"
+              fill
+              className="object-cover group-hover:scale-110 transition-transform duration-700"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+          </div>
+          <div className="relative h-64 rounded-2xl overflow-hidden group">
+            <Image
+              src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=400&q=80&auto=format&fit=crop"
+              alt="Family travelers with suitcases on vacation"
+              fill
+              className="object-cover group-hover:scale-110 transition-transform duration-700"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+          </div>
+          <div className="relative h-64 rounded-2xl overflow-hidden group">
+            <Image
+              src="https://images.unsplash.com/photo-1503220317375-aaad61436b1b?w=400&q=80&auto=format&fit=crop"
+              alt="Young traveler with backpack exploring"
               fill
               className="object-cover group-hover:scale-110 transition-transform duration-700"
             />
