@@ -2,6 +2,7 @@ import { Navbar } from "@/components/navbar"
 import { Hero } from "@/components/sections/hero"
 import { Destinations } from "@/components/sections/destinations"
 import { WhyChooseUs } from "@/components/sections/why-choose-us"
+import { TravelersShowcase } from "@/components/sections/travelers-showcase"
 import { Packages } from "@/components/sections/packages"
 import { GroupTours } from "@/components/sections/group-tours"
 import { Testimonials } from "@/components/sections/testimonials"
@@ -17,6 +18,7 @@ export default function Home() {
         <Hero />
         <Destinations maxItems={8} />
         <WhyChooseUs />
+        <TravelersShowcase />
         <Packages maxItems={6} />
         <GroupTours />
         <Testimonials />

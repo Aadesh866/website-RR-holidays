@@ -75,7 +75,7 @@ export function Hero() {
 
   return (
     <>
-    <section className="relative min-h-[90vh] md:h-[95vh] w-full overflow-hidden bg-[#0d1130]">
+    <section className="relative min-h-[90vh] md:h-[95vh] w-full overflow-hidden bg-[#0d1130] pt-[120px]">
       {/* Background with subtle overlay */}
       <div className="absolute inset-0 w-full h-full opacity-60">
         <Image
@@ -119,7 +119,7 @@ export function Hero() {
               transition={{ delay: 0.2, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
               className="mb-4"
             >
-              <span className="font-cursive text-4xl md:text-5xl text-[#FFD700] drop-shadow-md">
+              <span className="font-cursive text-4xl md:text-5xl text-[#FFD700] drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
                 South India's No.1
               </span>
             </motion.div>
@@ -172,22 +172,22 @@ export function Hero() {
             </motion.div>
           </div>
 
-          {/* Right Image (Vanakam Lady) */}
+          {/* Right Image (Happy Traveler) */}
           <motion.div 
             initial={{ opacity: 0, scale: 0.9, x: 50 }}
             animate={{ opacity: 1, scale: 1, x: 0 }}
             transition={{ delay: 0.5, duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
             className="hidden lg:flex justify-end items-end h-[85vh] relative"
           >
-            {/* Glow behind the lady */}
+            {/* Glow behind the image */}
             <div className="absolute bottom-[20%] right-[10%] w-[400px] h-[400px] bg-[#E31E24]/30 rounded-full blur-[100px] pointer-events-none" />
             
             <div className="relative w-full h-full max-w-[650px]">
               <Image
-                src="/vanakam-lady.png"
-                alt="RR Holidays Welcome"
+                src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&q=80&auto=format&fit=crop"
+                alt="Happy woman traveler enjoying her vacation experience"
                 fill
-                className="object-contain object-bottom drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)]"
+                className="object-contain object-bottom drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)] rounded-3xl"
                 priority
               />
             </div>

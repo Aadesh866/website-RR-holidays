@@ -1,3 +1,6 @@
+"use client"
+
+import { useState } from "react"
 import { notFound } from "next/navigation"
 import Image from "next/image"
 import Link from "next/link"
@@ -8,25 +11,45 @@ import { Footer } from "@/components/footer"
 import { Packages as PackagesSection } from "@/components/sections/packages"
 import { Button } from "@/components/ui/button"
 import { EnquiryForm } from "@/components/enquiry-form"
+import { ImageLightbox } from "@/components/ui/image-lightbox"
 
-// Generate static params for all packages
-export function generateStaticParams() {
-  return packages.map((pkg) => ({
-    slug: pkg.id,
-  }))
+// Time mappings for different activities
+const getTimeForActivity = (type: string, dayNumber: number): string => {
+  const times: Record<string, string> = {
+    morning: "6:00 AM - 10:00 AM",
+    lunch: "12:00 PM - 1:30 PM",
+    afternoon: "2:00 PM - 6:00 PM",
+    evening: "6:00 PM - 8:00 PM",
+    dinner: "8:00 PM - 10:00 PM"
+  }
+  return times[type] || ""
 }
 
-export default async function PackagePage({ params }: { params: { slug: string } }) {
-  // Await the params object before accessing properties
-  const resolvedParams = await params;
-  const pkg = packages.find((p) => p.id === resolvedParams.slug)
+export default function PackagePage({ params }: { params: { slug: string } }) {
+  const [lightboxOpen, setLightboxOpen] = useState(false)
+  const [lightboxIndex, setLightboxIndex] = useState(0)
+  
+  // Find the package
+  const pkg = packages.find((p) => p.id === params.slug)
 
   if (!pkg) {
     notFound()
   }
 
+  const openLightbox = (index: number) => {
+    setLightboxIndex(index)
+    setLightboxOpen(true)
+  }
+
   return (
     <>
+      <ImageLightbox
+        images={pkg.gallery || []}
+        isOpen={lightboxOpen}
+        currentIndex={lightboxIndex}
+        onClose={() => setLightboxOpen(false)}
+        onNavigate={setLightboxIndex}
+      />
       <Navbar />
       <main className="bg-[#f0f1fa] min-h-screen">
         {/* Hero Section */}
@@ -76,13 +99,26 @@ export default async function PackagePage({ params }: { params: { slug: string }
                 {/* Image Gallery */}
                 {pkg.gallery && pkg.gallery.length > 0 && (
                   <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                    <div className="col-span-2 md:col-span-2 row-span-2 relative rounded-2xl overflow-hidden h-[300px] md:h-[416px]">
-                      <Image src={pkg.gallery[0]} alt="Gallery 1" fill className="object-cover hover:scale-105 transition-transform duration-700" />
-                    </div>
-                    {pkg.gallery.slice(1, 5).map((img, i) => (
-                      <div key={i} className="relative rounded-2xl overflow-hidden h-[142px] md:h-[200px]">
-                        <Image src={img} alt={`Gallery ${i + 2}`} fill className="object-cover hover:scale-105 transition-transform duration-700" />
+                    <button
+                      onClick={() => openLightbox(0)}
+                      className="col-span-2 md:col-span-2 row-span-2 relative rounded-2xl overflow-hidden h-[300px] md:h-[416px] cursor-pointer group"
+                    >
+                      <Image src={pkg.gallery[0]} alt="Gallery 1" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
+                      <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors flex items-center justify-center">
+                        <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity font-semibold text-lg">Click to view</span>
                       </div>
+                    </button>
+                    {pkg.gallery.slice(1, 5).map((img, i) => (
+                      <button
+                        key={i}
+                        onClick={() => openLightbox(i + 1)}
+                        className="relative rounded-2xl overflow-hidden h-[142px] md:h-[200px] cursor-pointer group"
+                      >
+                        <Image src={img} alt={`Gallery ${i + 2}`} fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
+                        <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors flex items-center justify-center">
+                          <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity font-semibold text-sm">Click to view</span>
+                        </div>
+                      </button>
                     ))}
                   </div>
                 )}
@@ -132,31 +168,51 @@ export default async function PackagePage({ params }: { params: { slug: string }
                             {day.morning && day.morning !== "N/A" && (
                               <div className="flex items-start gap-3">
                                 <Sun className="w-4 h-4 text-[#E31E24] mt-0.5 shrink-0" />
-                                <p className="text-sm text-gray-600 leading-relaxed"><strong className="text-gray-800">Morning:</strong> {day.morning}</p>
+                                <div className="flex-1">
+                                  <p className="text-sm text-gray-600 leading-relaxed">
+                                    <strong className="text-gray-800">Morning ({getTimeForActivity('morning', day.day)}):</strong> {day.morning}
+                                  </p>
+                                </div>
                               </div>
                             )}
                             {day.lunch && day.lunch !== "N/A" && (
                               <div className="flex items-start gap-3">
                                 <Utensils className="w-4 h-4 text-[#E31E24] mt-0.5 shrink-0" />
-                                <p className="text-sm text-gray-600 leading-relaxed"><strong className="text-gray-800">Lunch:</strong> {day.lunch}</p>
+                                <div className="flex-1">
+                                  <p className="text-sm text-gray-600 leading-relaxed">
+                                    <strong className="text-gray-800">Lunch ({getTimeForActivity('lunch', day.day)}):</strong> {day.lunch}
+                                  </p>
+                                </div>
                               </div>
                             )}
                             {day.afternoon && day.afternoon !== "N/A" && (
                               <div className="flex items-start gap-3">
                                 <Coffee className="w-4 h-4 text-[#E31E24] mt-0.5 shrink-0" />
-                                <p className="text-sm text-gray-600 leading-relaxed"><strong className="text-gray-800">Afternoon:</strong> {day.afternoon}</p>
+                                <div className="flex-1">
+                                  <p className="text-sm text-gray-600 leading-relaxed">
+                                    <strong className="text-gray-800">Afternoon ({getTimeForActivity('afternoon', day.day)}):</strong> {day.afternoon}
+                                  </p>
+                                </div>
                               </div>
                             )}
                             {day.evening && day.evening !== "N/A" && (
                               <div className="flex items-start gap-3">
                                 <Sunset className="w-4 h-4 text-[#E31E24] mt-0.5 shrink-0" />
-                                <p className="text-sm text-gray-600 leading-relaxed"><strong className="text-gray-800">Evening:</strong> {day.evening}</p>
+                                <div className="flex-1">
+                                  <p className="text-sm text-gray-600 leading-relaxed">
+                                    <strong className="text-gray-800">Evening ({getTimeForActivity('evening', day.day)}):</strong> {day.evening}
+                                  </p>
+                                </div>
                               </div>
                             )}
                             {day.dinner && day.dinner !== "N/A" && (
                               <div className="flex items-start gap-3">
                                 <Moon className="w-4 h-4 text-[#E31E24] mt-0.5 shrink-0" />
-                                <p className="text-sm text-gray-600 leading-relaxed"><strong className="text-gray-800">Dinner:</strong> {day.dinner}</p>
+                                <div className="flex-1">
+                                  <p className="text-sm text-gray-600 leading-relaxed">
+                                    <strong className="text-gray-800">Dinner ({getTimeForActivity('dinner', day.day)}):</strong> {day.dinner}
+                                  </p>
+                                </div>
                               </div>
                             )}
                           </div>
