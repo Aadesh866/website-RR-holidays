@@ -8,30 +8,60 @@ const features = [
   {
     icon: Users,
     title: "Zero Rupees Interest",
-    subtitle: "with GT",
+    subtitle: "with RR",
     description: "Stress-free vacations with no upfront costs"
   },
   {
     icon: Award,
     title: "3 Months Easy EMI",
-    subtitle: "Holidays with GT",
+    subtitle: "Holidays with RR",
     description: "Flexible payment options for your dream trip"
   },
   {
     icon: Globe,
     title: "Zero Processing Fee",
-    subtitle: "with GT",
+    subtitle: "with RR",
     description: "Stress-free vacations with no hidden charges"
   },
   {
     icon: TrendingUp,
     title: "Zero Rupees Down Payment",
-    subtitle: "with GT",
+    subtitle: "with RR",
     description: "Book now, pay later with complete flexibility"
   }
 ]
 
+const travelerImages = [
+  {
+    src: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=400&q=80&auto=format&fit=crop",
+    alt: "Happy woman traveler with backpack"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=400&q=80&auto=format&fit=crop",
+    alt: "Couple travelers at airport"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=400&q=80&auto=format&fit=crop",
+    alt: "Family on vacation"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1503220317375-aaad61436b1b?w=400&q=80&auto=format&fit=crop",
+    alt: "Young traveler exploring"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=400&q=80&auto=format&fit=crop",
+    alt: "Couple enjoying vacation"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=400&q=80&auto=format&fit=crop",
+    alt: "Happy family travelers"
+  }
+]
+
 export function TravelersShowcase() {
+  // Duplicate images for seamless loop
+  const duplicatedImages = [...travelerImages, ...travelerImages]
+
   return (
     <section className="py-20 bg-gradient-to-br from-[#E31E24] via-[#c9171d] to-[#E31E24] relative overflow-hidden">
       {/* Decorative elements */}
@@ -82,51 +112,42 @@ export function TravelersShowcase() {
           ))}
         </div>
 
-        {/* Travelers Collage */}
-        <motion.div
-          initial={{ opacity: 0, scale: 0.95 }}
-          whileInView={{ opacity: 1, scale: 1 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.8 }}
-          className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-5xl mx-auto"
-        >
-          <div className="relative h-64 rounded-2xl overflow-hidden group">
-            <Image
-              src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=400&q=80&auto=format&fit=crop"
-              alt="Happy woman traveler with backpack ready for adventure"
-              fill
-              className="object-cover group-hover:scale-110 transition-transform duration-700"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
-          </div>
-          <div className="relative h-64 rounded-2xl overflow-hidden group">
-            <Image
-              src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=400&q=80&auto=format&fit=crop"
-              alt="Couple travelers with luggage at airport"
-              fill
-              className="object-cover group-hover:scale-110 transition-transform duration-700"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
-          </div>
-          <div className="relative h-64 rounded-2xl overflow-hidden group">
-            <Image
-              src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=400&q=80&auto=format&fit=crop"
-              alt="Family travelers with suitcases on vacation"
-              fill
-              className="object-cover group-hover:scale-110 transition-transform duration-700"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
-          </div>
-          <div className="relative h-64 rounded-2xl overflow-hidden group">
-            <Image
-              src="https://images.unsplash.com/photo-1503220317375-aaad61436b1b?w=400&q=80&auto=format&fit=crop"
-              alt="Young traveler with backpack exploring"
-              fill
-              className="object-cover group-hover:scale-110 transition-transform duration-700"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
-          </div>
-        </motion.div>
+        {/* Auto-Scrolling Travelers Carousel */}
+        <div className="relative overflow-hidden">
+          {/* Gradient fades on sides */}
+          <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-[#E31E24] to-transparent z-10 pointer-events-none" />
+          <div className="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-[#E31E24] to-transparent z-10 pointer-events-none" />
+          
+          <motion.div
+            animate={{
+              x: [0, -50 * travelerImages.length + "%"]
+            }}
+            transition={{
+              x: {
+                repeat: Infinity,
+                repeatType: "loop",
+                duration: 30,
+                ease: "linear"
+              }
+            }}
+            className="flex gap-6"
+          >
+            {duplicatedImages.map((image, index) => (
+              <div
+                key={index}
+                className="relative flex-shrink-0 w-[280px] h-[400px] rounded-2xl overflow-hidden group"
+              >
+                <Image
+                  src={image.src}
+                  alt={image.alt}
+                  fill
+                  className="object-cover group-hover:scale-110 transition-transform duration-700"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
+              </div>
+            ))}
+          </motion.div>
+        </div>
 
         <motion.div
           initial={{ opacity: 0, y: 20 }}
