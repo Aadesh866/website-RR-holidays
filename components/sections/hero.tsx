@@ -75,7 +75,7 @@ export function Hero() {
 
   return (
     <>
-    <section className="relative min-h-[90vh] md:h-[95vh] w-full overflow-hidden bg-[#0d1130] pt-[120px]">
+    <section className="relative min-h-[90vh] md:h-[95vh] w-full overflow-hidden bg-[#0d1130]">
       {/* Background with subtle overlay */}
       <div className="absolute inset-0 w-full h-full opacity-60">
         <Image
