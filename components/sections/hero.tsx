@@ -184,10 +184,10 @@ export function Hero() {
             
             <div className="relative w-full h-full max-w-[650px]">
               <Image
-                src="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&q=80&auto=format&fit=crop"
-                alt="Happy woman traveler enjoying her vacation experience"
+                src="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&q=80&auto=format&fit=crop"
+                alt="Happy woman traveler with luggage enjoying her vacation experience"
                 fill
-                className="object-contain object-bottom drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)] rounded-3xl"
+                className="object-contain object-bottom drop-shadow-[0_20px_50px_rgba(0,0,0,0.5)]"
                 priority
               />
             </div>
