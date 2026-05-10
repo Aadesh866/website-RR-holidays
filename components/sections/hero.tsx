@@ -108,7 +108,7 @@ export function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 h-full flex items-center pt-20">
+      <div className="relative z-10 h-full flex items-center pt-32 md:pt-28">
         <div className="w-full max-w-[1600px] mx-auto px-6 sm:px-8 lg:px-12 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           
           {/* Left Text */}
@@ -117,7 +117,7 @@ export function Hero() {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-              className="mb-4"
+              className="mb-6"
             >
               <span className="font-cursive text-4xl md:text-5xl text-[#FFD700] drop-shadow-[0_2px_8px_rgba(0,0,0,0.8)]">
                 South India's No.1
@@ -157,13 +157,13 @@ export function Hero() {
               transition={{ delay: 0.7, duration: 1, ease: [0.22, 1, 0.36, 1] }}
               className="flex flex-col sm:flex-row gap-5"
             >
-              <Button asChild size="lg" rounded="full" className="bg-[#E31E24] hover:bg-[#c9171d] text-white shadow-lg shadow-[#E31E24]/20 border-0 h-14 px-8 text-[15px]">
-                <Link href="#packages">
+              <Button asChild size="lg" rounded="full" className="bg-[#E31E24] hover:bg-[#c9171d] text-white shadow-lg shadow-[#E31E24]/20 border-0 h-14 px-10 text-[15px] whitespace-nowrap">
+                <Link href="/packages">
                   Explore Packages
                   <ArrowRight className="ml-2 h-5 w-5" />
                 </Link>
               </Button>
-              <Button asChild size="lg" rounded="full" variant="outline" className="bg-white/10 backdrop-blur-md border-white/30 text-white hover:bg-white hover:text-[#1a1f4e] h-14 px-8 text-[15px]">
+              <Button asChild size="lg" rounded="full" variant="outline" className="bg-white/10 backdrop-blur-md border-white/30 text-white hover:bg-white hover:text-[#1a1f4e] h-14 px-10 text-[15px] whitespace-nowrap">
                 <a href="https://wa.me/919842334325?text=Hi,%20I'm%20interested%20in%20RR%20Holidays%20packages.%20Please%20share%20more%20details." target="_blank" rel="noopener noreferrer">
                   <MessageCircle className="mr-2 h-5 w-5" />
                   Plan My Trip
