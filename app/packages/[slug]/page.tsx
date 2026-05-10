@@ -106,7 +106,15 @@ export default function PackagePage({ params }: { params: Promise<{ slug: string
                       onClick={() => openLightbox(0)}
                       className="col-span-2 md:col-span-2 row-span-2 relative rounded-2xl overflow-hidden h-[300px] md:h-[416px] cursor-pointer group"
                     >
-                      <Image src={pkg.gallery[0]} alt="Gallery 1" fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
+                      <Image 
+                        src={pkg.gallery[0]} 
+                        alt={`${pkg.name} - Gallery Image 1`} 
+                        fill 
+                        className="object-cover group-hover:scale-105 transition-transform duration-700"
+                        sizes="(max-width: 768px) 100vw, 50vw"
+                        quality={90}
+                        priority
+                      />
                       <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors flex items-center justify-center">
                         <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity font-semibold text-lg">Click to view</span>
                       </div>
@@ -117,7 +125,14 @@ export default function PackagePage({ params }: { params: Promise<{ slug: string
                         onClick={() => openLightbox(i + 1)}
                         className="relative rounded-2xl overflow-hidden h-[142px] md:h-[200px] cursor-pointer group"
                       >
-                        <Image src={img} alt={`Gallery ${i + 2}`} fill className="object-cover group-hover:scale-105 transition-transform duration-700" />
+                        <Image 
+                          src={img} 
+                          alt={`${pkg.name} - Gallery Image ${i + 2}`} 
+                          fill 
+                          className="object-cover group-hover:scale-105 transition-transform duration-700"
+                          sizes="(max-width: 768px) 50vw, 25vw"
+                          quality={90}
+                        />
                         <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors flex items-center justify-center">
                           <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity font-semibold text-sm">Click to view</span>
                         </div>
