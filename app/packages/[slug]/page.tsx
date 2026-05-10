@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, use } from "react"
 import { notFound } from "next/navigation"
 import Image from "next/image"
 import Link from "next/link"
@@ -25,12 +25,15 @@ const getTimeForActivity = (type: string, dayNumber: number): string => {
   return times[type] || ""
 }
 
-export default function PackagePage({ params }: { params: { slug: string } }) {
+export default function PackagePage({ params }: { params: Promise<{ slug: string }> }) {
   const [lightboxOpen, setLightboxOpen] = useState(false)
   const [lightboxIndex, setLightboxIndex] = useState(0)
   
+  // Unwrap params using React.use()
+  const { slug } = use(params)
+  
   // Find the package
-  const pkg = packages.find((p) => p.id === params.slug)
+  const pkg = packages.find((p) => p.id === slug)
 
   if (!pkg) {
     notFound()
