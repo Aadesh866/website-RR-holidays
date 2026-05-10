@@ -44,7 +44,7 @@ export function TravelersShowcase() {
 
   return (
     <section className="py-16 bg-white relative overflow-hidden">
-      {/* Auto-Scrolling Travelers Carousel */}
+      {/* Auto-Scrolling High-Quality Travelers Carousel */}
       <div className="relative overflow-hidden">
         {/* Gradient fades on sides */}
         <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none" />
