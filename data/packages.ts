@@ -996,7 +996,7 @@ export const packages: Package[] = [
     name: "Andaman Island Escape",
     duration: "7 Days / 6 Nights",
     description: "Havelock Island, Radhanagar Beach, scuba diving, Cellular Jail, Ross Island",
-    image: "https://images.unsplash.com/photo-1589197331516-6c0c9c7f3f0f?w=1200&q=95&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=95&auto=format&fit=crop",
     gallery: [
       "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1544550581-5f7ceaf7f992?w=1200&q=95&auto=format&fit=crop",
