@@ -5,36 +5,36 @@ import Image from "next/image"
 
 const travelerImages = [
   {
-    src: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&q=95&auto=format&fit=crop",
-    alt: "Happy woman traveler with backpack"
-  },
-  {
-    src: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=800&q=95&auto=format&fit=crop",
-    alt: "Couple travelers at airport"
+    src: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=95&auto=format&fit=crop",
+    alt: "Happy travelers with backpacks"
   },
   {
     src: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&q=95&auto=format&fit=crop",
-    alt: "Family on vacation"
+    alt: "Young woman exploring map"
   },
   {
-    src: "https://images.unsplash.com/photo-1503220317375-aaad61436b1b?w=800&q=95&auto=format&fit=crop",
-    alt: "Young traveler exploring"
+    src: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800&q=95&auto=format&fit=crop",
+    alt: "Van trip in mountains"
   },
   {
-    src: "https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=800&q=95&auto=format&fit=crop",
+    src: "https://images.unsplash.com/photo-1504280390227-331ef29b4ae6?w=800&q=95&auto=format&fit=crop",
     alt: "Couple enjoying vacation"
   },
   {
-    src: "https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=800&q=95&auto=format&fit=crop",
-    alt: "Happy family travelers"
+    src: "https://images.unsplash.com/photo-1516483638261-f4dafaf00bc6?w=800&q=95&auto=format&fit=crop",
+    alt: "Friends on a trip"
   },
   {
-    src: "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800&q=95&auto=format&fit=crop",
+    src: "https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=800&q=95&auto=format&fit=crop",
+    alt: "Family on a road trip"
+  },
+  {
+    src: "https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=800&q=95&auto=format&fit=crop",
     alt: "Group of friends traveling"
   },
   {
-    src: "https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?w=800&q=95&auto=format&fit=crop",
-    alt: "Travelers with luggage"
+    src: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&q=95&auto=format&fit=crop",
+    alt: "Traveler standing on viewpoint"
   }
 ]
 

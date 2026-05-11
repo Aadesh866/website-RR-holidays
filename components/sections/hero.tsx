@@ -79,8 +79,8 @@ export function Hero() {
       {/* Background with subtle overlay */}
       <div className="absolute inset-0 w-full h-full opacity-60">
         <Image
-          src="https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1920&q=80&auto=format&fit=crop"
-          alt="Beautiful mountain landscape"
+          src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=1920&q=80&auto=format&fit=crop"
+          alt="Travelers with suitcases ready to explore"
           fill
           priority
           className="object-cover animate-kenburns"
@@ -108,7 +108,7 @@ export function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 h-full flex items-center pt-32 md:pt-28">
+      <div className="relative z-10 h-full flex items-center pt-[140px] pb-32">
         <div className="w-full max-w-[1600px] mx-auto px-6 sm:px-8 lg:px-12 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           
           {/* Left Text */}
