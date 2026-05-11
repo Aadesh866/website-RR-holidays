@@ -108,7 +108,7 @@ export function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 h-full flex items-center pt-[140px] pb-32">
+      <div className="relative z-10 h-full flex items-center pt-[180px] pb-36">
         <div className="w-full max-w-[1600px] mx-auto px-6 sm:px-8 lg:px-12 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           
           {/* Left Text */}

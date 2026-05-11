@@ -1,83 +1,89 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { ChevronLeft, ChevronRight, Shield, CreditCard, Percent, BadgeCheck, Phone } from "lucide-react"
-import { useRef, useState, useEffect } from "react"
-import Image from "next/image"
+import { Shield, CreditCard, Percent, BadgeCheck, Wallet, Clock, HeartHandshake, Sparkles, MapPin, Plane, Umbrella, Users } from "lucide-react"
 
-const offers = [
+const features = [
   {
-    title: "ZERO RUPEES INTEREST",
-    subtitle: "STRESS-FREE VACATION WITH RR",
-    image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&q=80&auto=format&fit=crop",
-    highlights: [
-      { icon: Shield, label: "Easy Processing", desc: "Get approval within 4 days" },
-      { icon: CreditCard, label: "Best EMI Option", desc: "No hidden charges, No processing fees, No interest" },
-    ],
+    icon: Shield,
+    title: "100% Secure Booking",
+    description: "Your payments are protected with bank-grade encryption and trusted payment gateways.",
+    color: "#E31E24",
   },
   {
-    title: "6 MONTHS EASY EMI",
-    subtitle: "HOLIDAYS WITH RR HOLIDAYS",
-    image: "https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=600&q=80&auto=format&fit=crop",
-    highlights: [
-      { icon: Shield, label: "Easy Processing", desc: "Get approval within 4 days" },
-      { icon: CreditCard, label: "Best EMI Option", desc: "No hidden charges, No processing fees, No interest" },
-    ],
+    icon: CreditCard,
+    title: "Zero Interest EMI",
+    description: "Split your dream vacation into easy monthly installments with absolutely zero interest charges.",
+    color: "#1a1f4e",
   },
   {
-    title: "ZERO PROCESSING FEE",
-    subtitle: "STRESS-FREE VACATION WITH RR",
-    image: "https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=600&q=80&auto=format&fit=crop",
-    highlights: [
-      { icon: Shield, label: "Easy Processing", desc: "Get approval within 4 days" },
-      { icon: CreditCard, label: "Best EMI Option", desc: "No hidden charges, No processing fees, No interest" },
-    ],
+    icon: Percent,
+    title: "Zero Processing Fee",
+    description: "No hidden charges or surprise processing fees. The price you see is the price you pay.",
+    color: "#E31E24",
   },
   {
-    title: "ZERO RUPEES DOWN PAYMENT",
-    subtitle: "STRESS-FREE VACATION WITH RR",
-    image: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600&q=80&auto=format&fit=crop",
-    highlights: [
-      { icon: Shield, label: "Easy Processing", desc: "Get approval within 4 days" },
-      { icon: CreditCard, label: "Best EMI Option", desc: "No hidden charges, No processing fees, No interest" },
-    ],
+    icon: BadgeCheck,
+    title: "Best Price Guarantee",
+    description: "We promise the lowest prices. Found it cheaper? We'll match it and give you 10% extra off.",
+    color: "#1a1f4e",
+  },
+  {
+    icon: Wallet,
+    title: "Zero Down Payment",
+    description: "Start your holiday journey today without paying anything upfront. Pay as you go.",
+    color: "#E31E24",
+  },
+  {
+    icon: Clock,
+    title: "24/7 Travel Support",
+    description: "Our dedicated team is available round the clock to assist you before, during, and after your trip.",
+    color: "#1a1f4e",
+  },
+  {
+    icon: HeartHandshake,
+    title: "15+ Years of Trust",
+    description: "Over a decade of crafting unforgettable journeys for 10,000+ happy travelers across India.",
+    color: "#E31E24",
+  },
+  {
+    icon: Sparkles,
+    title: "Handcrafted Itineraries",
+    description: "Every trip is personally curated by our travel experts to match your interests and budget.",
+    color: "#1a1f4e",
+  },
+  {
+    icon: MapPin,
+    title: "500+ Destinations",
+    description: "From Maldives to Switzerland, Kashmir to Bali — we cover the world's most stunning destinations.",
+    color: "#E31E24",
+  },
+  {
+    icon: Plane,
+    title: "Flight + Hotel Combos",
+    description: "Save big with our bundled flight and accommodation packages. Everything taken care of.",
+    color: "#1a1f4e",
+  },
+  {
+    icon: Umbrella,
+    title: "Travel Insurance",
+    description: "Complimentary travel insurance included with every international package for peace of mind.",
+    color: "#E31E24",
+  },
+  {
+    icon: Users,
+    title: "Group Tour Discounts",
+    description: "Traveling with friends or family? Get exclusive group discounts on fixed departure tours.",
+    color: "#1a1f4e",
   },
 ]
 
 export function EmiOffers() {
-  const scrollRef = useRef<HTMLDivElement>(null)
-  const [canScrollLeft, setCanScrollLeft] = useState(false)
-  const [canScrollRight, setCanScrollRight] = useState(true)
-
-  const checkScroll = () => {
-    if (scrollRef.current) {
-      const { scrollLeft, scrollWidth, clientWidth } = scrollRef.current
-      setCanScrollLeft(scrollLeft > 10)
-      setCanScrollRight(scrollLeft < scrollWidth - clientWidth - 10)
-    }
-  }
-
-  useEffect(() => {
-    const el = scrollRef.current
-    if (el) {
-      el.addEventListener("scroll", checkScroll)
-      checkScroll()
-      return () => el.removeEventListener("scroll", checkScroll)
-    }
-  }, [])
-
-  const scroll = (direction: "left" | "right") => {
-    if (scrollRef.current) {
-      const cardWidth = scrollRef.current.querySelector(".emi-card")?.clientWidth || 320
-      scrollRef.current.scrollBy({
-        left: direction === "left" ? -(cardWidth + 24) : cardWidth + 24,
-        behavior: "smooth",
-      })
-    }
-  }
+  // Triple the features for seamless infinite loop
+  const duplicatedFeatures = [...features, ...features, ...features]
 
   return (
-    <section className="py-20 bg-[#f8f9fe] overflow-hidden">
+    <section className="py-20 bg-gradient-to-b from-white to-[#f8f9fe] overflow-hidden">
       <div className="w-full max-w-[1600px] mx-auto px-6 sm:px-8 lg:px-12">
         {/* Section Header */}
         <motion.div
@@ -85,104 +91,104 @@ export function EmiOffers() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
-          className="text-center mb-12"
+          className="text-center mb-14"
         >
-          <span className="text-sm font-bold text-[#E31E24] tracking-widest uppercase">Flexible Payment Options</span>
+          <span className="text-sm font-bold text-[#E31E24] tracking-widest uppercase">Why Travelers Choose Us</span>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-[#1a1f4e] mt-3 mb-4">
-            Stress-Free Holidays with RR
+            Everything You Need, All in One Place
           </h2>
           <p className="text-[#4b5563] text-lg max-w-2xl mx-auto">
-            Book your dream vacation today and pay in easy monthly installments. No hidden charges, no surprises.
+            From zero-interest EMI to 24/7 support — we make your dream holiday effortless, affordable, and unforgettable.
           </p>
         </motion.div>
+      </div>
 
-        {/* Cards Carousel */}
-        <div className="relative">
-          {/* Navigation Arrows */}
-          {canScrollLeft && (
-            <button
-              onClick={() => scroll("left")}
-              className="absolute -left-4 lg:-left-6 top-1/2 -translate-y-1/2 z-10 w-12 h-12 rounded-full bg-white shadow-xl shadow-gray-200/50 border border-gray-100 flex items-center justify-center text-[#1a1f4e] hover:bg-[#E31E24] hover:text-white hover:border-[#E31E24] transition-all"
-              aria-label="Scroll left"
-            >
-              <ChevronLeft className="w-5 h-5" />
-            </button>
-          )}
-          {canScrollRight && (
-            <button
-              onClick={() => scroll("right")}
-              className="absolute -right-4 lg:-right-6 top-1/2 -translate-y-1/2 z-10 w-12 h-12 rounded-full bg-white shadow-xl shadow-gray-200/50 border border-gray-100 flex items-center justify-center text-[#1a1f4e] hover:bg-[#E31E24] hover:text-white hover:border-[#E31E24] transition-all"
-              aria-label="Scroll right"
-            >
-              <ChevronRight className="w-5 h-5" />
-            </button>
-          )}
+      {/* Infinite Scrolling Feature Cards — Row 1 (Left to Right) */}
+      <div className="relative mb-6">
+        {/* Gradient fades on sides */}
+        <div className="absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none" />
+        <div className="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-[#f8f9fe] to-transparent z-10 pointer-events-none" />
 
-          {/* Scrollable Cards */}
-          <div
-            ref={scrollRef}
-            className="flex gap-6 overflow-x-auto scrollbar-hide pb-4 snap-x snap-mandatory"
-            style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
-          >
-            {offers.map((offer, index) => (
-              <motion.div
-                key={index}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1, duration: 0.5 }}
-                className="emi-card snap-start flex-shrink-0 w-[300px] sm:w-[320px] bg-white rounded-2xl overflow-hidden shadow-lg shadow-gray-200/50 border border-gray-100 hover:shadow-xl hover:border-[#E31E24]/20 transition-all group"
-              >
-                {/* Card Image */}
-                <div className="relative h-[220px] overflow-hidden bg-gradient-to-br from-[#f8f9fe] to-[#e8e9f4]">
-                  <Image
-                    src={offer.image}
-                    alt={offer.title}
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-700"
-                    sizes="320px"
-                  />
-                  {/* Gradient overlay at bottom */}
-                  <div className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-white to-transparent" />
+        <motion.div
+          animate={{ x: [0, `-${100 / 3}%`] }}
+          transition={{
+            x: {
+              repeat: Infinity,
+              repeatType: "loop",
+              duration: 40,
+              ease: "linear",
+            },
+          }}
+          className="flex gap-6"
+        >
+          {duplicatedFeatures.map((feature, index) => (
+            <div
+              key={`row1-${index}`}
+              className="flex-shrink-0 w-[300px] bg-white rounded-2xl p-6 shadow-lg shadow-gray-200/40 border border-gray-100 hover:shadow-xl hover:border-[#E31E24]/20 transition-all duration-300 group cursor-default"
+            >
+              <div className="flex items-start gap-4">
+                <div
+                  className="flex-shrink-0 w-12 h-12 rounded-xl flex items-center justify-center transition-colors duration-300"
+                  style={{ backgroundColor: `${feature.color}10` }}
+                >
+                  <feature.icon className="w-6 h-6 transition-colors duration-300" style={{ color: feature.color }} />
                 </div>
-
-                {/* Card Content */}
-                <div className="p-6 -mt-4 relative">
-                  <h3 className="text-lg font-heading font-extrabold text-[#E31E24] leading-tight mb-1 tracking-wide">
-                    {offer.title}
+                <div className="flex-1 min-w-0">
+                  <h3 className="text-sm font-heading font-bold text-[#1a1f4e] mb-1 leading-tight">
+                    {feature.title}
                   </h3>
-                  <p className="text-xs text-[#4b5563] font-semibold tracking-wider uppercase mb-5">
-                    {offer.subtitle}
+                  <p className="text-xs text-[#6b7280] leading-relaxed">
+                    {feature.description}
                   </p>
-
-                  {/* Highlights */}
-                  <div className="flex gap-4 mb-5">
-                    {offer.highlights.map((hl, i) => (
-                      <div key={i} className="flex-1 flex items-start gap-2">
-                        <div className="flex-shrink-0 w-8 h-8 rounded-lg bg-[#1a1f4e]/5 flex items-center justify-center mt-0.5">
-                          <hl.icon className="w-4 h-4 text-[#1a1f4e]" />
-                        </div>
-                        <div>
-                          <div className="text-xs font-bold text-[#1a1f4e] leading-tight">{hl.label}</div>
-                          <div className="text-[10px] text-[#9ca3af] leading-tight mt-0.5">{hl.desc}</div>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-
-                  {/* CTA Button */}
-                  <a
-                    href="tel:+919842334325"
-                    className="flex items-center justify-center w-full py-3 rounded-full bg-[#1a1f4e] text-white text-sm font-bold hover:bg-[#E31E24] transition-colors"
-                  >
-                    <Phone className="w-4 h-4 mr-2" />
-                    CALL US AT 9842334325
-                  </a>
                 </div>
-              </motion.div>
-            ))}
-          </div>
-        </div>
+              </div>
+            </div>
+          ))}
+        </motion.div>
+      </div>
+
+      {/* Infinite Scrolling Feature Cards — Row 2 (Right to Left) */}
+      <div className="relative">
+        {/* Gradient fades on sides */}
+        <div className="absolute left-0 top-0 bottom-0 w-24 bg-gradient-to-r from-white to-transparent z-10 pointer-events-none" />
+        <div className="absolute right-0 top-0 bottom-0 w-24 bg-gradient-to-l from-[#f8f9fe] to-transparent z-10 pointer-events-none" />
+
+        <motion.div
+          animate={{ x: [`-${100 / 3}%`, 0] }}
+          transition={{
+            x: {
+              repeat: Infinity,
+              repeatType: "loop",
+              duration: 45,
+              ease: "linear",
+            },
+          }}
+          className="flex gap-6"
+        >
+          {[...duplicatedFeatures].reverse().map((feature, index) => (
+            <div
+              key={`row2-${index}`}
+              className="flex-shrink-0 w-[300px] bg-white rounded-2xl p-6 shadow-lg shadow-gray-200/40 border border-gray-100 hover:shadow-xl hover:border-[#1a1f4e]/20 transition-all duration-300 group cursor-default"
+            >
+              <div className="flex items-start gap-4">
+                <div
+                  className="flex-shrink-0 w-12 h-12 rounded-xl flex items-center justify-center transition-colors duration-300"
+                  style={{ backgroundColor: `${feature.color}10` }}
+                >
+                  <feature.icon className="w-6 h-6 transition-colors duration-300" style={{ color: feature.color }} />
+                </div>
+                <div className="flex-1 min-w-0">
+                  <h3 className="text-sm font-heading font-bold text-[#1a1f4e] mb-1 leading-tight">
+                    {feature.title}
+                  </h3>
+                  <p className="text-xs text-[#6b7280] leading-relaxed">
+                    {feature.description}
+                  </p>
+                </div>
+              </div>
+            </div>
+          ))}
+        </motion.div>
       </div>
     </section>
   )

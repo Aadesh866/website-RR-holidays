@@ -31,10 +31,10 @@ export const packages: Package[] = [
     image: "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=1200&q=95&auto=format&fit=crop",
     gallery: [
       "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1590523277543-a9b8cb4cebc2?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=1200&q=95&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544550581-5f7ceaf7f992?w=1200&q=95&auto=format&fit=crop"
     ],
     price: 54999,
     originalPrice: 62999,
@@ -118,10 +118,10 @@ export const packages: Package[] = [
     description: "Jungfraujoch, Interlaken, Lucerne lake cruise, chocolate factory tour",
     image: "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=1200&q=95&auto=format&fit=crop",
     gallery: [
-      "https://images.unsplash.com/photo-1527668752968-14ce70a49fa0?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1506260408121-e353d10b87c7?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1491555103944-7c647fd857e6?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=1200&q=95&auto=format&fit=crop"
     ],
     price: 185000,
@@ -206,11 +206,11 @@ export const packages: Package[] = [
     description: "Shikara ride on Dal Lake, Gulmarg gondola, Pahalgam valley, houseboat stay",
     image: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?w=1200&q=95&auto=format&fit=crop",
     gallery: [
-      "https://images.unsplash.com/photo-1595815771614-ade9d652a65d?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1598091383021-15ddea10925d?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1605649487212-47bdab064df7?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1566837945700-3005dea9be52?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1629853925571-0428984da63f?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1582046524316-ebc63e264663?w=1200&q=95&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1200&q=95&auto=format&fit=crop"
     ],
     price: 28999,
     originalPrice: 34999,
@@ -382,11 +382,11 @@ export const packages: Package[] = [
     description: "Burj Khalifa, desert safari, Dhow cruise, Dubai Mall, Atlantis Aquaventure",
     image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1200&q=95&auto=format&fit=crop",
     gallery: [
-      "https://images.unsplash.com/photo-1582672060624-cb1d3fb668df?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1546412414-e1885259563a?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1580674285054-bed31e145f59?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1518684079-3c830dcef090?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1541959833400-049d37f98ccd?w=1200&q=95&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1580674285054-bed31e145f59?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1200&q=95&auto=format&fit=crop"
     ],
     price: 48999,
     originalPrice: 55999,
@@ -470,11 +470,11 @@ export const packages: Package[] = [
     description: "Alleppey houseboat, Munnar tea gardens, Kathakali show, Ayurvedic massage",
     image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=1200&q=95&auto=format&fit=crop",
     gallery: [
-      "https://images.unsplash.com/photo-1593693397690-362bb9a1153a?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1590332822003-88bc19d65179?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=1200&q=95&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1200&q=95&auto=format&fit=crop"
     ],
     price: 24999,
     originalPrice: 29999,
@@ -558,11 +558,11 @@ export const packages: Package[] = [
     description: "Bangkok temples, Phuket beaches, Phi Phi island, floating market, Thai massage",
     image: "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=1200&q=95&auto=format&fit=crop",
     gallery: [
-      "https://images.unsplash.com/photo-1531737212413-667205e1cda7?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1508009603885-247402924b5e?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1588614959060-4d144f28b207?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1552465011-b4e21bf6e79a?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1563492065599-3520f775eeed?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1510839951110-186e88e2d42e?w=1200&q=95&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1528181304800-259b08848526?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=95&auto=format&fit=crop"
     ],
     price: 35999,
     originalPrice: 42999,
@@ -646,11 +646,11 @@ export const packages: Package[] = [
     description: "Ha Long Bay cruise, Hanoi Old Quarter, Ho Chi Minh City, Cu Chi tunnels",
     image: "https://images.unsplash.com/photo-1528127269322-539801943592?w=1200&q=95&auto=format&fit=crop",
     gallery: [
-      "https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1583417319070-4a69db38a482?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1528127269322-539801943592?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1540483761891-1662201ccde1?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1509030450973-1d07c0800e84?w=1200&q=95&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1555400038-63f5ba517a47?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=1200&q=95&auto=format&fit=crop"
     ],
     price: 38999,
     originalPrice: 46999,
@@ -734,11 +734,11 @@ export const packages: Package[] = [
     description: "Leh to Nubra Valley, Pangong Lake, Khardung La pass, Turtuk village",
     image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=1200&q=95&auto=format&fit=crop",
     gallery: [
-      "https://images.unsplash.com/photo-1581793745862-99fde7fa73d2?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1549474751-b0213b19bdab?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1594921932356-d7488f5d023b?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1610444391219-c4391da40b49?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1579483321685-64bc9ba275e0?w=1200&q=95&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1486870591958-9b9d0d1dda99?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1491555103944-7c647fd857e6?w=1200&q=95&auto=format&fit=crop"
     ],
     price: 32999,
     originalPrice: 39999,
@@ -822,11 +822,11 @@ export const packages: Package[] = [
     description: "Jaipur palaces, Udaipur lakes, Jaisalmer desert safari, Jodhpur blue city",
     image: "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=1200&q=95&auto=format&fit=crop",
     gallery: [
-      "https://images.unsplash.com/photo-1599661555350-9d261e479a26?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1590743603417-80252601ba47?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1525875975471-999f6cb71114?w=1200&q=95&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1200&q=95&auto=format&fit=crop"
     ],
     price: 22999,
     originalPrice: 27999,
@@ -910,11 +910,11 @@ export const packages: Package[] = [
     description: "North & South Goa beaches, Old Goa churches, Dudhsagar falls, water sports",
     image: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200&q=95&auto=format&fit=crop",
     gallery: [
-      "https://images.unsplash.com/photo-1587922546307-776227941871?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1560179406-1c6c60e0faa2?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1560868153-f365d7d1ecaf?w=1200&q=95&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544550581-5f7ceaf7f992?w=1200&q=95&auto=format&fit=crop"
     ],
     price: 18999,
     originalPrice: 23999,
@@ -998,11 +998,11 @@ export const packages: Package[] = [
     description: "Havelock Island, Radhanagar Beach, scuba diving, Cellular Jail, Ross Island",
     image: "https://images.unsplash.com/photo-1589197331516-6c0c9c7f3f0f?w=1200&q=95&auto=format&fit=crop",
     gallery: [
-      "https://images.unsplash.com/photo-1589197331516-6c0c9c7f3f0f?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1601366533287-5ee4c763ae4e?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1562916848-d3f30d061ea9?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1620216654877-e0fa95015b63?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1623838421876-000000000000?w=1200&q=95&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544550581-5f7ceaf7f992?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=1200&q=95&auto=format&fit=crop"
     ],
     price: 32999,
     originalPrice: 38999,
