@@ -32,7 +32,7 @@ export const packages: Package[] = [
     gallery: [
       "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1540198083833-288219c08611?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1590523277543-a9b8cb4cebc2?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=1200&q=95&auto=format&fit=crop"
     ],
