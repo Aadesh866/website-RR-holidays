@@ -17,11 +17,11 @@ const travelerImages = [
     alt: "Van trip in mountains"
   },
   {
-    src: "https://images.unsplash.com/photo-1504280390227-331ef29b4ae6?w=800&q=95&auto=format&fit=crop",
+    src: "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800&q=95&auto=format&fit=crop",
     alt: "Couple enjoying vacation"
   },
   {
-    src: "https://images.unsplash.com/photo-1516483638261-f4dafaf00bc6?w=800&q=95&auto=format&fit=crop",
+    src: "https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?w=800&q=95&auto=format&fit=crop",
     alt: "Friends on a trip"
   },
   {
