@@ -79,7 +79,7 @@ export function Hero() {
       {/* Background with subtle overlay */}
       <div className="absolute inset-0 w-full h-full opacity-60">
         <Image
-          src="/diverse_travelers_hero.png"
+          src="/image.png"
           alt="Diverse travelers from various cultures exploring together"
           fill
           priority
