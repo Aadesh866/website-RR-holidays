@@ -207,7 +207,7 @@ export const packages: Package[] = [
     image: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?w=1200&q=95&auto=format&fit=crop",
     gallery: [
       "https://images.unsplash.com/photo-1605649487212-47bdab064df7?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1566837945700-3005dea9be52?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1528127269322-539152af5929?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1609137144813-7d9921338f24?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1200&q=95&auto=format&fit=crop"
@@ -471,7 +471,7 @@ export const packages: Package[] = [
     image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=1200&q=95&auto=format&fit=crop",
     gallery: [
       "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1590332822003-88bc19d65179?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1555921015-5532091f6026?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1200&q=95&auto=format&fit=crop"
@@ -1086,11 +1086,11 @@ export const packages: Package[] = [
     description: "Eiffel Tower, Louvre Museum, Seine River Cruise, Montmartre, Palace of Versailles",
     image: "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=1200&q=95&auto=format&fit=crop",
     gallery: [
-      "https://images.unsplash.com/photo-1502602273-4b5f24e53089?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1549144511-f099e773c147?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1522093007474-d86e9bf7ba6f?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1431274172761-fbc36825c832?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1543781934-8c630ed6b7b2?w=1200&q=95&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1478391679764-b2d8b3cd1e94?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1550340499-a6c60fc8287c?w=1200&q=95&auto=format&fit=crop"
     ],
     price: 125000,
     originalPrice: 145000,
@@ -1262,10 +1262,10 @@ export const packages: Package[] = [
     description: "Marina Bay Sands, Gardens by the Bay, Sentosa Island, Universal Studios, Night Safari",
     image: "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=1200&q=95&auto=format&fit=crop",
     gallery: [
-      "https://images.unsplash.com/photo-1505963955610-863a33ee3c9d?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1522493414902-60126a575b66?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1541315801736-21b9201a4eec?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1536605658661-bc95e791e847?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1565967511849-76a60a516170?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1496939376851-89342e90adcd?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1508964942454-1a56651d54ac?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1553856622-d1b352e24e5c?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1518684079-3c830dcef090?w=1200&q=95&auto=format&fit=crop"
     ],
     price: 65000,
@@ -1332,11 +1332,11 @@ export const packages: Package[] = [
     description: "Sydney Opera House, Bondi Beach, Blue Mountains, Theme Parks, Surfers Paradise",
     image: "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=1200&q=95&auto=format&fit=crop",
     gallery: [
-      "https://images.unsplash.com/photo-1528072164453-f4e8ed024af1?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1494233777555-d6edc36eb9cb?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1523497274092-2638848dbb0a?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1542289196-857ceb10d7a6?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1533086723724-6bd5a8929e57?w=1200&q=95&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1523482580672-f109ba8cb9be?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1543637005-4d639a4f6283?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1526958097901-5e6d742d3371?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1529516222410-eb44e897ce2a?w=1200&q=95&auto=format&fit=crop"
     ],
     price: 195000,
     originalPrice: 225000,
@@ -1436,13 +1436,13 @@ export const packages: Package[] = [
     name: "Roman Holiday",
     duration: "7 Days / 6 Nights",
     description: "Colosseum, Vatican City, Trevi Fountain, Pantheon, Amalfi Coast Day Trip",
-    image: "https://images.unsplash.com/photo-1552832231775-8f4b4e69b500?w=1200&q=95&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1515859005217-8a1f08870f59?w=1200&q=95&auto=format&fit=crop",
     gallery: [
-      "https://images.unsplash.com/photo-1515542622106-78b28af8d313?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1533104816-663806fb76c0?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1525875975471-999f6fea3cd1?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1529260830199-0182410a0584?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1516483638261-f4085ee7b409?w=1200&q=95&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1529260830199-42c24126f198?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1534445867742-43195f401b6c?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1543429258-4863e6f84828?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1467269204594-9661b134dd2b?w=1200&q=95&auto=format&fit=crop"
     ],
     price: 140000,
     originalPrice: 160000,
@@ -1524,13 +1524,13 @@ export const packages: Package[] = [
     name: "South African Safari",
     duration: "8 Days / 7 Nights",
     description: "Table Mountain, Cape of Good Hope, Kruger National Park, Big Five Safari, Wine Tasting",
-    image: "https://images.unsplash.com/photo-1516426122078-a3f2b4834ce9?w=1200&q=95&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1484318571209-661cf29a69c3?w=1200&q=95&auto=format&fit=crop",
     gallery: [
-      "https://images.unsplash.com/photo-1544026217-1014e3049da4?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1521651201144-634f700b36ef?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1534960309101-7ad87db9fa53?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1504173010664-3250bce0d1fb?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1518485295551-7681530e466d?w=1200&q=95&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1516426122078-c23e76b4dc0e?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1549366021-9f761d450615?w=1200&q=95&auto=format&fit=crop"
     ],
     price: 185000,
     originalPrice: 210000,
@@ -1621,13 +1621,13 @@ export const packages: Package[] = [
     name: "Seychelles Paradise",
     duration: "6 Days / 5 Nights",
     description: "Pristine beaches, luxury resorts, coral reefs, giant tortoises, tropical bliss",
-    image: "https://images.unsplash.com/photo-1580226463972-00508544c4f3?w=1200&q=95&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?w=1200&q=95&auto=format&fit=crop",
     gallery: [
-      "https://images.unsplash.com/photo-1566810237722-1d57ee574cc5?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1594911874226-c774d8be69d5?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1565158652229-3b6b6d7a46ab?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1603517409279-b1d5c2250bd6?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1585614947477-80be4b22c608?w=1200&q=95&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1540202404-a2f29016b523?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1471922694854-ff1b63b20054?w=1200&q=95&auto=format&fit=crop"
     ],
     price: 155000,
     originalPrice: 185000,
@@ -1702,11 +1702,11 @@ export const packages: Package[] = [
     description: "Buckingham Palace, London Eye, Thames Cruise, Tower Bridge, British Museum",
     image: "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1200&q=95&auto=format&fit=crop",
     gallery: [
-      "https://images.unsplash.com/photo-1520986600570-07af3ef71cf8?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1486299267170-84699c4bba10?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1533929736458-a569688b4889?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1505963212873-42e12e75e921?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1506501139266-0c58c6f7c461?w=1200&q=95&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1543832923-44667a44c860?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1529655683826-aba9b3e77383?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1520986606214-8b456906c813?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1448906654166-444d494af2a0?w=1200&q=95&auto=format&fit=crop"
     ],
     price: 125000,
     originalPrice: 145000,
@@ -1779,13 +1779,13 @@ export const packages: Package[] = [
     name: "Turkish Delight",
     duration: "7 Days / 6 Nights",
     description: "Hot air balloons, Hagia Sophia, Grand Bazaar, cave hotels, Bosphorus cruise",
-    image: "https://images.unsplash.com/photo-1524231757712-21ef4c178f75?w=1200&q=95&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1541432901042-2d8bd64e1e3c?w=1200&q=95&auto=format&fit=crop",
     gallery: [
-      "https://images.unsplash.com/photo-1541432901042-2d8b3f19d21c?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1527838832700-5059252407ed?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1539314171-8bc6b13df1ab?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1541097650-8438cb2e9f80?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1528659556111-e63d39db79a3?w=1200&q=95&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1527838832700-5059252407fa?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1524231757712-21ef4c178f75?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1552083974-186346df2e9a?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1570939274717-7eda259b50ed?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1589561454226-796a8aa89b05?w=1200&q=95&auto=format&fit=crop"
     ],
     price: 110000,
     originalPrice: 135000,
@@ -1867,13 +1867,13 @@ export const packages: Package[] = [
     name: "Egyptian Wonders",
     duration: "6 Days / 5 Nights",
     description: "Pyramids of Giza, Sphinx, Nile Cruise, Egyptian Museum, Khan el-Khalili",
-    image: "https://images.unsplash.com/photo-1539650116574-8285a62e3d3e?w=1200&q=95&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1503177119275-0aa32b3a9368?w=1200&q=95&auto=format&fit=crop",
     gallery: [
       "https://images.unsplash.com/photo-1553913861-c0fddf2619ee?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1501438903332-959db62c8a14?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1572911663436-ec933c0bdcb8?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1566807810014-cb18d9620023?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1542385987010-0cb2b95c0245?w=1200&q=95&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1568322445389-f64ac2515020?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1553913861-c0fddf2619ee?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1608604558498-1f2e08ba789e?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1539768942893-daf53e448371?w=1200&q=95&auto=format&fit=crop"
     ],
     price: 95000,
     originalPrice: 115000,
@@ -1946,13 +1946,13 @@ export const packages: Package[] = [
     name: "Greek Island Hopping",
     duration: "8 Days / 7 Nights",
     description: "Acropolis, Santorini sunsets, Oia village, Mediterranean cuisine, Aegean Sea",
-    image: "https://images.unsplash.com/photo-1533105079780-92895e6f4770?w=1200&q=95&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=1200&q=95&auto=format&fit=crop",
     gallery: [
       "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1498566113360-8f921f5108d8?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1498622875150-1ebfa93004bb?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1513251419747-d1a29352e00b?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1530841387394-0130dbbb8683?w=1200&q=95&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1533104816-663806fb76c0?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1555993539-1732b0258235?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1583422409516-2895a77efded?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=1200&q=95&auto=format&fit=crop"
     ],
     price: 165000,
     originalPrice: 195000,
@@ -2043,13 +2043,13 @@ export const packages: Package[] = [
     name: "Spanish Fiesta",
     duration: "7 Days / 6 Nights",
     description: "Sagrada Familia, Park Guell, Royal Palace, Tapas tasting, Flamenco show",
-    image: "https://images.unsplash.com/photo-1539037116271-8da9e97e85c8?w=1200&q=95&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1543783207-ec64e4d95325?w=1200&q=95&auto=format&fit=crop",
     gallery: [
-      "https://images.unsplash.com/photo-1515586000216-72449a888c3a?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1539257692237-7e62a046c433?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544015694-8aa488db905c?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1499596631862-2f3b90df6287?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1566838848792-5eb326fc6e2d?w=1200&q=95&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1518639192441-8fce0a366e2e?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1200&q=95&auto=format&fit=crop"
     ],
     price: 140000,
     originalPrice: 165000,
@@ -2134,9 +2134,9 @@ export const packages: Package[] = [
     image: "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?w=1200&q=95&auto=format&fit=crop",
     gallery: [
       "https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1544989164-31dc3291c654?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1518639192441-8fce0a366e2e?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1551039023-a21b5e4b1670?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1540202404-a2f29016b523?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=1200&q=95&auto=format&fit=crop"
     ],
     price: 135000,
@@ -2584,9 +2584,9 @@ export const packages: Package[] = [
     gallery: [
       "https://images.unsplash.com/photo-1605649487212-47bdab064df7?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1596402184320-417e7178b2cd?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1575822841775-e3e3a5093f80?w=1200&q=95&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1471922694854-ff1b63b20054?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1609766857041-ed402ea8069a?w=1200&q=95&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1582654454409-778b91f2dc5f?w=1200&q=95&auto=format&fit=crop"
+      "https://images.unsplash.com/photo-1590523277543-a94d2e4eb00b?w=1200&q=95&auto=format&fit=crop"
     ],
     price: 115000,
     originalPrice: 140000,
