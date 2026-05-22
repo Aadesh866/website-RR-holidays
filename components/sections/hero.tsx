@@ -108,7 +108,7 @@ export function Hero() {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 h-full flex items-center pt-[180px] pb-36">
+      <div className="relative z-10 h-full flex items-center pt-[180px] pb-48">
         <div className="w-full max-w-[1600px] mx-auto px-6 sm:px-8 lg:px-12 grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
           
           {/* Left Text */}
@@ -158,14 +158,14 @@ export function Hero() {
               className="flex flex-col sm:flex-row gap-5"
             >
               <Button asChild size="lg" rounded="full" className="bg-[#E31E24] hover:bg-[#c9171d] text-white shadow-lg shadow-[#E31E24]/20 border-0 h-14 px-10 text-[15px] whitespace-nowrap">
-                <Link href="/packages">
+                <Link href="/packages" className="inline-flex items-center justify-center gap-2">
                   Explore Packages
-                  <ArrowRight className="ml-2 h-5 w-5" />
+                  <ArrowRight className="h-5 w-5" />
                 </Link>
               </Button>
               <Button asChild size="lg" rounded="full" variant="outline" className="bg-white/10 backdrop-blur-md border-white/30 text-white hover:bg-white hover:text-[#1a1f4e] h-14 px-10 text-[15px] whitespace-nowrap">
-                <a href="https://wa.me/919842334325?text=Hi,%20I'm%20interested%20in%20RR%20Holidays%20packages.%20Please%20share%20more%20details." target="_blank" rel="noopener noreferrer">
-                  <MessageCircle className="mr-2 h-5 w-5" />
+                <a href="https://wa.me/919842334325?text=Hi,%20I'm%20interested%20in%20RR%20Holidays%20packages.%20Please%20share%20more%20details." target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2">
+                  <MessageCircle className="h-5 w-5" />
                   Plan My Trip
                 </a>
               </Button>

@@ -37,13 +37,13 @@ export function Contact() {
               <p className="text-white/60 text-sm mb-5">Or reach us directly:</p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button asChild variant="outline" size="lg" rounded="full" className="border-white text-white hover:bg-white hover:text-[#1a1f4e]">
-                  <a href="tel:+919842334325">
-                    <Phone className="mr-2 h-5 w-5" />+91 98423 34325
+                  <a href="tel:+919842334325" className="inline-flex items-center justify-center gap-2">
+                    <Phone className="h-5 w-5" />+91 98423 34325
                   </a>
                 </Button>
                 <Button asChild size="lg" rounded="full" className="bg-[#25D366] hover:bg-[#20BA5A] text-white">
-                  <a href="https://wa.me/919842334325" target="_blank" rel="noopener noreferrer">
-                    <MessageCircle className="mr-2 h-5 w-5" />WhatsApp
+                  <a href="https://wa.me/919842334325" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2">
+                    <MessageCircle className="h-5 w-5" />WhatsApp
                   </a>
                 </Button>
               </div>

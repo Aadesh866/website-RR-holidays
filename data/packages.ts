@@ -1779,7 +1779,7 @@ export const packages: Package[] = [
     name: "Turkish Delight",
     duration: "7 Days / 6 Nights",
     description: "Hot air balloons, Hagia Sophia, Grand Bazaar, cave hotels, Bosphorus cruise",
-    image: "https://images.unsplash.com/photo-1558005530-a7958896ec60?w=1200&q=95&auto=format&fit=crop",
+    image: "https://images.unsplash.com/photo-1541432901042-2d8b3f19d21c?w=1200&q=95&auto=format&fit=crop",
     gallery: [
       "https://images.unsplash.com/photo-1527838832700-5059252407fa?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1576941089067-2de3c901e126?w=1200&q=95&auto=format&fit=crop",

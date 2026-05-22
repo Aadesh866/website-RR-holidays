@@ -16,6 +16,19 @@ interface PackagesProps {
 export function Packages({ showAll = false, maxItems }: PackagesProps) {
   const gridRef = useStaggerAnimation(0.1)
   const [currentPage, setCurrentPage] = useState(1)
+
+  const handlePageChange = (page: number) => {
+    setCurrentPage(page)
+    const element = document.getElementById("packages")
+    if (element) {
+      // Small delay to ensure render is complete before scrolling
+      setTimeout(() => {
+        const yOffset = -80; // Offset for navbar
+        const y = element.getBoundingClientRect().top + window.scrollY + yOffset;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+      }, 50);
+    }
+  }
   
   const itemsPerPage = 9
   const totalPackages = showAll ? packages.length : (maxItems || packages.length)
@@ -68,7 +81,7 @@ export function Packages({ showAll = false, maxItems }: PackagesProps) {
             <Button
               variant="outline"
               size="icon"
-              onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
+              onClick={() => handlePageChange(Math.max(1, currentPage - 1))}
               disabled={currentPage === 1}
               className="rounded-full w-12 h-12 border-[#1a1f4e]/20 text-[#1a1f4e] hover:bg-[#1a1f4e] hover:text-white"
             >
@@ -79,7 +92,7 @@ export function Packages({ showAll = false, maxItems }: PackagesProps) {
               {Array.from({ length: totalPages }).map((_, i) => (
                 <button
                   key={i}
-                  onClick={() => setCurrentPage(i + 1)}
+                  onClick={() => handlePageChange(i + 1)}
                   className={`w-10 h-10 rounded-full font-medium transition-colors ${
                     currentPage === i + 1 
                       ? 'bg-[#E31E24] text-white' 
@@ -94,7 +107,7 @@ export function Packages({ showAll = false, maxItems }: PackagesProps) {
             <Button
               variant="outline"
               size="icon"
-              onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
+              onClick={() => handlePageChange(Math.min(totalPages, currentPage + 1))}
               disabled={currentPage === totalPages}
               className="rounded-full w-12 h-12 border-[#1a1f4e]/20 text-[#1a1f4e] hover:bg-[#1a1f4e] hover:text-white"
             >
