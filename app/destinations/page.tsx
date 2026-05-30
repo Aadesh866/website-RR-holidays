@@ -19,7 +19,7 @@ export default function DestinationsPage() {
           subtitle="Discover handpicked destinations across India and the world — from tropical beaches to snow-capped mountains"
           image="https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=1920&q=80&auto=format&fit=crop"
         />
-        <DestinationsSection showAll />
+        <DestinationsSection />
       </main>
       <Footer />
     </>

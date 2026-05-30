@@ -16,7 +16,7 @@ export default function Home() {
       <Navbar />
       <main>
         <Hero />
-        <Destinations maxItems={8} />
+        <Destinations />
         <WhyChooseUs />
         <EmiOffers />
         <TravelersShowcase />
