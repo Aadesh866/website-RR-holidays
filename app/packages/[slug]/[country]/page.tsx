@@ -3,6 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
+import { CountryEnquiryForm } from "@/components/country-enquiry"
 import { getPackagesByCountry } from "@/lib/packages"
 import { MapPin, Clock } from "lucide-react"
 import ReactMarkdown from "react-markdown"
@@ -54,16 +55,38 @@ export default async function CountryPackagesPage({ params }: PageProps) {
         {/* Country Information Section */}
         {countryData.markdownContent && (
           <section className="bg-white py-16 border-b border-gray-100">
-            <div className="container mx-auto px-4 max-w-4xl">
+            <div className="container mx-auto px-4 max-w-5xl">
               <div className="prose-custom">
                 <ReactMarkdown
                   components={{
                     h2: ({node, ...props}) => null, // Skip the main country heading since we have it in hero
-                    h3: ({node, ...props}) => <h3 className="text-2xl font-bold text-[#1a1f4e] mt-10 mb-4" {...props} />,
-                    p: ({node, ...props}) => <p className="text-gray-600 leading-relaxed mb-4 text-lg" {...props} />,
-                    strong: ({node, ...props}) => <strong className="font-bold text-gray-900" {...props} />,
-                    ul: ({node, ...props}) => <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-600" {...props} />,
-                    li: ({node, ...props}) => <li {...props} />
+                    h3: ({node, ...props}) => (
+                      <h3 className="text-3xl font-serif font-medium text-[#1a1f4e] mt-16 mb-8 border-b pb-4" {...props} />
+                    ),
+                    p: ({node, ...props}) => (
+                      <p className="text-gray-600 leading-relaxed mb-6 text-lg" {...props} />
+                    ),
+                    strong: ({node, ...props}) => (
+                      <strong className="font-bold text-[#1a1f4e]" {...props} />
+                    ),
+                    ul: ({node, children, ...props}) => (
+                      <ul className="grid grid-cols-1 md:grid-cols-2 gap-4 my-8" {...props}>
+                        {children}
+                      </ul>
+                    ),
+                    li: ({node, children, ...props}) => {
+                      // Check if it's a key-value pair like **Capital:** Rome
+                      let content = children;
+                      
+                      return (
+                        <li className="bg-gray-50 border border-gray-100 rounded-lg p-5 flex items-start shadow-sm" {...props}>
+                          <div className="w-2 h-2 bg-[#ffcc00] rounded-full mt-2.5 mr-4 flex-shrink-0"></div>
+                          <div className="text-gray-700 text-[15px] leading-relaxed">
+                            {content}
+                          </div>
+                        </li>
+                      )
+                    }
                   }}
                 >
                   {countryData.markdownContent}
@@ -126,6 +149,8 @@ export default async function CountryPackagesPage({ params }: PageProps) {
             </div>
           )}
         </div>
+        
+        <CountryEnquiryForm />
       </main>
       <Footer />
     </>
