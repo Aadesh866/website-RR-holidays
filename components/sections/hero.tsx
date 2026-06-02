@@ -16,8 +16,8 @@ type HeroMedia = {
 
 const heroMedia: HeroMedia[] = [
   {
-    type: "image", // Change this to "video" when you have a video file
-    src: "https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=1920&q=80&auto=format&fit=crop",
+    type: "video",
+    src: "https://assets.mixkit.co/videos/preview/mixkit-set-of-plateaus-seen-from-the-sky-in-a-sunset-26070-large.mp4",
     fallbackImg: "https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=1920&q=80&auto=format&fit=crop",
     alt: "Group of friends traveling and exploring the world",
   },
@@ -85,7 +85,7 @@ export function Hero() {
                 loop
                 playsInline
                 onError={() => setVideoError(true)}
-                className="object-cover w-full h-full animate-kenburns"
+                className="object-cover w-full h-full"
               />
             ) : (
               <Image
@@ -93,30 +93,19 @@ export function Hero() {
                 alt={media.alt}
                 fill
                 priority
-                className="object-cover animate-kenburns"
+                className="object-cover"
                 sizes="100vw"
               />
             )}
             {/* Dark overlay for text legibility */}
-            <div className="absolute inset-0 bg-black/40" />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#0d1130]/80 via-transparent to-transparent" />
+            <div className="absolute inset-0 bg-black/20" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#0d1130]/60 via-transparent to-transparent" />
           </motion.div>
         </AnimatePresence>
       </div>
 
       {/* Centered Content */}
       <div className="relative z-10 w-full max-w-5xl mx-auto px-6 text-center mt-20">
-        <motion.div
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2, duration: 0.8, ease: [0.22, 1, 0.36, 1] }}
-          className="mb-4"
-        >
-          <span className="font-cursive text-4xl md:text-5xl lg:text-6xl text-[#E31E24] drop-shadow-lg">
-            South India's No.1
-          </span>
-        </motion.div>
-
         <h1 className="text-5xl md:text-7xl lg:text-[5.5rem] font-heading font-bold text-white leading-[1.1] tracking-tight mb-8 drop-shadow-xl">
           Premium Journeys <br className="hidden md:block" /> Crafted For You
         </h1>

@@ -78,11 +78,11 @@ export function Destinations() {
                     src={category.image}
                     alt={category.title}
                     fill
-                    className="object-cover opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700 ease-in-out"
+                    className="object-cover opacity-90 group-hover:opacity-100 transition-all duration-700 ease-in-out"
                     sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                   />
                   {/* Dark Vignette/Overlay for Text Legibility */}
-                  <div className="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition-colors duration-500" />
+                  <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-500" />
                   
                   {/* Content (Centered) */}
                   <div className="absolute inset-0 flex flex-col items-center justify-center p-6 text-center">
