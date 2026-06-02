@@ -32,7 +32,7 @@ function parseFile(filePath) {
     
     // Match Country Headers (e.g. ## ITALY)
     // Avoid matching ## ITALY TOUR PACKAGES
-    if (line.startsWith('## ') && !line.includes('TOUR PACKAGES')) {
+    if (line.startsWith('## ') && !line.toUpperCase().includes('PACKAGES')) {
       currentCountry = {
         name: line.replace('## ', '').trim(),
         continent: currentContinent,

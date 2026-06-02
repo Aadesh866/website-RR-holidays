@@ -3,12 +3,6 @@
     "name": "SOUTH AFRICA",
     "continent": "Africa",
     "overview": "",
-    "packages": []
-  },
-  {
-    "name": "SOUTH AFRICA PACKAGES",
-    "continent": "Africa",
-    "overview": "",
     "packages": [
       {
         "title": "Cape Town & Garden Route",
@@ -185,12 +179,6 @@
   },
   {
     "name": "MOROCCO",
-    "continent": "Africa",
-    "overview": "",
-    "packages": []
-  },
-  {
-    "name": "MOROCCO PACKAGES",
     "continent": "Africa",
     "overview": "",
     "packages": [
@@ -1162,12 +1150,6 @@
     "name": "SINGAPORE",
     "continent": "Asia",
     "overview": "",
-    "packages": []
-  },
-  {
-    "name": "SINGAPORE PACKAGES",
-    "continent": "Asia",
-    "overview": "",
     "packages": [
       {
         "title": "Singapore City Highlights (3N/4D)",
@@ -1203,12 +1185,6 @@
   },
   {
     "name": "MALAYSIA",
-    "continent": "Asia",
-    "overview": "",
-    "packages": []
-  },
-  {
-    "name": "MALAYSIA PACKAGES",
     "continent": "Asia",
     "overview": "",
     "packages": [
@@ -1258,12 +1234,6 @@
     "name": "VIETNAM",
     "continent": "Asia",
     "overview": "",
-    "packages": []
-  },
-  {
-    "name": "VIETNAM PACKAGES",
-    "continent": "Asia",
-    "overview": "",
     "packages": [
       {
         "title": "Hanoi & Halong Bay (4N/5D)",
@@ -1311,12 +1281,6 @@
     "name": "UAE (UNITED ARAB EMIRATES)",
     "continent": "Asia",
     "overview": "",
-    "packages": []
-  },
-  {
-    "name": "UAE PACKAGES",
-    "continent": "Asia",
-    "overview": "",
     "packages": [
       {
         "title": "Dubai Spectacular (4N/5D)",
@@ -1352,12 +1316,6 @@
   },
   {
     "name": "MALDIVES",
-    "continent": "Asia",
-    "overview": "",
-    "packages": []
-  },
-  {
-    "name": "MALDIVES PACKAGES",
     "continent": "Asia",
     "overview": "",
     "packages": [
@@ -1397,12 +1355,6 @@
     "name": "SOUTH KOREA",
     "continent": "Asia",
     "overview": "",
-    "packages": []
-  },
-  {
-    "name": "SOUTH KOREA PACKAGES",
-    "continent": "Asia",
-    "overview": "",
     "packages": [
       {
         "title": "Seoul Modern & Traditional (4N/5D)",
@@ -1433,14 +1385,7 @@
         "inclusions": [],
         "itinerary": [],
         "imagePrompts": []
-      }
-    ]
-  },
-  {
-    "name": "SINGAPORE (DETAILED PACKAGES)",
-    "continent": "Asia",
-    "overview": "",
-    "packages": [
+      },
       {
         "title": "Singapore City Highlights",
         "slug": "singapore-city-highlights",
@@ -1622,14 +1567,7 @@
           "Clarke Quay riverside with colorful colonial buildings and restaurants at night",
           "Jewel Changi Airport indoor Rain Vortex waterfall with lush gardens"
         ]
-      }
-    ]
-  },
-  {
-    "name": "MALAYSIA (DETAILED PACKAGES)",
-    "continent": "Asia",
-    "overview": "",
-    "packages": [
+      },
       {
         "title": "Kuala Lumpur & Malacca",
         "slug": "kuala-lumpur-malacca",
@@ -5257,19 +5195,13 @@
         "title": "Central India Heritage (6N/7D)",
         "slug": "central-india-heritage-6n-7d",
         "duration": "",
-        "overview": "",
+        "overview": "## SPECIAL INTEREST PACKAGES ### Spiritual India (10N/11D) **Route:** Varanasi, Bodhgaya, Rishikesh, Haridwar, Amritsar **Focus:** Ganges rituals, Buddhist sites, yoga, Golden Temple ### Wildlife India (8N/9D) **Route:** Ranthambore, Bharatpur, Jim Corbett **Focus:** Tiger safaris, bird watching, nature ### Adventure India (7N/8D) **Route:** Ladakh, Manali, Rishikesh **Focus:** Trekking, rafting, mountain biking **INDIA DOMESTIC CONTENT COMPLETE** **Total India Packages:** 25+ covering all regions **Estimated Pages:** 100-125 pages ",
         "highlights": [],
         "inclusions": [],
         "itinerary": [],
         "imagePrompts": []
       }
     ]
-  },
-  {
-    "name": "SPECIAL INTEREST PACKAGES",
-    "continent": "India",
-    "overview": "",
-    "packages": []
   },
   {
     "name": "🎉 ENTIRE PROJECT NOW COMPLETE! 🎉",
@@ -5493,12 +5425,6 @@
     "name": "OMAN",
     "continent": "Middle_East",
     "overview": "",
-    "packages": []
-  },
-  {
-    "name": "OMAN PACKAGES",
-    "continent": "Middle_East",
-    "overview": "",
     "packages": [
       {
         "title": "Muscat & Nizwa",
@@ -5571,12 +5497,6 @@
   },
   {
     "name": "AUSTRALIA",
-    "continent": "Oceania",
-    "overview": "",
-    "packages": []
-  },
-  {
-    "name": "AUSTRALIA PACKAGES",
     "continent": "Oceania",
     "overview": "",
     "packages": [
@@ -5670,12 +5590,6 @@
   },
   {
     "name": "NEW ZEALAND",
-    "continent": "Oceania",
-    "overview": "",
-    "packages": []
-  },
-  {
-    "name": "NEW ZEALAND PACKAGES",
     "continent": "Oceania",
     "overview": "",
     "packages": [
