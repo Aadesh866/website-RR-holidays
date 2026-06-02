@@ -3,7 +3,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
-import { getPackageBySlug } from "@/lib/packages"
+import { getPackageBySlug, getRelatedPackages } from "@/lib/packages"
 import { MapPin, Clock, Check, ChevronRight, Calendar } from "lucide-react"
 
 interface PageProps {
@@ -78,6 +78,34 @@ export default async function PackageDetailPage({ params }: PageProps) {
             {/* Main Content Area */}
             <div className="lg:col-span-2 space-y-12">
               
+              {/* Image Gallery (Grid layout like old manual page) */}
+              {pkg.imagePrompts && pkg.imagePrompts.length > 0 && (
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                  <div className="col-span-2 md:col-span-2 row-span-2 relative rounded-2xl overflow-hidden h-[300px] md:h-[416px] group shadow-sm">
+                    <Image 
+                      src={`https://source.unsplash.com/800x800/?${pkg.imagePrompts[0].replace(/\s+/g, ',')},travel`}
+                      alt={`Gallery Image 1`} 
+                      fill 
+                      className="object-cover group-hover:scale-105 transition-transform duration-700"
+                      sizes="(max-width: 768px) 100vw, 50vw"
+                      unoptimized
+                    />
+                  </div>
+                  {pkg.imagePrompts.slice(1, 5).map((prompt, i) => (
+                    <div key={i} className="relative rounded-2xl overflow-hidden h-[142px] md:h-[200px] group shadow-sm">
+                      <Image 
+                        src={`https://source.unsplash.com/400x400/?${prompt.replace(/\s+/g, ',')},landscape`}
+                        alt={`Gallery Image ${i + 2}`} 
+                        fill 
+                        className="object-cover group-hover:scale-105 transition-transform duration-700"
+                        sizes="(max-width: 768px) 50vw, 25vw"
+                        unoptimized
+                      />
+                    </div>
+                  ))}
+                </div>
+              )}
+
               {/* Overview */}
               <section className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
                 <h2 className="text-2xl font-bold text-[#1a1f4e] mb-6 flex items-center">
@@ -188,6 +216,52 @@ export default async function PackageDetailPage({ params }: PageProps) {
 
           </div>
         </div>
+
+        {/* Other Recommendations */}
+        <section className="container mx-auto px-4 mt-24 max-w-7xl">
+          <h2 className="text-3xl font-black text-[#1a1f4e] mb-10 text-center uppercase tracking-wide">
+            Other Recommendations
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {getRelatedPackages(resolvedParams.slug, pkg.slug, 3).map((relatedPkg) => (
+              <div key={relatedPkg.slug} className="bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 group flex flex-col hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
+                <div className="relative h-56 overflow-hidden">
+                  <Image
+                    src={`https://source.unsplash.com/800x600/?${relatedPkg.title.replace(/\s+/g, ',')},${relatedPkg.countryName},landmark`}
+                    alt={relatedPkg.title}
+                    fill
+                    className="object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out"
+                    unoptimized
+                  />
+                  <div className="absolute top-4 right-4 bg-white/90 backdrop-blur-sm px-3 py-1.5 rounded-full text-xs font-bold text-[#1a1f4e] flex items-center shadow-sm">
+                    <Clock className="w-3.5 h-3.5 mr-1.5" />
+                    {relatedPkg.duration}
+                  </div>
+                </div>
+                
+                <div className="p-6 flex flex-col flex-grow">
+                  <h3 className="text-lg font-bold text-[#1a1f4e] mb-3 group-hover:text-[#E31E24] transition-colors line-clamp-2">
+                    {relatedPkg.title}
+                  </h3>
+                  
+                  <div className="mt-auto pt-4 border-t border-gray-100 flex items-center justify-between">
+                    <div className="flex items-center text-xs font-medium text-gray-500">
+                      <MapPin className="w-3.5 h-3.5 mr-1 text-[#E31E24]" />
+                      {relatedPkg.countryName}
+                    </div>
+                    <Link 
+                      href={`/packages/${resolvedParams.slug}/${relatedPkg.countrySlug}/${relatedPkg.slug}`}
+                      className="text-[#E31E24] font-bold text-sm hover:text-[#ff3a40] transition-colors flex items-center"
+                    >
+                      View Itinerary 
+                      <span className="ml-1 text-lg leading-none">→</span>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
       </main>
       <Footer />
     </>

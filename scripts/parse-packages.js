@@ -37,6 +37,7 @@ function parseFile(filePath) {
         name: line.replace('## ', '').trim(),
         continent: currentContinent,
         overview: '',
+        markdownContent: '',
         packages: []
       };
       allData.push(currentCountry);
@@ -64,6 +65,13 @@ function parseFile(filePath) {
     }
     
     if (!currentCountry) continue;
+    
+    if (state === 'COUNTRY_INFO' && !line.startsWith('### Package')) {
+       // Avoid pushing empty lines repeatedly at the start
+       if (currentCountry.markdownContent !== '' || line !== '') {
+           currentCountry.markdownContent += lines[i] + '\n';
+       }
+    }
 
     if (state === 'PACKAGE_DETAILS' && currentPackage) {
       if (line.startsWith('**Duration:**')) {

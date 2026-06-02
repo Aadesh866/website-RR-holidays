@@ -20,6 +20,7 @@ export interface Country {
   name: string
   continent: string
   overview: string
+  markdownContent?: string
   packages: Package[]
 }
 
@@ -45,14 +46,43 @@ export function getPackagesByCountry(continentSlug: string, countrySlug: string)
 
 export function getPackageBySlug(continentSlug: string, countrySlug: string, packageSlug: string): { country: Country, pkg: Package } | null {
   const country = getPackagesByCountry(continentSlug, countrySlug)
-  
   if (!country) return null
-  
+
   const pkg = country.packages.find(p => p.slug === packageSlug)
+  return pkg ? { country, pkg } : null
+}
+
+export function getRelatedPackages(continentSlug: string, excludePackageSlug: string, limit: number = 3): (Package & { countryName: string, countrySlug: string })[] {
+  const countries = getAllCountries()
+  let related: (Package & { countryName: string, countrySlug: string })[] = []
   
-  if (!pkg) return null
+  const sourceCountry = countries.find(c => sluggify(c.continent) === continentSlug && c.packages.some(p => p.slug === excludePackageSlug))
   
-  return { country, pkg }
+  if (sourceCountry) {
+    const pkgs = sourceCountry.packages.filter(p => p.slug !== excludePackageSlug).map(p => ({
+      ...p,
+      countryName: sourceCountry.name,
+      countrySlug: sluggify(sourceCountry.name)
+    }))
+    related.push(...pkgs)
+  }
+  
+  if (related.length < limit) {
+    const continentCountries = countries.filter(c => sluggify(c.continent) === continentSlug)
+    for (const country of continentCountries) {
+      if (related.length >= limit) break;
+      const otherPackages = country.packages
+        .filter(p => p.slug !== excludePackageSlug && !related.some(r => r.slug === p.slug))
+        .map(p => ({
+          ...p,
+          countryName: country.name,
+          countrySlug: sluggify(country.name)
+        }))
+      related.push(...otherPackages)
+    }
+  }
+  
+  return related.slice(0, limit)
 }
 
 export function getTopPackages(limit: number = 6): { countryName: string, continentSlug: string, countrySlug: string, pkg: Package }[] {

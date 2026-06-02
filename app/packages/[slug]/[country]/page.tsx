@@ -5,6 +5,7 @@ import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { getPackagesByCountry } from "@/lib/packages"
 import { MapPin, Clock } from "lucide-react"
+import ReactMarkdown from "react-markdown"
 
 interface PageProps {
   params: Promise<{
@@ -49,6 +50,28 @@ export default async function CountryPackagesPage({ params }: PageProps) {
             </p>
           </div>
         </div>
+
+        {/* Country Information Section */}
+        {countryData.markdownContent && (
+          <section className="bg-white py-16 border-b border-gray-100">
+            <div className="container mx-auto px-4 max-w-4xl">
+              <div className="prose-custom">
+                <ReactMarkdown
+                  components={{
+                    h2: ({node, ...props}) => null, // Skip the main country heading since we have it in hero
+                    h3: ({node, ...props}) => <h3 className="text-2xl font-bold text-[#1a1f4e] mt-10 mb-4" {...props} />,
+                    p: ({node, ...props}) => <p className="text-gray-600 leading-relaxed mb-4 text-lg" {...props} />,
+                    strong: ({node, ...props}) => <strong className="font-bold text-gray-900" {...props} />,
+                    ul: ({node, ...props}) => <ul className="list-disc pl-6 mb-6 space-y-2 text-gray-600" {...props} />,
+                    li: ({node, ...props}) => <li {...props} />
+                  }}
+                >
+                  {countryData.markdownContent}
+                </ReactMarkdown>
+              </div>
+            </div>
+          </section>
+        )}
 
         {/* Packages Grid */}
         <div className="container mx-auto px-4 mt-16 max-w-7xl">
