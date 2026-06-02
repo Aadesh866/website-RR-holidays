@@ -7,14 +7,15 @@ import { getPackagesByCountry } from "@/lib/packages"
 import { MapPin, Clock } from "lucide-react"
 
 interface PageProps {
-  params: {
+  params: Promise<{
     slug: string
     country: string
-  }
+  }>
 }
 
-export default function CountryPackagesPage({ params }: PageProps) {
-  const countryData = getPackagesByCountry(params.slug, params.country)
+export default async function CountryPackagesPage({ params }: PageProps) {
+  const resolvedParams = await params
+  const countryData = getPackagesByCountry(resolvedParams.slug, resolvedParams.country)
 
   if (!countryData) {
     notFound()
@@ -89,7 +90,7 @@ export default function CountryPackagesPage({ params }: PageProps) {
                         {countryData.name}
                       </div>
                       <Link 
-                        href={`/packages/${params.slug}/${params.country}/${pkg.slug}`}
+                        href={`/packages/${resolvedParams.slug}/${resolvedParams.country}/${pkg.slug}`}
                         className="text-[#E31E24] font-bold text-sm hover:text-[#ff3a40] transition-colors flex items-center"
                       >
                         View Itinerary 
