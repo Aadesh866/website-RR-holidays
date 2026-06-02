@@ -7,10 +7,17 @@ import { Button } from "@/components/ui/button"
 import Image from "next/image"
 import Link from "next/link"
 
-const heroMedia = [
+type HeroMedia = {
+  type: "video" | "image";
+  src: string;
+  fallbackImg?: string;
+  alt: string;
+};
+
+const heroMedia: HeroMedia[] = [
   {
-    type: "video",
-    src: "/broll-video.mp4", // User can drop an mp4 here later
+    type: "image", // Change this to "video" when you have a video file
+    src: "https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=1920&q=80&auto=format&fit=crop",
     fallbackImg: "https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=1920&q=80&auto=format&fit=crop",
     alt: "Group of friends traveling and exploring the world",
   },
