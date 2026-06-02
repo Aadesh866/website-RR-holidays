@@ -9,6 +9,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { usePathname } from "next/navigation"
 import { SearchModal } from "@/components/search-modal"
+import { MegaMenu } from "@/components/mega-menu"
 
 const navLinks = [
   { name: "Home", href: "/" },
@@ -57,24 +58,42 @@ export function Navbar() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-10">
-            {navLinks.map((link) => (
-              <Link
-                key={link.name}
-                href={link.href}
-                className={cn(
-                  "text-[15px] font-bold tracking-wide transition-colors relative group py-2",
-                  "text-[#1a1f4e] hover:text-[#E31E24]",
-                  pathname === link.href && "text-[#E31E24]"
-                )}
-              >
-                {link.name}
-                <span className={cn(
-                  "absolute bottom-0 left-0 h-0.5 bg-[#E31E24] transition-all",
-                  pathname === link.href ? "w-full" : "w-0 group-hover:w-full"
-                )} />
-              </Link>
-            ))}
+          <div className="hidden md:flex items-center gap-10 h-full">
+            {navLinks.map((link) => {
+              const isPackages = link.name === "Packages"
+              
+              const linkContent = (
+                <Link
+                  href={link.href}
+                  className={cn(
+                    "text-[15px] font-bold tracking-wide transition-colors relative group py-8",
+                    "text-[#1a1f4e] hover:text-[#E31E24]",
+                    pathname === link.href && "text-[#E31E24]"
+                  )}
+                >
+                  {link.name}
+                  <span className={cn(
+                    "absolute bottom-0 left-0 h-0.5 bg-[#E31E24] transition-all",
+                    pathname === link.href ? "w-full" : "w-0 group-hover:w-full"
+                  )} />
+                </Link>
+              )
+
+              if (isPackages) {
+                return (
+                  <div key={link.name} className="group/mega h-full flex items-center cursor-pointer">
+                    {linkContent}
+                    <MegaMenu />
+                  </div>
+                )
+              }
+
+              return (
+                <div key={link.name} className="h-full flex items-center">
+                  {linkContent}
+                </div>
+              )
+            })}
           </div>
 
           {/* Desktop CTAs */}
