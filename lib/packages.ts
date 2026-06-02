@@ -1,5 +1,4 @@
-import fs from 'fs'
-import path from 'path'
+import allPackagesData from '@/data/all-packages.json'
 
 export interface ItineraryDay {
   title: string
@@ -30,9 +29,7 @@ export function sluggify(text: string): string {
 }
 
 export function getAllCountries(): Country[] {
-  const filePath = path.join(process.cwd(), 'data', 'all-packages.json')
-  const fileContents = fs.readFileSync(filePath, 'utf8')
-  return JSON.parse(fileContents)
+  return allPackagesData as Country[]
 }
 
 export function getPackagesByCountry(continentSlug: string, countrySlug: string): Country | null {
