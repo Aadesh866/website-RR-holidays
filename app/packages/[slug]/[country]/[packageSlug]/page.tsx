@@ -8,14 +8,14 @@ import { MapPin, Clock, Check, ChevronRight, Calendar } from "lucide-react"
 
 interface PageProps {
   params: {
-    continent: string
+    slug: string
     country: string
     packageSlug: string
   }
 }
 
 export default function PackageDetailPage({ params }: PageProps) {
-  const data = getPackageBySlug(params.continent, params.country, params.packageSlug)
+  const data = getPackageBySlug(params.slug, params.country, params.packageSlug)
 
   if (!data) {
     notFound()
@@ -48,7 +48,7 @@ export default function PackageDetailPage({ params }: PageProps) {
             <div className="flex items-center text-sm text-white/80 font-medium mb-6 uppercase tracking-wider">
               <Link href="/packages" className="hover:text-white transition-colors">Packages</Link>
               <ChevronRight className="w-4 h-4 mx-2 opacity-50" />
-              <Link href={`/packages/${params.continent}/${params.country}`} className="hover:text-white transition-colors">{country.name}</Link>
+              <Link href={`/packages/${params.slug}/${params.country}`} className="hover:text-white transition-colors">{country.name}</Link>
               <ChevronRight className="w-4 h-4 mx-2 opacity-50" />
               <span className="text-white truncate max-w-[200px] sm:max-w-none">{pkg.title}</span>
             </div>

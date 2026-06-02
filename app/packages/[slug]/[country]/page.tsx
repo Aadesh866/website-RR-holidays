@@ -8,13 +8,13 @@ import { MapPin, Clock } from "lucide-react"
 
 interface PageProps {
   params: {
-    continent: string
+    slug: string
     country: string
   }
 }
 
 export default function CountryPackagesPage({ params }: PageProps) {
-  const countryData = getPackagesByCountry(params.continent, params.country)
+  const countryData = getPackagesByCountry(params.slug, params.country)
 
   if (!countryData) {
     notFound()
@@ -89,7 +89,7 @@ export default function CountryPackagesPage({ params }: PageProps) {
                         {countryData.name}
                       </div>
                       <Link 
-                        href={`/packages/${params.continent}/${params.country}/${pkg.slug}`}
+                        href={`/packages/${params.slug}/${params.country}/${pkg.slug}`}
                         className="text-[#E31E24] font-bold text-sm hover:text-[#ff3a40] transition-colors flex items-center"
                       >
                         View Itinerary 
