@@ -13,7 +13,7 @@ export function MegaMenu() {
         <div className="bg-white rounded-b-xl shadow-[0_30px_60px_-15px_rgba(0,0,0,0.15)] ring-1 ring-gray-200/50 pt-6 pb-8 max-h-[80vh] overflow-y-auto overscroll-contain scrollbar-thin scrollbar-thumb-gray-200 scrollbar-track-transparent">
           <div className="grid grid-cols-5 divide-x divide-gray-100">
             {megaMenuData.columns.map((column, colIdx) => (
-              <div key={colIdx} className="flex flex-col gap-5 px-6 first:pl-8 last:pr-8">
+              <div key={colIdx} className="flex flex-col gap-3 px-6 first:pl-8 last:pr-8">
                 {column.map((section, secIdx) => (
                   <div key={section.title} className="flex flex-col">
                     <h3 className="text-[#1a1f4e] font-heading font-bold text-[14px] tracking-wide uppercase mb-2 pb-1 border-b border-gray-100/80">
@@ -24,7 +24,7 @@ export function MegaMenu() {
                         <li key={link.name}>
                           <Link
                             href={link.href}
-                            className="group/link text-gray-600 hover:text-[#1a1f4e] text-[12.5px] font-medium transition-all duration-300 flex items-center py-1 px-2 -mx-2 hover:bg-gray-50/80 rounded-md"
+                            className="group/link text-gray-600 hover:text-[#1a1f4e] text-[12.5px] font-medium transition-all duration-300 flex items-center py-[2px] px-2 -mx-2 hover:bg-gray-50/80 rounded-md"
                           >
                             <span className="mr-2 text-[#E31E24]/60 text-[8px] transition-transform duration-300 group-hover/link:scale-150 group-hover/link:text-[#E31E24]">●</span>
                             {link.name}

@@ -11,15 +11,14 @@ import { usePathname } from "next/navigation"
 import { SearchModal } from "@/components/search-modal"
 import { MegaMenu } from "@/components/mega-menu"
 import { IndiaMegaMenu } from "@/components/india-mega-menu"
+import { HoneymoonMegaMenu } from "@/components/honeymoon-mega-menu"
 
 const navLinks = [
   { name: "Home", href: "/" },
   { name: "Company", href: "/about" },
-  { name: "Group Tours", href: "/group-tours" },
   { name: "Packages", href: "/packages" },
   { name: "India", href: "/india" },
   { name: "Honeymoon", href: "/honeymoon" },
-  { name: "Wedding", href: "/wedding" },
   { name: "Contact", href: "/contact" },
 ]
 
@@ -46,7 +45,7 @@ export function Navbar() {
         initial={{ y: -20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-        className="fixed top-0 left-0 right-0 z-50 h-[100px] bg-white border-b border-gray-100 shadow-sm transition-all duration-300"
+        className="fixed top-0 left-0 right-0 z-50 h-[100px] bg-white shadow-sm transition-all duration-300"
       >
         <nav className="w-full max-w-[1600px] mx-auto px-6 sm:px-8 lg:px-12 h-full flex items-center justify-between">
           {/* Logo */}
@@ -98,6 +97,15 @@ export function Navbar() {
                   <div key={link.name} className="group/mega h-full flex items-center cursor-pointer">
                     {linkContent}
                     <IndiaMegaMenu />
+                  </div>
+                )
+              }
+
+              if (link.name === "Honeymoon") {
+                return (
+                  <div key={link.name} className="group/mega h-full flex items-center cursor-pointer">
+                    {linkContent}
+                    <HoneymoonMegaMenu />
                   </div>
                 )
               }
