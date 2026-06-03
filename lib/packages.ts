@@ -154,3 +154,39 @@ export function getTopPackages(limit: number = 6): { countryName: string, contin
   
   return topPackages
 }
+
+export function getPackagesByCategory(category: string, limit: number = 12): { countryName: string, continentSlug: string, countrySlug: string, pkg: Package }[] {
+  const countries = getAllCountries()
+  const results = []
+  
+  const keywordsMap: Record<string, string[]> = {
+    'honeymoon': ['honeymoon', 'romantic', 'couple', 'maldives', 'bali', 'mauritius', 'seychelles', 'santorini', 'venice', 'paris'],
+    'educational': ['education', 'student', 'history', 'heritage', 'museum', 'culture', 'university'],
+  }
+  
+  const keywords = keywordsMap[category.toLowerCase()] || [category.toLowerCase()]
+
+  for (const country of countries) {
+    for (const pkg of country.packages) {
+      const searchableText = `${pkg.title} ${pkg.overview} ${pkg.highlights.join(' ')}`.toLowerCase()
+      
+      const isMatch = keywords.some(keyword => searchableText.includes(keyword))
+      
+      if (isMatch) {
+        results.push({
+          countryName: country.name,
+          continentSlug: sluggify(country.continent),
+          countrySlug: sluggify(country.name),
+          pkg: pkg
+        })
+      }
+      
+      if (results.length >= limit) {
+        return results
+      }
+    }
+  }
+  
+  // If we didn't find enough, just return whatever we have
+  return results
+}

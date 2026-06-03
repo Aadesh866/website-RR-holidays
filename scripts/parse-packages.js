@@ -32,7 +32,7 @@ function parseFile(filePath) {
     
     // Match Country Headers (e.g. ## ITALY)
     // Avoid matching ## ITALY TOUR PACKAGES
-    if (line.startsWith('## ') && !line.toUpperCase().includes('PACKAGES')) {
+    if (line.startsWith('## ') && !line.toUpperCase().includes('PACKAGES') && !line.includes('ENTIRE PROJECT')) {
       currentCountry = {
         name: line.replace('## ', '').trim(),
         continent: currentContinent,
@@ -125,5 +125,5 @@ markdownFiles.forEach(file => {
   }
 });
 
-fs.writeFileSync(outputFilePath, JSON.stringify(allData, null, 2), 'utf8');
-console.log(`Successfully generated ${outputFilePath} with ${allData.length} countries.`);
+fs.writeFileSync(outputFilePath, JSON.stringify(allData.filter(c => c.packages.length > 0), null, 2), 'utf8');
+console.log(`Successfully generated ${outputFilePath} with ${allData.filter(c => c.packages.length > 0).length} valid countries/regions.`);

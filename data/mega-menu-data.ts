@@ -3,33 +3,23 @@ export const megaMenuData = {
     // Column 1
     [
       {
-        title: "Africa",
+        title: "Europe",
         links: [
-          { name: "Kenya", href: "/packages/africa/kenya" },
-          { name: "Morocco", href: "/packages/africa/morocco" },
-          { name: "Seychelles", href: "/packages/africa/seychelles" },
-          { name: "South Africa", href: "/packages/africa/south-africa" },
-          { name: "Zimbabwe", href: "/packages/africa/zimbabwe" },
-          { name: "Tanzania", href: "/packages/africa/tanzania" },
-        ]
-      },
-      {
-        title: "America",
-        links: [
-          { name: "Alaska", href: "/packages/america/alaska" },
-          { name: "Canada", href: "/packages/america/canada" },
-          { name: "Central America", href: "/packages/america/central-america" },
-          { name: "North America", href: "/packages/america/north-america" },
-          { name: "South America", href: "/packages/america/south-america" },
-          { name: "USA", href: "/packages/america/usa" },
-        ]
-      },
-      {
-        title: "Pacific",
-        links: [
-          { name: "Australia", href: "/packages/pacific/australia" },
-          { name: "Fiji", href: "/packages/pacific/fiji" },
-          { name: "New Zealand", href: "/packages/pacific/new-zealand" },
+          { name: "Italy", href: "/packages/europe/italy" },
+          { name: "France", href: "/packages/europe/france" },
+          { name: "Switzerland", href: "/packages/europe/switzerland" },
+          { name: "Spain", href: "/packages/europe/spain" },
+          { name: "United Kingdom", href: "/packages/europe/united-kingdom" },
+          { name: "Germany", href: "/packages/europe/germany" },
+          { name: "Greece", href: "/packages/europe/greece" },
+          { name: "Netherlands", href: "/packages/europe/netherlands" },
+          { name: "Portugal", href: "/packages/europe/portugal" },
+          { name: "Austria", href: "/packages/europe/austria" },
+          { name: "Ireland", href: "/packages/europe/ireland" },
+          { name: "Czech Republic", href: "/packages/europe/czech-republic" },
+          { name: "Norway", href: "/packages/europe/norway" },
+          { name: "Iceland", href: "/packages/europe/iceland" },
+          { name: "Croatia", href: "/packages/europe/croatia" },
         ]
       }
     ],
@@ -38,98 +28,72 @@ export const megaMenuData = {
       {
         title: "Asia",
         links: [
-          { name: "Bali", href: "/packages/asia/bali" },
-          { name: "Cambodia", href: "/packages/asia/cambodia" },
-          { name: "China", href: "/packages/asia/china" },
-          { name: "Hong Kong", href: "/packages/asia/hong-kong" },
           { name: "Japan", href: "/packages/asia/japan" },
-          { name: "Indonesia", href: "/packages/asia/indonesia" },
-          { name: "Kazakhstan", href: "/packages/asia/kazakhstan" },
-          { name: "Russia", href: "/packages/asia/russia" },
-          { name: "South Korea", href: "/packages/asia/south-korea" },
-          { name: "Malaysia", href: "/packages/asia/malaysia" },
-          { name: "Singapore", href: "/packages/asia/singapore" },
-          { name: "Philippines", href: "/packages/asia/philippines" },
-          { name: "Taiwan", href: "/packages/asia/taiwan" },
           { name: "Thailand", href: "/packages/asia/thailand" },
+          { name: "Singapore", href: "/packages/asia/singapore" },
+          { name: "Malaysia", href: "/packages/asia/malaysia" },
           { name: "Vietnam", href: "/packages/asia/vietnam" },
-          { name: "Uzbekistan", href: "/packages/asia/uzbekistan" },
+          { name: "UAE", href: "/packages/asia/uae" },
+          { name: "Maldives", href: "/packages/asia/maldives" },
+          { name: "South Korea", href: "/packages/asia/south-korea" },
         ]
       }
     ],
     // Column 3
     [
       {
-        title: "Europe",
+        title: "Middle East",
         links: [
-          { name: "Armenia", href: "/packages/europe/armenia" },
-          { name: "Austria", href: "/packages/europe/austria" },
-          { name: "Belgium", href: "/packages/europe/belgium" },
-          { name: "Bulgaria", href: "/packages/europe/bulgaria" },
-          { name: "Croatia", href: "/packages/europe/croatia" },
-          { name: "Czech Republic", href: "/packages/europe/czech-republic" },
-          { name: "Denmark Republic", href: "/packages/europe/denmark" },
-          { name: "Finland Republic", href: "/packages/europe/finland" },
-          { name: "France", href: "/packages/europe/france" },
-          { name: "Germany", href: "/packages/europe/germany" },
-          { name: "Greece", href: "/packages/europe/greece" },
-          { name: "Greenland", href: "/packages/europe/greenland" },
-          { name: "Hungary", href: "/packages/europe/hungary" },
-          { name: "Iceland", href: "/packages/europe/iceland" },
-          { name: "Ireland", href: "/packages/europe/ireland" },
-          { name: "Italy", href: "/packages/europe/italy" },
-          { name: "London", href: "/packages/europe/london" },
-          { name: "Netherlands", href: "/packages/europe/netherlands" },
+          { name: "Jordan", href: "/packages/middle-east/jordan" },
+          { name: "Oman", href: "/packages/middle-east/oman" },
+          { name: "Qatar", href: "/packages/middle-east/qatar" },
+          { name: "Israel", href: "/packages/middle-east/israel" },
+        ]
+      },
+      {
+        title: "Africa",
+        links: [
+          { name: "South Africa", href: "/packages/africa/south-africa" },
+          { name: "Morocco", href: "/packages/africa/morocco" },
+          { name: "Kenya", href: "/packages/africa/kenya" },
+          { name: "Tanzania", href: "/packages/africa/tanzania" },
+          { name: "Mauritius", href: "/packages/africa/mauritius" },
+          { name: "Seychelles", href: "/packages/africa/seychelles" },
         ]
       }
     ],
     // Column 4
     [
       {
-        title: "Island",
+        title: "Oceania",
         links: [
-          { name: "Madagascar", href: "/packages/island/madagascar" },
-          { name: "Maldives", href: "/packages/island/maldives" },
-          { name: "Mauritius", href: "/packages/island/mauritius" },
-          { name: "Reunion", href: "/packages/island/reunion" },
-          { name: "Sri Lanka", href: "/packages/island/sri-lanka" },
-        ]
-      },
-      {
-        title: "Middle East",
-        links: [
-          { name: "Israel", href: "/packages/middle-east/israel" },
-          { name: "Jordan", href: "/packages/middle-east/jordan" },
-          { name: "Oman", href: "/packages/middle-east/oman" },
-          { name: "Qatar", href: "/packages/middle-east/qatar" },
-          { name: "UAE", href: "/packages/middle-east/uae" },
-          { name: "Dubai", href: "/packages/middle-east/dubai" },
-          { name: "Egypt", href: "/packages/middle-east/egypt" },
-        ]
-      },
-      {
-        title: "Cruises",
-        links: [
-          { name: "Cordelia Cruises", href: "/packages/cruises/cordelia" },
+          { name: "Australia", href: "/packages/oceania/australia" },
+          { name: "New Zealand", href: "/packages/oceania/new-zealand" },
+          { name: "Fiji", href: "/packages/oceania/fiji" },
+          { name: "Tahiti", href: "/packages/oceania/tahiti" },
         ]
       }
     ],
     // Column 5
     [
       {
-        title: "Honeymoon",
+        title: "North America",
         links: [
-          { name: "Maldives", href: "/packages/honeymoon/maldives" },
-          { name: "Bali", href: "/packages/honeymoon/bali" },
-          { name: "Mauritius", href: "/packages/honeymoon/mauritius" },
-          { name: "Phuket", href: "/packages/honeymoon/phuket" },
-          { name: "Switzerland", href: "/packages/honeymoon/switzerland" },
-          { name: "Seychelles", href: "/packages/honeymoon/seychelles" },
-          { name: "Langkawi", href: "/packages/honeymoon/langkawi" },
-          { name: "Paris", href: "/packages/honeymoon/paris" },
-          { name: "Italy", href: "/packages/honeymoon/italy" },
-          { name: "Krabi", href: "/packages/honeymoon/krabi" },
-          { name: "Greece", href: "/packages/honeymoon/greece" },
+          { name: "USA", href: "/packages/americas/usa" },
+          { name: "Canada", href: "/packages/americas/canada" },
+          { name: "Mexico", href: "/packages/americas/mexico" },
+          { name: "Costa Rica", href: "/packages/americas/costa-rica" },
+        ]
+      },
+      {
+        title: "South America",
+        links: [
+          { name: "Brazil", href: "/packages/americas/brazil" },
+          { name: "Argentina", href: "/packages/americas/argentina" },
+          { name: "Peru", href: "/packages/americas/peru" },
+          { name: "Chile", href: "/packages/americas/chile" },
+          { name: "Colombia", href: "/packages/americas/colombia" },
+          { name: "Ecuador", href: "/packages/americas/ecuador" },
         ]
       }
     ]

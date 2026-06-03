@@ -2,13 +2,6 @@ import { MapPin, Phone, Mail, MessageCircle } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
 
-const branches = [
-  "Mumbai", "Hyderabad", "Bangalore", "Chennai", 
-  "Coimbatore", "Erode", "Madurai", "Trichy", 
-  "Salem", "Kochi", "Vellore", "Pondicherry", 
-  "Nagercoil", "Kanyakumari"
-]
-
 export function Footer() {
   const currentYear = new Date().getFullYear()
 
@@ -20,7 +13,7 @@ export function Footer() {
       <div className="w-full max-w-[1600px] mx-auto px-6 sm:px-8 lg:px-12 relative z-10">
         
         {/* Main Footer Content */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-16 mb-16 border-b border-white/10 pb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-16 mb-16 border-b border-white/10 pb-16">
           
           {/* Brand & About */}
           <div className="lg:col-span-1">
@@ -37,25 +30,10 @@ export function Footer() {
             </div>
           </div>
 
-          {/* Corporate Office */}
+          {/* Office Location */}
           <div>
             <h4 className="text-white font-serif font-medium text-xl mb-6 relative inline-block">
-              Corporate Office
-              <span className="absolute -bottom-2 left-0 w-1/2 h-0.5 bg-[#E31E24]"></span>
-            </h4>
-            <div className="space-y-4">
-              <p className="font-semibold text-white/90">RR Holidays Pvt LTD,</p>
-              <p className="leading-relaxed text-sm text-white/60 flex items-start">
-                <MapPin className="w-4 h-4 mr-2 mt-1 flex-shrink-0 text-[#E31E24]" />
-                Novel Tech Park, Opposite to 1 MG Mall, MG Road, Bangalore - 560042, Karnataka, India.
-              </p>
-            </div>
-          </div>
-
-          {/* Head Office */}
-          <div>
-            <h4 className="text-white font-serif font-medium text-xl mb-6 relative inline-block">
-              Head Office
+              Our Office
               <span className="absolute -bottom-2 left-0 w-1/2 h-0.5 bg-[#E31E24]"></span>
             </h4>
             <div className="space-y-4">
@@ -91,22 +69,6 @@ export function Footer() {
             </div>
           </div>
         </div>
-
-        {/* Our Branches (Compact) */}
-        <div className="mb-12">
-          <h4 className="text-white/40 text-sm uppercase tracking-widest mb-6 text-center">Our Presence Across India</h4>
-          <ul className="flex flex-wrap justify-center gap-x-6 gap-y-3 text-sm text-white/60">
-            {branches.map((branch, i) => (
-              <li key={branch} className="flex items-center">
-                <Link href="#contact" className="hover:text-white hover:underline transition-colors">
-                  {branch}
-                </Link>
-                {i < branches.length - 1 && <span className="mx-4 text-white/20">•</span>}
-              </li>
-            ))}
-          </ul>
-        </div>
-
 
 
         {/* Bottom Bar */}

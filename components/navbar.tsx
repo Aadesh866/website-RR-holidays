@@ -10,12 +10,16 @@ import Image from "next/image"
 import { usePathname } from "next/navigation"
 import { SearchModal } from "@/components/search-modal"
 import { MegaMenu } from "@/components/mega-menu"
+import { IndiaMegaMenu } from "@/components/india-mega-menu"
 
 const navLinks = [
   { name: "Home", href: "/" },
-  { name: "Destinations", href: "/destinations" },
+  { name: "Company", href: "/about" },
+  { name: "Group Tours", href: "/group-tours" },
   { name: "Packages", href: "/packages" },
-  { name: "About", href: "/about" },
+  { name: "India", href: "/india" },
+  { name: "Honeymoon", href: "/honeymoon" },
+  { name: "Wedding", href: "/wedding" },
   { name: "Contact", href: "/contact" },
 ]
 
@@ -52,7 +56,7 @@ export function Navbar() {
               alt="RR Holidays"
               width={240}
               height={80}
-              className="h-20 w-auto object-contain saturate-[1.2] contrast-[1.1] drop-shadow-[0_1px_1px_rgba(0,0,0,0.3)] mix-blend-multiply"
+              className="h-20 w-auto object-contain drop-shadow-sm"
               priority
             />
           </Link>
@@ -61,12 +65,13 @@ export function Navbar() {
           <div className="hidden md:flex items-center gap-10 h-full">
             {navLinks.map((link) => {
               const isPackages = link.name === "Packages"
+              const isIndia = link.name === "India"
               
               const linkContent = (
                 <Link
                   href={link.href}
                   className={cn(
-                    "text-[15px] font-bold tracking-wide transition-colors relative group py-8",
+                    "text-[15px] font-bold tracking-wide transition-colors relative group py-8 uppercase",
                     "text-[#1a1f4e] hover:text-[#E31E24]",
                     pathname === link.href && "text-[#E31E24]"
                   )}
@@ -84,6 +89,15 @@ export function Navbar() {
                   <div key={link.name} className="group/mega h-full flex items-center cursor-pointer">
                     {linkContent}
                     <MegaMenu />
+                  </div>
+                )
+              }
+              
+              if (isIndia) {
+                return (
+                  <div key={link.name} className="group/mega h-full flex items-center cursor-pointer">
+                    {linkContent}
+                    <IndiaMegaMenu />
                   </div>
                 )
               }
