@@ -53,7 +53,7 @@ export default async function CountryPage(props: { params: Promise<{ slug: strin
           </div>
         </div>
 
-        <div className="container mx-auto px-4 max-w-7xl -mt-10 relative z-10">
+        <div className="container mx-auto px-4 max-w-7xl pt-16 relative z-10">
           
           {/* At a Glance Section */}
           {parsedData.stats.length > 0 && (

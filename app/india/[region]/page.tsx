@@ -63,7 +63,7 @@ export default async function IndiaRegionPage(props: { params: Promise<{ region:
           </div>
         </div>
 
-        <div className="container mx-auto px-4 max-w-7xl mt-12 relative z-10">
+        <div className="container mx-auto px-4 max-w-7xl pt-16 relative z-10">
           
           {/* Packages Grid */}
           <div className="mb-24">

@@ -293,41 +293,7 @@ export function AboutContent() {
         </div>
       </section>
 
-      {/* CTA Band */}
-      <section className="relative py-24 md:py-32 overflow-hidden">
-        <div className="absolute inset-0">
-          <Image
-            src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=1920&q=80&auto=format&fit=crop"
-            alt="Beautiful sunset over ocean"
-            fill
-            className="object-cover"
-            sizes="100vw"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#1a1f4e]/90 to-[#2E3192]/70" />
-        </div>
-        <div className="relative z-10 max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
-          <h2 className="text-3xl md:text-5xl font-heading font-bold mb-6 leading-[1.2]">
-            Ready to Create Your Story?
-          </h2>
-          <p className="text-white/80 text-lg mb-10 leading-relaxed">
-            Join 10,000+ happy travelers who chose RR Holidays for their dream vacations. Your next adventure is just a conversation away.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="/contact"
-              className="inline-flex items-center justify-center py-3.5 px-10 bg-[#E31E24] text-white font-medium rounded-full hover:bg-[#c9171d] hover:scale-[1.03] transition-all text-lg"
-            >
-              Start Planning →
-            </a>
-            <a
-              href="tel:+919842334325"
-              className="inline-flex items-center justify-center py-3.5 px-10 border-2 border-white text-white font-medium rounded-full hover:bg-white hover:text-[#1a1f4e] transition-all text-lg"
-            >
-              Call Us Now
-            </a>
-          </div>
-        </div>
-      </section>
+
     </>
   )
 }

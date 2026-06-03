@@ -13,55 +13,96 @@ export function Footer() {
       <div className="w-full max-w-[1600px] mx-auto px-6 sm:px-8 lg:px-12 relative z-10">
         
         {/* Main Footer Content */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-16 mb-16 border-b border-white/10 pb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-12 mb-16 border-b border-white/10 pb-16">
           
-          {/* Brand & About */}
+          {/* Col 1: Brand & About */}
           <div className="lg:col-span-1">
-            <h4 className="text-white font-serif font-medium text-2xl mb-6 flex items-center">
-              RR <span className="text-[#E31E24] ml-2">Holidays</span>
-            </h4>
+            <Link href="/">
+              <Image
+                src="/logo.png"
+                alt="RR Holidays"
+                width={200}
+                height={60}
+                className="h-16 w-auto object-contain bg-white/90 p-2 rounded mb-6"
+              />
+            </Link>
             <p className="text-white/60 leading-relaxed text-sm mb-8">
               Crafting unforgettable travel experiences globally. As South India's premier travel brand, we specialize in curating bespoke journeys that turn your travel dreams into reality.
             </p>
             <div className="flex space-x-4">
-              <a href="#facebook" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-[#E31E24] hover:text-white transition-all text-white/70">Fb</a>
-              <a href="#instagram" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-[#E31E24] hover:text-white transition-all text-white/70">Ig</a>
-              <a href="#linkedin" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-[#E31E24] hover:text-white transition-all text-white/70">In</a>
+              <a href="#facebook" className="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center hover:bg-[#E31E24] hover:text-white transition-all text-white/70">Fb</a>
+              <a href="#instagram" className="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center hover:bg-[#E31E24] hover:text-white transition-all text-white/70">Ig</a>
+              <a href="#linkedin" className="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center hover:bg-[#E31E24] hover:text-white transition-all text-white/70">In</a>
             </div>
           </div>
 
-          {/* Office Location */}
+          {/* Col 2: International */}
           <div>
-            <h4 className="text-white font-serif font-medium text-xl mb-6 relative inline-block">
-              Our Office
+            <h4 className="text-white font-serif font-medium text-lg mb-6 relative inline-block">
+              International
+              <span className="absolute -bottom-2 left-0 w-1/2 h-0.5 bg-[#E31E24]"></span>
+            </h4>
+            <ul className="space-y-3 text-sm text-white/70">
+              <li><Link href="/packages/asia/maldives" className="hover:text-[#E31E24] transition-colors">Maldives</Link></li>
+              <li><Link href="/packages/asia/sri-lanka" className="hover:text-[#E31E24] transition-colors">Sri Lanka</Link></li>
+              <li><Link href="/packages/asia/singapore" className="hover:text-[#E31E24] transition-colors">Singapore & Malaysia</Link></li>
+              <li><Link href="/packages/europe/switzerland" className="hover:text-[#E31E24] transition-colors">Europe</Link></li>
+              <li><Link href="/packages/middle-east/uae" className="hover:text-[#E31E24] transition-colors">Dubai & Abu Dhabi</Link></li>
+              <li><Link href="/packages" className="hover:text-[#E31E24] transition-colors font-medium text-white/90">View All Destinations &rarr;</Link></li>
+            </ul>
+          </div>
+
+          {/* Col 3: India */}
+          <div>
+            <h4 className="text-white font-serif font-medium text-lg mb-6 relative inline-block">
+              Incredible India
+              <span className="absolute -bottom-2 left-0 w-1/2 h-0.5 bg-[#E31E24]"></span>
+            </h4>
+            <ul className="space-y-3 text-sm text-white/70">
+              <li><Link href="/india/kerala" className="hover:text-[#E31E24] transition-colors">Kerala</Link></li>
+              <li><Link href="/india/andaman-and-nicobar-islands" className="hover:text-[#E31E24] transition-colors">Andaman Islands</Link></li>
+              <li><Link href="/india/kashmir" className="hover:text-[#E31E24] transition-colors">Kashmir</Link></li>
+              <li><Link href="/india/goa" className="hover:text-[#E31E24] transition-colors">Goa</Link></li>
+              <li><Link href="/india/himachal-pradesh" className="hover:text-[#E31E24] transition-colors">Himachal Pradesh</Link></li>
+              <li><Link href="/india" className="hover:text-[#E31E24] transition-colors font-medium text-white/90">View All States &rarr;</Link></li>
+            </ul>
+          </div>
+
+          {/* Col 4: Quick Links */}
+          <div>
+            <h4 className="text-white font-serif font-medium text-lg mb-6 relative inline-block">
+              Quick Links
+              <span className="absolute -bottom-2 left-0 w-1/2 h-0.5 bg-[#E31E24]"></span>
+            </h4>
+            <ul className="space-y-3 text-sm text-white/70">
+              <li><Link href="/about" className="hover:text-[#E31E24] transition-colors">About Company</Link></li>
+              <li><Link href="/honeymoon" className="hover:text-[#E31E24] transition-colors">Honeymoon Specials</Link></li>
+              <li><Link href="/educational" className="hover:text-[#E31E24] transition-colors">Educational Tours</Link></li>
+              <li><Link href="/contact" className="hover:text-[#E31E24] transition-colors">Contact Us</Link></li>
+            </ul>
+          </div>
+
+          {/* Col 5: Contact Info */}
+          <div>
+            <h4 className="text-white font-serif font-medium text-lg mb-6 relative inline-block">
+              Contact Details
               <span className="absolute -bottom-2 left-0 w-1/2 h-0.5 bg-[#E31E24]"></span>
             </h4>
             <div className="space-y-4">
-              <p className="font-semibold text-white/90">RR Holidays Pvt LTD,</p>
-              <p className="leading-relaxed text-sm text-white/60 flex items-start">
+              <p className="leading-relaxed text-sm text-white/70 flex items-start">
                 <MapPin className="w-4 h-4 mr-2 mt-1 flex-shrink-0 text-[#E31E24]" />
-                No. 213, First Floor, Chellapan Street, Kattoor, Coimbatore - 641 009, Tamil Nadu, India.
+                RR Holidays Pvt LTD, No. 213, First Floor, Chellapan Street, Kattoor, Coimbatore - 641009, TN, India.
               </p>
-            </div>
-          </div>
-
-          {/* Contact Information */}
-          <div>
-            <h4 className="text-white font-serif font-medium text-xl mb-6 relative inline-block">
-              Contact Us
-              <span className="absolute -bottom-2 left-0 w-1/2 h-0.5 bg-[#E31E24]"></span>
-            </h4>
-            <div className="space-y-6">
-              <div>
-                <span className="text-xs text-white/40 uppercase tracking-wider block mb-1">For Bookings</span>
-                <a href="tel:+919842334325" className="text-xl font-serif text-white hover:text-[#E31E24] transition-colors flex items-center">
+              <div className="pt-2">
+                <span className="text-[10px] text-white/40 uppercase tracking-wider block mb-1">For Bookings</span>
+                <a href="tel:+919842334325" className="text-lg font-serif text-white hover:text-[#E31E24] transition-colors flex items-center">
                   <Phone className="w-4 h-4 mr-2 text-[#E31E24]" />
                   +91 98423 34325
                 </a>
               </div>
               <div>
-                <span className="text-xs text-white/40 uppercase tracking-wider block mb-1">Email Support</span>
-                <a href="mailto:info@rrholidays.net" className="text-lg text-white/80 hover:text-[#E31E24] transition-colors flex items-center">
+                <span className="text-[10px] text-white/40 uppercase tracking-wider block mb-1">Email Support</span>
+                <a href="mailto:info@rrholidays.net" className="text-sm text-white/80 hover:text-[#E31E24] transition-colors flex items-center">
                   <Mail className="w-4 h-4 mr-2 text-[#E31E24]" />
                   info@rrholidays.net
                 </a>

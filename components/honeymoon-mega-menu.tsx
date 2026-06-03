@@ -2,10 +2,8 @@ import Link from "next/link"
 
 export function HoneymoonMegaMenu() {
   return (
-    <div className="fixed top-[100px] left-0 w-full h-[calc(100vh-100px)] pointer-events-none z-50 flex justify-center group-hover/mega:pointer-events-auto">
-      <div className="absolute inset-0 bg-[#0d1130]/10 backdrop-blur-[2px] opacity-0 group-hover/mega:opacity-100 transition-opacity duration-300 pointer-events-none" />
-      
-      <div className="relative w-[300px] mt-2 opacity-0 invisible group-hover/mega:opacity-100 group-hover/mega:visible transition-all duration-300 pointer-events-auto origin-top transform scale-y-95 group-hover/mega:scale-y-100">
+    <div className="absolute top-[80px] left-1/2 -translate-x-1/2 w-auto pointer-events-none z-50 flex justify-center group-hover/mega:pointer-events-auto">
+      <div className="relative w-[280px] pt-4 opacity-0 invisible group-hover/mega:opacity-100 group-hover/mega:visible transition-all duration-300 pointer-events-auto origin-top transform scale-y-95 group-hover/mega:scale-y-100">
         <div className="bg-white rounded-b-xl rounded-t-xl shadow-[0_30px_60px_-15px_rgba(0,0,0,0.15)] ring-1 ring-gray-200/50 p-6 max-h-[80vh] overflow-y-auto">
           <div className="flex flex-col">
             <h3 className="text-[#1a1f4e] font-heading font-bold text-[14px] tracking-wide uppercase mb-2 pb-1 border-b border-gray-100/80">

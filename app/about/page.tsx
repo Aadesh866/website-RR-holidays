@@ -25,7 +25,7 @@ export default function AboutPage() {
         <AboutContent />
         <WhyChooseUs />
         <HowItWorks />
-        <Testimonials />
+
       </main>
       <Footer />
     </>

@@ -103,7 +103,7 @@ export function Navbar() {
 
               if (link.name === "Honeymoon") {
                 return (
-                  <div key={link.name} className="group/mega h-full flex items-center cursor-pointer">
+                  <div key={link.name} className="group/mega h-full flex items-center cursor-pointer relative">
                     {linkContent}
                     <HoneymoonMegaMenu />
                   </div>

@@ -72,7 +72,7 @@ export default function EducationalPage() {
                       {/* Image Section */}
                       <div className="relative h-64 w-full overflow-hidden">
                         <Image
-                          src={`https://source.unsplash.com/800x600/?heritage,${pkg.title.replace(/\s+/g, ',')},${countryName}`}
+                          src={`https://image.pollinations.ai/prompt/heritage,${pkg.title.replace(/\s+/g, ',')},${countryName}?width=800&height=600&nologo=true`}
                           alt={pkg.title}
                           fill
                           className="object-cover transition-transform duration-700 group-hover:scale-110"
