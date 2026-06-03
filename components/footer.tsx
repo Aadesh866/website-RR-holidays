@@ -13,106 +13,120 @@ export function Footer() {
   const currentYear = new Date().getFullYear()
 
   return (
-    <footer className="bg-[#1a1a1a] text-[#d1d1d1] pt-16 pb-0 relative">
-      <div className="w-full max-w-[1600px] mx-auto px-6 sm:px-8 lg:px-12">
+    <footer className="bg-[#0a0f2b] text-white pt-20 pb-0 relative border-t-[4px] border-[#E31E24]">
+      {/* Subtle background pattern */}
+      <div className="absolute inset-0 opacity-[0.02] pointer-events-none" style={{ backgroundImage: 'url("data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'1\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")' }}></div>
+
+      <div className="w-full max-w-[1600px] mx-auto px-6 sm:px-8 lg:px-12 relative z-10">
         
         {/* Main Footer Content */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 lg:gap-16 mb-16 border-b border-white/10 pb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-16 mb-16 border-b border-white/10 pb-16">
           
+          {/* Brand & About */}
+          <div className="lg:col-span-1">
+            <h4 className="text-white font-serif font-medium text-2xl mb-6 flex items-center">
+              RR <span className="text-[#E31E24] ml-2">Holidays</span>
+            </h4>
+            <p className="text-white/60 leading-relaxed text-sm mb-8">
+              Crafting unforgettable travel experiences globally. As South India's premier travel brand, we specialize in curating bespoke journeys that turn your travel dreams into reality.
+            </p>
+            <div className="flex space-x-4">
+              <a href="#facebook" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-[#E31E24] hover:text-white transition-all text-white/70">Fb</a>
+              <a href="#instagram" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-[#E31E24] hover:text-white transition-all text-white/70">Ig</a>
+              <a href="#linkedin" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-[#E31E24] hover:text-white transition-all text-white/70">In</a>
+            </div>
+          </div>
+
           {/* Corporate Office */}
           <div>
-            <h4 className="text-white font-serif font-medium text-2xl mb-6">Corporate Office</h4>
+            <h4 className="text-white font-serif font-medium text-xl mb-6 relative inline-block">
+              Corporate Office
+              <span className="absolute -bottom-2 left-0 w-1/2 h-0.5 bg-[#E31E24]"></span>
+            </h4>
             <div className="space-y-4">
               <p className="font-semibold text-white/90">RR Holidays Pvt LTD,</p>
-              <p className="leading-relaxed text-sm">
-                Novel Tech Park,<br />
-                Opposite to 1 MG Mall,<br />
-                MG Road, Bangalore - 560042<br />
-                Karnataka, India.
+              <p className="leading-relaxed text-sm text-white/60 flex items-start">
+                <MapPin className="w-4 h-4 mr-2 mt-1 flex-shrink-0 text-[#E31E24]" />
+                Novel Tech Park, Opposite to 1 MG Mall, MG Road, Bangalore - 560042, Karnataka, India.
               </p>
             </div>
           </div>
 
           {/* Head Office */}
           <div>
-            <h4 className="text-white font-serif font-medium text-2xl mb-6">Head Office</h4>
+            <h4 className="text-white font-serif font-medium text-xl mb-6 relative inline-block">
+              Head Office
+              <span className="absolute -bottom-2 left-0 w-1/2 h-0.5 bg-[#E31E24]"></span>
+            </h4>
             <div className="space-y-4">
               <p className="font-semibold text-white/90">RR Holidays Pvt LTD,</p>
-              <p className="leading-relaxed text-sm">
-                No. 213, First Floor,<br />
-                Chellapan Street, Kattoor,<br />
-                Coimbatore - 641 009<br />
-                Tamil Nadu, India.
+              <p className="leading-relaxed text-sm text-white/60 flex items-start">
+                <MapPin className="w-4 h-4 mr-2 mt-1 flex-shrink-0 text-[#E31E24]" />
+                No. 213, First Floor, Chellapan Street, Kattoor, Coimbatore - 641 009, Tamil Nadu, India.
               </p>
             </div>
           </div>
 
-          {/* Our Branches */}
+          {/* Contact Information */}
           <div>
-            <h4 className="text-white font-serif font-medium text-2xl mb-6">Our Branches</h4>
-            <ul className="grid grid-cols-2 gap-x-4 gap-y-2 text-sm">
-              {branches.map((branch) => (
-                <li key={branch}>
-                  <Link href="#contact" className="hover:text-white transition-colors hover:underline">
-                    {branch}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-
-        {/* Contact Strip */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
-          {/* Call Us */}
-          <div className="flex flex-col border-l-2 border-white/10 pl-6">
-            <span className="text-sm text-white/60 mb-2">Call Us</span>
-            <a href="tel:+919842334325" className="text-2xl font-serif text-white hover:text-[#E31E24] transition-colors">
-              +91 98423 34325
-            </a>
-          </div>
-
-          {/* Email Us */}
-          <div className="flex flex-col border-l-2 border-white/10 pl-6">
-            <span className="text-sm text-white/60 mb-2">Email Us</span>
-            <a href="mailto:info@rrholidays.net" className="text-2xl font-serif text-white hover:text-[#E31E24] transition-colors">
-              info@rrholidays.net
-            </a>
-          </div>
-
-          {/* Follow Us */}
-          <div className="flex flex-col border-l-2 border-white/10 pl-6">
-            <span className="text-sm text-white/60 mb-2">Follow Us</span>
-            <div className="flex space-x-4 mt-2 font-serif text-sm">
-              <a href="#facebook" className="text-white hover:text-[#E31E24] transition-colors">Facebook</a>
-              <a href="#instagram" className="text-white hover:text-[#E31E24] transition-colors">Instagram</a>
-              <a href="#linkedin" className="text-white hover:text-[#E31E24] transition-colors">LinkedIn</a>
-              <a href="#youtube" className="text-white hover:text-[#E31E24] transition-colors">YouTube</a>
+            <h4 className="text-white font-serif font-medium text-xl mb-6 relative inline-block">
+              Contact Us
+              <span className="absolute -bottom-2 left-0 w-1/2 h-0.5 bg-[#E31E24]"></span>
+            </h4>
+            <div className="space-y-6">
+              <div>
+                <span className="text-xs text-white/40 uppercase tracking-wider block mb-1">For Bookings</span>
+                <a href="tel:+919842334325" className="text-xl font-serif text-white hover:text-[#E31E24] transition-colors flex items-center">
+                  <Phone className="w-4 h-4 mr-2 text-[#E31E24]" />
+                  +91 98423 34325
+                </a>
+              </div>
+              <div>
+                <span className="text-xs text-white/40 uppercase tracking-wider block mb-1">Email Support</span>
+                <a href="mailto:info@rrholidays.net" className="text-lg text-white/80 hover:text-[#E31E24] transition-colors flex items-center">
+                  <Mail className="w-4 h-4 mr-2 text-[#E31E24]" />
+                  info@rrholidays.net
+                </a>
+              </div>
             </div>
           </div>
         </div>
 
+        {/* Our Branches (Compact) */}
+        <div className="mb-12">
+          <h4 className="text-white/40 text-sm uppercase tracking-widest mb-6 text-center">Our Presence Across India</h4>
+          <ul className="flex flex-wrap justify-center gap-x-6 gap-y-3 text-sm text-white/60">
+            {branches.map((branch, i) => (
+              <li key={branch} className="flex items-center">
+                <Link href="#contact" className="hover:text-white hover:underline transition-colors">
+                  {branch}
+                </Link>
+                {i < branches.length - 1 && <span className="mx-4 text-white/20">•</span>}
+              </li>
+            ))}
+          </ul>
+        </div>
+
+
+
         {/* Bottom Bar */}
-        <div className="bg-white text-black py-4 px-6 md:px-12 flex flex-col md:flex-row justify-between items-center gap-4 text-sm font-medium -mx-6 sm:-mx-8 lg:-mx-12">
+        <div className="bg-[#1a1f4e] text-white py-5 px-6 md:px-12 flex flex-col md:flex-row justify-between items-center gap-6 text-sm font-medium -mx-6 sm:-mx-8 lg:-mx-12">
           
           <div className="flex items-center space-x-4">
-            <a href="https://wa.me/919842334325" target="_blank" rel="noopener noreferrer" className="bg-[#25D366] text-white p-2 rounded-full hover:scale-110 transition-transform">
-              <MessageCircle className="w-6 h-6" />
-            </a>
-            <p className="text-gray-600">
+            <p className="text-white/60">
               Copyright © {currentYear} by RR Holidays Pvt Ltd. All Rights Reserved.
             </p>
           </div>
 
-          <div className="flex flex-wrap items-center gap-x-4 gap-y-2 text-gray-500">
-            <Link href="#privacy" className="hover:text-black transition-colors">Privacy Policy</Link>
+          <div className="flex flex-wrap justify-center items-center gap-x-4 gap-y-2 text-white/50">
+            <Link href="#privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
             <span>|</span>
-            <Link href="#terms" className="hover:text-black transition-colors">Terms & Conditions</Link>
+            <Link href="#terms" className="hover:text-white transition-colors">Terms & Conditions</Link>
             <span>|</span>
-            <Link href="#cancellation" className="hover:text-black transition-colors">Cancellation & Refund Policy</Link>
+            <Link href="#cancellation" className="hover:text-white transition-colors">Cancellation & Refund Policy</Link>
             
-            <a href="#enquire" className="ml-4 bg-[#ffcc00] hover:bg-[#e6b800] text-black font-bold py-3 px-8 uppercase tracking-wider text-sm transition-colors shadow-md">
-              ENQUIRE NOW
+            <a href="#enquire" className="ml-4 bg-[#E31E24] hover:bg-[#c4151a] text-white font-bold py-3 px-8 rounded-full uppercase tracking-wider text-sm transition-colors shadow-md">
+              Start Planning
             </a>
           </div>
 

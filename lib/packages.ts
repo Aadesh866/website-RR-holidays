@@ -24,6 +24,56 @@ export interface Country {
   packages: Package[]
 }
 
+export interface ParsedCountryData {
+  overview: string;
+  stats: { label: string; value: string }[];
+  tips: { title: string; content: string }[];
+}
+
+export function parseCountryMarkdown(markdown: string | undefined): ParsedCountryData {
+  const result: ParsedCountryData = { overview: '', stats: [], tips: [] };
+  if (!markdown) return result;
+
+  const lines = markdown.split('\n');
+  let currentSection = '';
+
+  for (const line of lines) {
+    const trimmed = line.trim();
+    if (trimmed.startsWith('### Country Overview')) {
+      currentSection = 'overview';
+      continue;
+    } else if (trimmed.startsWith('### Country Information')) {
+      currentSection = 'stats';
+      continue;
+    } else if (trimmed.startsWith('### Essential Travel Tips')) {
+      currentSection = 'tips';
+      continue;
+    } else if (trimmed.startsWith('###')) {
+      currentSection = 'other';
+      continue;
+    }
+
+    if (currentSection === 'overview' && trimmed && !trimmed.startsWith('#')) {
+      result.overview += trimmed + '\n\n';
+    } else if (currentSection === 'stats' && trimmed.startsWith('**')) {
+      // e.g. **Capital:** Rome
+      const match = trimmed.match(/\*\*(.*?):\*\*\s*(.*)/);
+      if (match) {
+        result.stats.push({ label: match[1].trim(), value: match[2].trim() });
+      }
+    } else if (currentSection === 'tips' && trimmed.startsWith('**')) {
+      // e.g. **ATM & Banking:** text...
+      const match = trimmed.match(/\*\*(.*?):\*\*\s*(.*)/);
+      if (match) {
+        result.tips.push({ title: match[1].trim(), content: match[2].trim() });
+      }
+    }
+  }
+
+  result.overview = result.overview.trim();
+  return result;
+}
+
 // Function to sluggify names (e.g. "SOUTH AFRICA" -> "south-africa")
 export function sluggify(text: string): string {
   return text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
