@@ -34,7 +34,7 @@ export default async function IndiaPackageDetailPage({ params }: PageProps) {
   const displayRegion = regionNameMap[resolvedParams.region] || country.name
 
   // Placeholder hero image based on package title
-  const heroImage = `https://image.pollinations.ai/prompt/${pkg.title.replace(/\s+/g, ',')},india,travel?width=1920&height=1080&nologo=true`
+  const heroImage = `https://picsum.photos/seed/${pkg.slug}/1920/1080`
 
   return (
     <>
@@ -92,7 +92,7 @@ export default async function IndiaPackageDetailPage({ params }: PageProps) {
                 <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
                   <div className="col-span-2 md:col-span-2 row-span-2 relative rounded-2xl overflow-hidden h-[300px] md:h-[416px] group shadow-sm">
                     <Image 
-                      src={`https://image.pollinations.ai/prompt/${pkg.imagePrompts[0].replace(/\s+/g, ',')},travel?width=800&height=800&nologo=true`}
+                      src={`https://picsum.photos/seed/${pkg.slug}-1/800/800`}
                       alt={`Gallery Image 1`} 
                       fill 
                       className="object-cover group-hover:scale-105 transition-transform duration-700"
@@ -103,7 +103,7 @@ export default async function IndiaPackageDetailPage({ params }: PageProps) {
                   {pkg.imagePrompts.slice(1, 5).map((prompt, i) => (
                     <div key={i} className="relative rounded-2xl overflow-hidden h-[142px] md:h-[200px] group shadow-sm">
                       <Image 
-                        src={`https://image.pollinations.ai/prompt/${prompt.replace(/\s+/g, ',')},india?width=400&height=400&nologo=true`}
+                        src={`https://picsum.photos/seed/${pkg.slug}-${i + 2}/400/400`}
                         alt={`Gallery Image ${i + 2}`} 
                         fill 
                         className="object-cover group-hover:scale-105 transition-transform duration-700"
@@ -236,7 +236,7 @@ export default async function IndiaPackageDetailPage({ params }: PageProps) {
               <div key={relatedPkg.slug} className="bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 group flex flex-col hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
                 <div className="relative h-56 overflow-hidden">
                   <Image
-                    src={`https://image.pollinations.ai/prompt/${relatedPkg.title.replace(/\s+/g, ',')},india?width=800&height=600&nologo=true`}
+                    src={`https://picsum.photos/seed/${relatedPkg.slug}/800/600`}
                     alt={relatedPkg.title}
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out"
