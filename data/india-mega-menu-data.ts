@@ -8,6 +8,7 @@ export const indiaMegaMenuData = {
           { name: "Delhi", href: "/india/north-india?state=delhi" },
           { name: "Himachal Pradesh", href: "/india/north-india?state=himachal-pradesh" },
           { name: "Jammu and Kashmir", href: "/india/north-india?state=jammu-and-kashmir" },
+          { name: "Rajasthan", href: "/india/north-india?state=rajasthan" },
         ]
       }
     ],

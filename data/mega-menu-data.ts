@@ -62,19 +62,6 @@ export const megaMenuData = {
           { name: "New Zealand", href: "/packages/oceania/new-zealand" },
         ]
       }
-    ],
-    // Column 5
-    [
-      {
-        title: "North America",
-        links: [
-        ]
-      },
-      {
-        title: "South America",
-        links: [
-        ]
-      }
     ]
   ]
 }
