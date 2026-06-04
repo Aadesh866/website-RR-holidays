@@ -44,10 +44,10 @@ export function Footer() {
             </h4>
             <ul className="space-y-3 text-sm text-white/70">
               <li><Link href="/packages/asia/maldives" className="hover:text-[#E31E24] transition-colors">Maldives</Link></li>
-              <li><Link href="/packages/asia/sri-lanka" className="hover:text-[#E31E24] transition-colors">Sri Lanka</Link></li>
+              <li><Link href="/packages/asia/thailand" className="hover:text-[#E31E24] transition-colors">Thailand</Link></li>
               <li><Link href="/packages/asia/singapore" className="hover:text-[#E31E24] transition-colors">Singapore & Malaysia</Link></li>
               <li><Link href="/packages/europe/switzerland" className="hover:text-[#E31E24] transition-colors">Europe</Link></li>
-              <li><Link href="/packages/middle-east/uae" className="hover:text-[#E31E24] transition-colors">Dubai & Abu Dhabi</Link></li>
+              <li><Link href="/packages/asia/uae-united-arab-emirates" className="hover:text-[#E31E24] transition-colors">Dubai & Abu Dhabi</Link></li>
               <li><Link href="/packages" className="hover:text-[#E31E24] transition-colors font-medium text-white/90">View All Destinations &rarr;</Link></li>
             </ul>
           </div>
@@ -59,11 +59,11 @@ export function Footer() {
               <span className="absolute -bottom-2 left-0 w-1/2 h-0.5 bg-[#E31E24]"></span>
             </h4>
             <ul className="space-y-3 text-sm text-white/70">
-              <li><Link href="/india/kerala" className="hover:text-[#E31E24] transition-colors">Kerala</Link></li>
-              <li><Link href="/india/andaman-and-nicobar-islands" className="hover:text-[#E31E24] transition-colors">Andaman Islands</Link></li>
-              <li><Link href="/india/kashmir" className="hover:text-[#E31E24] transition-colors">Kashmir</Link></li>
-              <li><Link href="/india/goa" className="hover:text-[#E31E24] transition-colors">Goa</Link></li>
-              <li><Link href="/india/himachal-pradesh" className="hover:text-[#E31E24] transition-colors">Himachal Pradesh</Link></li>
+              <li><Link href="/india/south-india?state=kerala" className="hover:text-[#E31E24] transition-colors">Kerala</Link></li>
+              <li><Link href="/india/west-india?state=rajasthan" className="hover:text-[#E31E24] transition-colors">Rajasthan</Link></li>
+              <li><Link href="/india/north-india?state=jammu-and-kashmir" className="hover:text-[#E31E24] transition-colors">Kashmir</Link></li>
+              <li><Link href="/india/west-india?state=goa" className="hover:text-[#E31E24] transition-colors">Goa</Link></li>
+              <li><Link href="/india/north-india?state=himachal-pradesh" className="hover:text-[#E31E24] transition-colors">Himachal Pradesh</Link></li>
               <li><Link href="/india" className="hover:text-[#E31E24] transition-colors font-medium text-white/90">View All States &rarr;</Link></li>
             </ul>
           </div>

@@ -7,6 +7,7 @@ import { CountryEnquiryForm } from "@/components/country-enquiry"
 import { Accordion } from "@/components/accordion"
 import { getPackagesByCountry, parseCountryMarkdown } from "@/lib/packages"
 import { MapPin, Clock, Info, Shield, CreditCard, Camera, Users, Plane, CheckCircle2 } from "lucide-react"
+import { getContextualImage } from "@/lib/image-utils"
 
 export default async function CountryPage(props: { params: Promise<{ slug: string; country: string }> }) {
   const params = await props.params;
@@ -30,7 +31,7 @@ export default async function CountryPage(props: { params: Promise<{ slug: strin
         {/* Stunning Hero Section */}
         <div className="relative h-[60vh] min-h-[500px] w-full">
           <Image
-            src={`https://picsum.photos/seed/${params.country}/1920/1080`}
+            src={getContextualImage(params.country, 0, "hero")}
             alt={`${countryData.name} Packages`}
             fill
             className="object-cover"
@@ -81,7 +82,7 @@ export default async function CountryPage(props: { params: Promise<{ slug: strin
             <div className="mb-24 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl">
                 <Image 
-                  src={`https://picsum.photos/seed/${params.country}-overview/800/800`} 
+                  src={getContextualImage(params.country, 1, "card")} 
                   alt="Country Overview" 
                   fill 
                   className="object-cover"
@@ -153,7 +154,7 @@ export default async function CountryPage(props: { params: Promise<{ slug: strin
                   {/* Image Section */}
                   <div className="relative h-64 w-full overflow-hidden">
                     <Image
-                      src={`https://picsum.photos/seed/${pkg.slug}/800/600`}
+                      src={getContextualImage(pkg.slug, 0, "card")}
                       alt={pkg.title}
                       fill
                       className="object-cover transition-transform duration-700 group-hover:scale-110"

@@ -45,7 +45,10 @@ export function Navbar() {
         initial={{ y: -20, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
-        className="fixed top-0 left-0 right-0 z-50 h-[100px] bg-white shadow-sm transition-all duration-300"
+        className={cn(
+          "fixed top-0 left-0 right-0 z-50 h-[100px] transition-all duration-300",
+          isScrolled ? "bg-white shadow-md" : "bg-white/80 backdrop-blur-md border-b border-white/20"
+        )}
       >
         <nav className="w-full max-w-[1600px] mx-auto px-6 sm:px-8 lg:px-12 h-full flex items-center justify-between">
           {/* Logo */}

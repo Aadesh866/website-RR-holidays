@@ -46,7 +46,7 @@ export function Destinations() {
 
   // Calculate the number of tours per category
   const getTourCount = (categoryId: string) => {
-    return destinations.filter(dest => dest.categories.includes(categoryId as any)).length * 12 // Multiplying by 12 just to show a realistic impressive number like the reference, since actual DB is small. Or we can just show actual count. Let's use actual * 5 for demo purposes to look like GT holidays.
+    return destinations.filter(dest => dest.categories.includes(categoryId as any)).length
   }
 
   return (
@@ -66,9 +66,7 @@ export function Destinations() {
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8"
         >
           {popularCategories.map((category) => {
-            const tourCount = getTourCount(category.id);
-            // using actual destinations.length if we want accurate, but multiplying by 8 to look realistic for a "No.1 Travel Agency"
-            const displayCount = destinations.filter(d => d.categories.includes(category.id as any)).length * 15;
+            const displayCount = getTourCount(category.id);
             
             return (
               <Link href={`/destinations?category=${category.id}`} key={category.id}>

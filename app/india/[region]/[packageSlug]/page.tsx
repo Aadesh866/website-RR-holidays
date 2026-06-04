@@ -5,6 +5,7 @@ import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { getPackageBySlug, getRelatedPackages } from "@/lib/packages"
 import { MapPin, Clock, Check, ChevronRight, Calendar } from "lucide-react"
+import { getContextualImage } from "@/lib/image-utils"
 
 interface PageProps {
   params: Promise<{
@@ -33,8 +34,8 @@ export default async function IndiaPackageDetailPage({ params }: PageProps) {
   }
   const displayRegion = regionNameMap[resolvedParams.region] || country.name
 
-  // Placeholder hero image based on package title
-  const heroImage = `https://picsum.photos/seed/${pkg.slug}/1920/1080`
+  // Contextual hero image based on package slug
+  const heroImage = getContextualImage(pkg.slug, 0, "hero")
 
   return (
     <>
@@ -88,32 +89,30 @@ export default async function IndiaPackageDetailPage({ params }: PageProps) {
             <div className="lg:col-span-2 space-y-12">
               
               {/* Image Gallery */}
-              {pkg.imagePrompts && pkg.imagePrompts.length > 0 && (
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                  <div className="col-span-2 md:col-span-2 row-span-2 relative rounded-2xl overflow-hidden h-[300px] md:h-[416px] group shadow-sm">
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div className="col-span-2 md:col-span-2 row-span-2 relative rounded-2xl overflow-hidden h-[300px] md:h-[416px] group shadow-sm">
+                  <Image 
+                    src={getContextualImage(pkg.slug, 1, "gallery")}
+                    alt={`Gallery Image 1`} 
+                    fill 
+                    className="object-cover group-hover:scale-105 transition-transform duration-700"
+                    sizes="(max-width: 768px) 100vw, 50vw"
+                    unoptimized
+                  />
+                </div>
+                {[2, 3, 4, 5].map((num) => (
+                  <div key={num} className="relative rounded-2xl overflow-hidden h-[142px] md:h-[200px] group shadow-sm">
                     <Image 
-                      src={`https://picsum.photos/seed/${pkg.slug}-1/800/800`}
-                      alt={`Gallery Image 1`} 
+                      src={getContextualImage(pkg.slug, num, "gallery")}
+                      alt={`Gallery Image ${num}`} 
                       fill 
                       className="object-cover group-hover:scale-105 transition-transform duration-700"
-                      sizes="(max-width: 768px) 100vw, 50vw"
+                      sizes="(max-width: 768px) 50vw, 25vw"
                       unoptimized
                     />
                   </div>
-                  {pkg.imagePrompts.slice(1, 5).map((prompt, i) => (
-                    <div key={i} className="relative rounded-2xl overflow-hidden h-[142px] md:h-[200px] group shadow-sm">
-                      <Image 
-                        src={`https://picsum.photos/seed/${pkg.slug}-${i + 2}/400/400`}
-                        alt={`Gallery Image ${i + 2}`} 
-                        fill 
-                        className="object-cover group-hover:scale-105 transition-transform duration-700"
-                        sizes="(max-width: 768px) 50vw, 25vw"
-                        unoptimized
-                      />
-                    </div>
-                  ))}
-                </div>
-              )}
+                ))}
+              </div>
 
               {/* Overview */}
               <section className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
@@ -212,8 +211,16 @@ export default async function IndiaPackageDetailPage({ params }: PageProps) {
                     <span className="ml-auto text-gray-600 font-medium text-right max-w-[120px] truncate">{displayRegion}</span>
                   </div>
                   
-                  <Link href="/contact" className="block w-full text-center bg-gradient-to-r from-[#E31E24] to-[#ff3a40] hover:from-[#c21419] hover:to-[#E31E24] text-white font-bold py-4 px-6 rounded-xl uppercase tracking-widest transition-all duration-300 shadow-lg shadow-[#E31E24]/30 hover:shadow-xl hover:-translate-y-1">
+                  <Link href="/contact" className="block w-full text-center bg-[#E31E24] hover:bg-[#c9171d] text-white font-bold py-4 px-6 rounded-xl uppercase tracking-widest transition-all shadow-lg hover:-translate-y-1">
                     Enquire Now
+                  </Link>
+                  
+                  <Link 
+                    href={`https://wa.me/919842334325?text=${encodeURIComponent(`Hi, I'm interested in the "${pkg.title}" package to ${displayRegion}. Please share more details.`)}`}
+                    target="_blank"
+                    className="block w-full text-center mt-3 bg-[#25D366] hover:bg-[#20BA5A] text-white font-bold py-4 px-6 rounded-xl uppercase tracking-widest transition-all shadow-lg hover:-translate-y-1"
+                  >
+                    WhatsApp Us
                   </Link>
                   
                   <p className="text-center text-xs text-gray-400 mt-4">
@@ -236,7 +243,7 @@ export default async function IndiaPackageDetailPage({ params }: PageProps) {
               <div key={relatedPkg.slug} className="bg-white rounded-2xl overflow-hidden shadow-lg border border-gray-100 group flex flex-col hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
                 <div className="relative h-56 overflow-hidden">
                   <Image
-                    src={`https://picsum.photos/seed/${relatedPkg.slug}/800/600`}
+                    src={getContextualImage(relatedPkg.slug, 0, "card")}
                     alt={relatedPkg.title}
                     fill
                     className="object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out"

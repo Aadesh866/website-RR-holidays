@@ -17,9 +17,6 @@ export const megaMenuData = {
           { name: "Austria", href: "/packages/europe/austria" },
           { name: "Ireland", href: "/packages/europe/ireland" },
           { name: "Czech Republic", href: "/packages/europe/czech-republic" },
-          { name: "Norway", href: "/packages/europe/norway" },
-          { name: "Iceland", href: "/packages/europe/iceland" },
-          { name: "Croatia", href: "/packages/europe/croatia" },
         ]
       }
     ],
@@ -33,7 +30,7 @@ export const megaMenuData = {
           { name: "Singapore", href: "/packages/asia/singapore" },
           { name: "Malaysia", href: "/packages/asia/malaysia" },
           { name: "Vietnam", href: "/packages/asia/vietnam" },
-          { name: "UAE", href: "/packages/asia/uae" },
+          { name: "UAE", href: "/packages/asia/uae-united-arab-emirates" },
           { name: "Maldives", href: "/packages/asia/maldives" },
           { name: "South Korea", href: "/packages/asia/south-korea" },
         ]
@@ -46,8 +43,6 @@ export const megaMenuData = {
         links: [
           { name: "Jordan", href: "/packages/middle-east/jordan" },
           { name: "Oman", href: "/packages/middle-east/oman" },
-          { name: "Qatar", href: "/packages/middle-east/qatar" },
-          { name: "Israel", href: "/packages/middle-east/israel" },
         ]
       },
       {
@@ -55,10 +50,6 @@ export const megaMenuData = {
         links: [
           { name: "South Africa", href: "/packages/africa/south-africa" },
           { name: "Morocco", href: "/packages/africa/morocco" },
-          { name: "Kenya", href: "/packages/africa/kenya" },
-          { name: "Tanzania", href: "/packages/africa/tanzania" },
-          { name: "Mauritius", href: "/packages/africa/mauritius" },
-          { name: "Seychelles", href: "/packages/africa/seychelles" },
         ]
       }
     ],
@@ -69,8 +60,6 @@ export const megaMenuData = {
         links: [
           { name: "Australia", href: "/packages/oceania/australia" },
           { name: "New Zealand", href: "/packages/oceania/new-zealand" },
-          { name: "Fiji", href: "/packages/oceania/fiji" },
-          { name: "Tahiti", href: "/packages/oceania/tahiti" },
         ]
       }
     ],
@@ -79,21 +68,11 @@ export const megaMenuData = {
       {
         title: "North America",
         links: [
-          { name: "USA", href: "/packages/americas/usa" },
-          { name: "Canada", href: "/packages/americas/canada" },
-          { name: "Mexico", href: "/packages/americas/mexico" },
-          { name: "Costa Rica", href: "/packages/americas/costa-rica" },
         ]
       },
       {
         title: "South America",
         links: [
-          { name: "Brazil", href: "/packages/americas/brazil" },
-          { name: "Argentina", href: "/packages/americas/argentina" },
-          { name: "Peru", href: "/packages/americas/peru" },
-          { name: "Chile", href: "/packages/americas/chile" },
-          { name: "Colombia", href: "/packages/americas/colombia" },
-          { name: "Ecuador", href: "/packages/americas/ecuador" },
         ]
       }
     ]

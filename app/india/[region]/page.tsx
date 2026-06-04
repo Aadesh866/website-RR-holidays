@@ -7,9 +7,12 @@ import { CountryEnquiryForm } from "@/components/country-enquiry"
 import { Accordion } from "@/components/accordion"
 import { getPackagesByCountry, parseCountryMarkdown } from "@/lib/packages"
 import { MapPin, Clock, Info, Shield, CreditCard, Camera, Users, Plane, CheckCircle2 } from "lucide-react"
+import { getContextualImage } from "@/lib/image-utils"
 
-export default async function IndiaRegionPage(props: { params: Promise<{ region: string }> }) {
+export default async function IndiaRegionPage(props: { params: Promise<{ region: string }>, searchParams: Promise<{ state?: string }> }) {
   const params = await props.params;
+  const searchParams = await props.searchParams;
+  const stateQuery = searchParams.state;
   
   // Since 'India' is the continent and 'North India' (etc) is treated as the country in our JSON
   const regionData = getPackagesByCountry('india', params.region)
@@ -18,7 +21,15 @@ export default async function IndiaRegionPage(props: { params: Promise<{ region:
     notFound()
   }
 
-  const packages = regionData.packages
+  let packages = regionData.packages
+  
+  if (stateQuery) {
+    packages = packages.filter(pkg => pkg.stateSlug === stateQuery);
+  }
+  
+  if (!packages || packages.length === 0) {
+    packages = regionData.packages; // fallback if no packages for that state
+  }
   const parsedData = parseCountryMarkdown(regionData.markdownContent)
 
   // Map region slug back to a nice name for the hero text
@@ -30,7 +41,11 @@ export default async function IndiaRegionPage(props: { params: Promise<{ region:
     'west-india': 'West India',
     'central-india': 'Central India'
   }
-  const displayRegion = regionNameMap[params.region] || regionData.name
+  let displayRegion = regionNameMap[params.region] || regionData.name
+  
+  if (stateQuery && packages.length > 0 && packages[0].state) {
+    displayRegion = packages[0].state;
+  }
 
   return (
     <>
@@ -40,7 +55,7 @@ export default async function IndiaRegionPage(props: { params: Promise<{ region:
         {/* Stunning Hero Section */}
         <div className="relative h-[60vh] min-h-[500px] w-full">
           <Image
-            src={`https://picsum.photos/seed/india-${params.region}/1920/1080`}
+            src={getContextualImage(stateQuery || params.region, 0, "hero")}
             alt={`${displayRegion} Tour Packages`}
             fill
             className="object-cover"
@@ -65,6 +80,83 @@ export default async function IndiaRegionPage(props: { params: Promise<{ region:
 
         <div className="container mx-auto px-4 max-w-7xl pt-16 relative z-10">
           
+          {/* At a Glance Section */}
+          {parsedData.stats.length > 0 && (
+            <div className="bg-white rounded-2xl shadow-xl p-8 md:p-10 mb-20 border border-gray-100 flex flex-col md:flex-row gap-12 items-center">
+              <div className="w-full md:w-1/3 text-center md:text-left">
+                <h2 className="text-sm font-bold tracking-[0.2em] text-[#E31E24] uppercase mb-3">At A Glance</h2>
+                <h3 className="text-3xl md:text-4xl font-serif text-[#1a1f4e] leading-tight">
+                  South India's No.1 <br/><span className="italic text-gray-500 text-2xl">Travel Brand</span>
+                </h3>
+              </div>
+              
+              <div className="w-full md:w-2/3 grid grid-cols-2 lg:grid-cols-4 gap-8">
+                {parsedData.stats.slice(0, 4).map((stat, idx) => (
+                  <div key={idx} className="flex flex-col">
+                    <span className="text-[#1a1f4e] font-bold text-xl mb-1">{stat.value}</span>
+                    <span className="text-gray-500 text-sm uppercase tracking-wider">{stat.label}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Country Overview */}
+          {parsedData.overview && (
+            <div className="mb-24 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+              <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-2xl">
+                <Image 
+                  src={getContextualImage(stateQuery || params.region, 1, "card")} 
+                  alt={`${displayRegion} Overview`} 
+                  fill 
+                  className="object-cover"
+                />
+              </div>
+              <div>
+                <h2 className="text-3xl md:text-4xl font-serif text-[#1a1f4e] mb-6 relative inline-block">
+                  Everything You Need To Know
+                  <span className="absolute -bottom-2 left-0 w-1/3 h-1 bg-[#E31E24]"></span>
+                </h2>
+                <div className="prose prose-lg text-gray-600 leading-relaxed">
+                  <p>{parsedData.overview}</p>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* Travel Tips Section */}
+          {parsedData.tips.length > 0 && (
+            <div className="mb-24">
+              <div className="text-center mb-12">
+                <h2 className="text-3xl md:text-4xl font-serif text-[#1a1f4e] mb-4">Essential Travel Tips</h2>
+                <p className="text-gray-500 max-w-2xl mx-auto">Prepare for your journey with these handy tips and guidelines specifically curated for {displayRegion}.</p>
+              </div>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                {parsedData.tips.map((tip, idx) => {
+                  const titleLower = tip.title.toLowerCase();
+                  let Icon = Info;
+                  if (titleLower.includes('visa') || titleLower.includes('passport')) Icon = Shield;
+                  else if (titleLower.includes('currency') || titleLower.includes('money') || titleLower.includes('atm')) Icon = CreditCard;
+                  else if (titleLower.includes('health') || titleLower.includes('safety')) Icon = CheckCircle2;
+                  else if (titleLower.includes('transport')) Icon = Plane;
+                  else if (titleLower.includes('attraction')) Icon = Camera;
+                  else if (titleLower.includes('culture') || titleLower.includes('people')) Icon = Users;
+
+                  return (
+                    <div key={idx} className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-xl transition-all duration-300 group">
+                      <div className="w-16 h-16 rounded-full bg-blue-50 flex items-center justify-center mb-6 group-hover:bg-[#E31E24] transition-colors">
+                        <Icon className="w-8 h-8 text-[#1a1f4e] group-hover:text-white transition-colors" />
+                      </div>
+                      <h4 className="text-xl font-serif text-[#1a1f4e] mb-3">{tip.title}</h4>
+                      <p className="text-gray-600 leading-relaxed text-sm">{tip.content}</p>
+                    </div>
+                  )
+                })}
+              </div>
+            </div>
+          )}
+
           {/* Packages Grid */}
           <div className="mb-24">
             <div className="flex justify-between items-end mb-10 border-b border-gray-200 pb-4">
@@ -85,7 +177,7 @@ export default async function IndiaRegionPage(props: { params: Promise<{ region:
                   {/* Image Section */}
                   <div className="relative h-64 w-full overflow-hidden">
                     <Image
-                      src={`https://picsum.photos/seed/${pkg.slug}/800/600`}
+                      src={getContextualImage(pkg.slug, 0, "card")}
                       alt={pkg.title}
                       fill
                       className="object-cover transition-transform duration-700 group-hover:scale-110"

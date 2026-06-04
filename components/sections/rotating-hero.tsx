@@ -7,16 +7,16 @@ import { motion, AnimatePresence } from "framer-motion"
 
 const mediaItems = [
   {
-    type: "video",
-    src: "https://videos.pexels.com/video-files/3015510/3015510-uhd_2560_1440_24fps.mp4",
+    type: "image",
+    src: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=2021&auto=format&fit=crop",
   },
   {
     type: "image",
     src: "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?q=80&w=2020&auto=format&fit=crop",
   },
   {
-    type: "video",
-    src: "https://videos.pexels.com/video-files/2815278/2815278-uhd_2560_1440_24fps.mp4",
+    type: "image",
+    src: "https://images.unsplash.com/photo-1527631746610-bca00a040d60?q=80&w=2000&auto=format&fit=crop",
   },
   {
     type: "image",

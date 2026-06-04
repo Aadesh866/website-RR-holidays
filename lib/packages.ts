@@ -14,6 +14,8 @@ export interface Package {
   inclusions: string[]
   itinerary: ItineraryDay[]
   imagePrompts: string[]
+  state?: string
+  stateSlug?: string
 }
 
 export interface Country {

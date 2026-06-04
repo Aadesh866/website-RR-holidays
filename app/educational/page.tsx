@@ -17,7 +17,7 @@ export default function EducationalPage() {
         {/* Stunning Hero Section */}
         <div className="relative h-[60vh] min-h-[500px] w-full">
           <Image
-            src="https://images.unsplash.com/photo-1546410531-bea5aadcb6ce?q=80&w=2062&auto=format&fit=crop"
+            src="https://images.unsplash.com/photo-1519999482648-25049ddd37b1?q=80&w=2062&auto=format&fit=crop"
             alt="Educational & Student Tour Packages"
             fill
             className="object-cover"

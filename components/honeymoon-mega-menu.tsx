@@ -12,11 +12,11 @@ export function HoneymoonMegaMenu() {
             <ul className="space-y-0.5 mt-1">
               {[
                 { name: "Maldives Honeymoon", href: "/packages/asia/maldives" },
-                { name: "Bali Retreats", href: "/packages/asia/indonesia" },
+                { name: "Santorini Getaway", href: "/packages/europe/greece" },
                 { name: "Swiss Alps Romance", href: "/packages/europe/switzerland" },
                 { name: "Parisian Getaway", href: "/packages/europe/france" },
-                { name: "Kerala Backwaters", href: "/india/kerala" },
-                { name: "Andaman Islands", href: "/india/andaman-and-nicobar-islands" },
+                { name: "Kerala Backwaters", href: "/india/south-india?state=kerala" },
+                { name: "Kashmir Paradise", href: "/india/north-india?state=jammu-and-kashmir" },
               ].map((link) => (
                 <li key={link.name}>
                   <Link
