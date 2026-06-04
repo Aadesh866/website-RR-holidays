@@ -88,6 +88,13 @@
           "Cape Point lighthouse on dramatic cliff with ocean meeting and hiking trails",
           "Stellenbosch wine estate with Cape Dutch architecture, vineyards, and mountains",
           "Garden Route coastal drive with ocean, cliffs, and winding road through greenery"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/8/8d/Camps_bay_%2853460319478%29_%28cropped%29.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/d/dc/Table_Mountain_DanieVDM.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e7/Playa_Dias%2C_Cape_Point%2C_Sud%C3%A1frica%2C_2018-07-23%2C_DD_103.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/5/55/Wikimania_2018%2C_Cape_Town_%28_1050602%29%2C_crop.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/c/cc/Tourists_looking_at_Table_Mountain_and_Cape_Town_from_viewpoint_on_Robben_Island.jpg"
         ]
       },
       {
@@ -174,6 +181,13 @@
           "Luxury safari lodge deck overlooking waterhole with sunset and wildlife",
           "Leopard in tree with spotted coat and intense gaze in Kruger bush",
           "Collage of South Africa: safari animals, Table Mountain, wine country, Cape Point"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/8/8d/Camps_bay_%2853460319478%29_%28cropped%29.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/f/f0/Kruger_Zebra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/6/63/Federal_Air_aircraft_in_Ulusaba%2C_South_Africa.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/d/d4/Shamwari_Game_Reserve%2C_South_Africa.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/c/cc/Tourists_looking_at_Table_Mountain_and_Cape_Town_from_viewpoint_on_Robben_Island.jpg"
         ]
       }
     ],
@@ -254,7 +268,8 @@
           "Board your flight with wonderful memories of your trip."
         ]
       }
-    ]
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Tourists_looking_at_Table_Mountain_and_Cape_Town_from_viewpoint_on_Robben_Island.jpg"
   },
   {
     "name": "MOROCCO",
@@ -354,6 +369,13 @@
           "Narrow alley in Fes medina with shops, textiles hanging, and traditional architecture",
           "Bahia Palace ornate courtyard with zellige tilework, carved cedar, and fountain",
           "Hassan II Mosque in Casablanca with minaret and Atlantic Ocean waves"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
         ]
       }
     ],
@@ -434,7 +456,8 @@
           "Board your flight with wonderful memories of your trip."
         ]
       }
-    ]
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
   },
   {
     "name": "JAPAN",
@@ -512,6 +535,13 @@
           "Tokyo Skytree tower illuminated at night with city lights and modern skyline",
           "Tsukiji fish market with fresh tuna, seafood displays, and chefs preparing sushi",
           "Harajuku Takeshita Street with colorful shops, youth fashion, and vibrant street culture"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
         ]
       },
       {
@@ -582,6 +612,13 @@
           "Arashiyama Bamboo Grove with tall green bamboo stalks creating natural corridor",
           "Geisha in traditional kimono walking through Gion district's narrow street at dusk",
           "Traditional Japanese tea ceremony with matcha tea, ceramic bowl, and tatami mat setting"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
         ]
       },
       {
@@ -650,6 +687,13 @@
           "Himeji Castle white facade with multiple roofs and cherry blossoms in foreground",
           "Collage of three cities: Tokyo Shibuya, Kyoto temple, Osaka street food",
           "Japanese kaiseki meal with multiple small dishes beautifully presented on lacquerware"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
         ]
       },
       {
@@ -727,6 +771,13 @@
           "Outdoor onsen hot spring bath with mountain views and autumn colors",
           "Matsumoto Castle black facade reflected in moat with Japanese Alps background",
           "Takayama old town with traditional wooden buildings, sake breweries, and lanterns"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
         ]
       },
       {
@@ -811,6 +862,13 @@
           "Mount Fuji with cherry blossoms in foreground and blue sky",
           "Night illumination of cherry blossoms at Japanese temple with lanterns",
           "Meguro River in Tokyo with cherry trees creating pink canopy over water and crowds"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
         ]
       },
       {
@@ -884,6 +942,13 @@
           "Otaru canal with historic warehouses, snow, and romantic lighting at dusk",
           "Red-crowned cranes dancing in snowy Hokkaido landscape",
           "Fresh Hokkaido seafood including crab, uni, and ikura on ice display"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
         ]
       }
     ],
@@ -964,7 +1029,8 @@
           "Board your flight with wonderful memories of your trip."
         ]
       }
-    ]
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
   },
   {
     "name": "THAILAND",
@@ -1032,6 +1098,13 @@
           "Wat Arun Temple of Dawn with porcelain-decorated spires reflecting in Chao Phraya River at sunset",
           "Bangkok street food stall with pad thai being cooked in wok and colorful ingredients",
           "Reclining Buddha at Wat Pho with golden statue and ornate temple interior"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/5/53/%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%9E%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B9%84%E0%B8%AA%E0%B8%A2%E0%B8%B2%E0%B8%AA%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B9%80%E0%B8%8A%E0%B8%95%E0%B8%B8%E0%B8%9E%E0%B8%99.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/3/36/Jukung_Pasar_Terapung.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/17/Naphamethinidon%2C_Naphaphonphumisiri_near_summit_of_Doi_Inthanon.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg"
         ]
       },
       {
@@ -1108,6 +1181,13 @@
           "Phuket beach sunset with palm trees silhouette, orange sky, and calm sea",
           "Snorkeling in clear tropical water with colorful coral reef and tropical fish",
           "Beach club in Phuket with infinity pool, loungers, and ocean view"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/6/60/Phuket_Aerial.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/3/34/Maya_Bay%2C_Thailand_by_Mike_Clegg_Photography.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/3/3e/Dramatic_karst_landscape_of_Phang_Nga_Bay%2C_Thailand.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/8/88/Patong_Beach.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/17/Naphamethinidon%2C_Naphaphonphumisiri_near_summit_of_Doi_Inthanon.jpg"
         ]
       },
       {
@@ -1177,6 +1257,13 @@
           "Chiang Mai Sunday Walking Street market with crowds, lanterns, and handicraft stalls",
           "Thai cooking class with ingredients, wok, and students learning to cook pad thai",
           "Ancient temple in Chiang Mai Old City with traditional Lanna architecture and monks"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/1/17/Naphamethinidon%2C_Naphaphonphumisiri_near_summit_of_Doi_Inthanon.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/18/Wat_Phra_That_Doi_Suthep_-_Chiang_Mai.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
         ]
       },
       {
@@ -1234,6 +1321,13 @@
           "Thai train journey through countryside with rice paddies and mountains",
           "Collage showing Bangkok Grand Palace, Ayutthaya ruins, and Chiang Mai temple",
           "Wat Chaiwatthanaram temple complex reflected in water at sunset"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
         ]
       },
       {
@@ -1301,6 +1395,13 @@
           "Four Islands tour with speedboat, snorkelers, and tropical islands",
           "Emerald Pool natural swimming hole with crystal-clear green water in jungle",
           "Phra Nang Cave Beach with limestone cave, white sand, and turquoise sea"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
         ]
       },
       {
@@ -1368,6 +1469,13 @@
           "Ang Thong Marine Park with emerald lagoon surrounded by limestone islands from viewpoint",
           "Beach club infinity pool overlooking ocean with loungers and tropical cocktails",
           "Fisherman's Village Bophut with traditional wooden houses, restaurants, and sunset"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
         ]
       }
     ],
@@ -1448,7 +1556,8 @@
           "Board your flight with wonderful memories of your trip."
         ]
       }
-    ]
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
   },
   {
     "name": "SINGAPORE",
@@ -1533,6 +1642,13 @@
           "Personal expenses like laundry, tips, phone calls",
           "Meals other than specified",
           "Any optional tours or activities"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
         ]
       },
       {
@@ -1612,6 +1728,13 @@
           "Personal expenses like laundry, tips, phone calls",
           "Meals other than specified",
           "Any optional tours or activities"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
         ]
       },
       {
@@ -1691,6 +1814,13 @@
           "Personal expenses like laundry, tips, phone calls",
           "Meals other than specified",
           "Any optional tours or activities"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
         ]
       }
     ],
@@ -1771,7 +1901,8 @@
           "Board your flight with wonderful memories of your trip."
         ]
       }
-    ]
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
   },
   {
     "name": "MALAYSIA",
@@ -1856,6 +1987,13 @@
           "Personal expenses like laundry, tips, phone calls",
           "Meals other than specified",
           "Any optional tours or activities"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
         ]
       },
       {
@@ -1935,6 +2073,13 @@
           "Personal expenses like laundry, tips, phone calls",
           "Meals other than specified",
           "Any optional tours or activities"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
         ]
       },
       {
@@ -2014,6 +2159,13 @@
           "Personal expenses like laundry, tips, phone calls",
           "Meals other than specified",
           "Any optional tours or activities"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
         ]
       },
       {
@@ -2093,6 +2245,13 @@
           "Personal expenses like laundry, tips, phone calls",
           "Meals other than specified",
           "Any optional tours or activities"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
         ]
       }
     ],
@@ -2173,7 +2332,8 @@
           "Board your flight with wonderful memories of your trip."
         ]
       }
-    ]
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
   },
   {
     "name": "VIETNAM",
@@ -2258,6 +2418,13 @@
           "Personal expenses like laundry, tips, phone calls",
           "Meals other than specified",
           "Any optional tours or activities"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
         ]
       },
       {
@@ -2337,6 +2504,13 @@
           "Personal expenses like laundry, tips, phone calls",
           "Meals other than specified",
           "Any optional tours or activities"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
         ]
       },
       {
@@ -2416,6 +2590,13 @@
           "Personal expenses like laundry, tips, phone calls",
           "Meals other than specified",
           "Any optional tours or activities"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
         ]
       },
       {
@@ -2495,6 +2676,13 @@
           "Personal expenses like laundry, tips, phone calls",
           "Meals other than specified",
           "Any optional tours or activities"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
         ]
       }
     ],
@@ -2575,7 +2763,8 @@
           "Board your flight with wonderful memories of your trip."
         ]
       }
-    ]
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
   },
   {
     "name": "UAE (UNITED ARAB EMIRATES)",
@@ -2660,6 +2849,13 @@
           "Personal expenses like laundry, tips, phone calls",
           "Meals other than specified",
           "Any optional tours or activities"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
         ]
       },
       {
@@ -2739,6 +2935,13 @@
           "Personal expenses like laundry, tips, phone calls",
           "Meals other than specified",
           "Any optional tours or activities"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
         ]
       },
       {
@@ -2818,6 +3021,13 @@
           "Personal expenses like laundry, tips, phone calls",
           "Meals other than specified",
           "Any optional tours or activities"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
         ]
       }
     ],
@@ -2898,7 +3108,8 @@
           "Board your flight with wonderful memories of your trip."
         ]
       }
-    ]
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
   },
   {
     "name": "MALDIVES",
@@ -2983,6 +3194,13 @@
           "Personal expenses like laundry, tips, phone calls",
           "Meals other than specified",
           "Any optional tours or activities"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
         ]
       },
       {
@@ -3062,6 +3280,13 @@
           "Personal expenses like laundry, tips, phone calls",
           "Meals other than specified",
           "Any optional tours or activities"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
         ]
       },
       {
@@ -3141,6 +3366,13 @@
           "Personal expenses like laundry, tips, phone calls",
           "Meals other than specified",
           "Any optional tours or activities"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
         ]
       }
     ],
@@ -3221,7 +3453,8 @@
           "Board your flight with wonderful memories of your trip."
         ]
       }
-    ]
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
   },
   {
     "name": "SOUTH KOREA",
@@ -3306,6 +3539,13 @@
           "Personal expenses like laundry, tips, phone calls",
           "Meals other than specified",
           "Any optional tours or activities"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
         ]
       },
       {
@@ -3385,6 +3625,13 @@
           "Personal expenses like laundry, tips, phone calls",
           "Meals other than specified",
           "Any optional tours or activities"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
         ]
       },
       {
@@ -3464,6 +3711,13 @@
           "Personal expenses like laundry, tips, phone calls",
           "Meals other than specified",
           "Any optional tours or activities"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
         ]
       },
       {
@@ -3526,6 +3780,13 @@
           "Colorful shophouses in Chinatown Singapore with red lanterns and traditional architecture",
           "Singapore hawker center with diverse food stalls, locals eating, and authentic Asian dishes",
           "Sentosa Island beach with cable car, palm trees, and turquoise water"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e2/Samsung_headquarters.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg"
         ]
       },
       {
@@ -3594,6 +3855,13 @@
           "Singapore Zoo orangutan in natural habitat with visitors watching from viewing area",
           "Night Safari tram with nocturnal animals visible in atmospheric lighting",
           "Kids playing at Sentosa beach with suspension bridge and palm trees"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/1/1e/ENHYPEN_220423.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/9/9c/Sea_Life_Helsinki.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/6/67/Giselle_at_Incheon_Airport_on_March_4%2C_2026.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e2/Samsung_headquarters.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg"
         ]
       },
       {
@@ -3646,6 +3914,13 @@
           "Busy Orchard Road shopping street with modern malls and crowds",
           "Clarke Quay riverside with colorful colonial buildings and restaurants at night",
           "Jewel Changi Airport indoor Rain Vortex waterfall with lush gardens"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/d/d4/Korean_Air_HL7406_Boeing_707-3B5C_at_Nagoya_Airport%2C_October_1987.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/c/ca/Singapore-UMF.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/7/7d/%EC%B0%BD%EB%8D%95%EA%B6%81_%EC%A3%BC%ED%95%A9%EB%A3%A8_%EB%B6%80%EC%9A%A9%EC%A7%80_%EC%A0%84%EA%B2%BD.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/a/aa/Carlingford-view_SW_from_Mobbs_Hill_to_mountains.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -3715,6 +3990,13 @@
           "Malacca's Dutch Square with red Christ Church and colonial buildings",
           "Jonker Street night market in Malacca with lanterns, food stalls, and crowds",
           "Malaysian street food spread with satay, nasi lemak, roti canai, and tropical fruits"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       }
     ],
@@ -3795,7 +4077,8 @@
           "Board your flight with wonderful memories of your trip."
         ]
       }
-    ]
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
   },
   {
     "name": "ITALY",
@@ -3869,6 +4152,13 @@
           "Baroque Trevi Fountain with cascading water, marble sculptures, and crowds tossing coins in the evening twilight",
           "Panoramic view of Rome's terracotta rooftops and domed churches from St. Peter's Basilica dome at sunset",
           "Charming cobblestone street in Trastevere district with ivy-covered buildings, outdoor cafes, and warm golden lighting"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -3945,6 +4235,13 @@
           "Colorful houses of Burano Island with vibrant pink, yellow, and blue facades lining peaceful canal with moored boats",
           "Michelangelo's David sculpture in Accademia Gallery with dramatic museum lighting highlighting the marble masterpiece",
           "Panoramic sunset view of Florence with the Duomo's terracotta dome dominating the skyline and Tuscan hills in the distance"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -4031,6 +4328,13 @@
           "Ethereal blue glow inside Capri's Blue Grotto sea cave with sunlight creating magical azure water illumination",
           "Terraced gardens of Villa Rufolo in Ravello with blooming flowers and panoramic Amalfi Coast views stretching to the horizon",
           "Winding coastal road carved into cliffs with lemon groves, Mediterranean Sea below, and traditional Italian villages perched on mountainside"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -4109,6 +4413,13 @@
           "Rustic wine cellar with oak barrels, dim atmospheric lighting, and glasses of ruby Chianti wine on wooden table",
           "Siena's Piazza del Campo with distinctive shell-shaped brick paving and Gothic Palazzo Pubblico tower against blue sky",
           "Hands rolling fresh pasta dough on wooden table with flour, eggs, and traditional Italian kitchen tools in Tuscan villa"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -4195,6 +4506,13 @@
           "Charming Bellagio village with colorful buildings along Lake Como waterfront and snow-capped Alps in background",
           "Dramatic jagged peaks of the Dolomites with Alpine meadows, mountain cable car, and hikers on scenic trail",
           "Milan's Gothic Duomo cathedral with intricate white marble spires against blue sky and crowds in the piazza"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -4289,6 +4607,13 @@
           "Ancient Greek theater in Taormina with stone semicircular seating, Mount Etna in background, and turquoise sea view",
           "Vibrant Palermo street market with colorful produce displays, hanging seafood, and locals shopping in narrow historic alley",
           "Baroque golden limestone buildings of Noto with ornate balconies, grand cathedral, and elegant street perspective at sunset"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       }
     ],
@@ -4369,7 +4694,8 @@
           "Board your flight with wonderful memories of your trip."
         ]
       }
-    ]
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
   },
   {
     "name": "FRANCE",
@@ -4445,6 +4771,13 @@
           "Charming Montmartre street with cobblestones, artists painting, accordion player, and Sacré-Cœur Basilica in background",
           "Romantic Seine River cruise boat passing under ornate bridge with Notre-Dame Cathedral and Parisian buildings at twilight",
           "Elegant Parisian café terrace with red awning, wicker chairs, and view of Haussmann buildings and tree-lined boulevard"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -4531,6 +4864,13 @@
           "Medieval stone buildings and narrow cobblestone streets of Saint-Paul-de-Vence hilltop village with art galleries and flower boxes",
           "Private yacht sailing along French Riviera coast with turquoise water, champagne glasses on deck, and coastal villas in background",
           "Cannes La Croisette boulevard with palm trees, luxury hotels, sandy beach, and blue Mediterranean Sea at golden hour"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -4609,6 +4949,13 @@
           "Ornamental Renaissance gardens of Château de Villandry with geometric patterns, colorful flower beds, and manicured hedges from aerial view",
           "Romantic Château d'Azay-le-Rideau surrounded by moat with perfect reflection, Renaissance turrets, and lush greenery",
           "Hot air balloon floating over Loire Valley countryside with châteaux, vineyards, and the Loire River at sunrise"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -4695,6 +5042,13 @@
           "Vibrant ochre cliffs and red-orange buildings of Roussillon village with dramatic geological formations",
           "Ancient Roman amphitheater in Arles with stone arches and seating under bright Mediterranean sunlight",
           "Traditional Provençal market with colorful produce displays, fresh herbs, lavender bundles, and local vendors"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -4780,6 +5134,13 @@
           "Claude Monet's water lily pond in Giverny with Japanese bridge, weeping willows, and colorful flowers",
           "Medieval walled city of Saint-Malo with granite ramparts, towers, and turquoise sea at high tide",
           "Ancient standing stones of Carnac megaliths in rows across grassy field under blue Brittany sky"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       }
     ],
@@ -4860,7 +5221,8 @@
           "Board your flight with wonderful memories of your trip."
         ]
       }
-    ]
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
   },
   {
     "name": "SWITZERLAND",
@@ -4960,6 +5322,13 @@
           "Rotating Rotair cable car ascending Mt. Titlis with dramatic snow-covered mountain peaks and glacier views",
           "Chapel Bridge in Lucerne with painted panels, flower boxes, and Water Tower reflected in calm lake water",
           "Traditional wooden chalets in car-free Zermatt village with Matterhorn peak towering in background"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -5046,6 +5415,13 @@
           "Medieval Chillon Castle on Lake Geneva with stone towers, turrets, and mountains reflected in calm water",
           "Terraced Lavaux vineyards cascading down hillside to Lake Geneva with neat rows of grapevines and Alpine backdrop",
           "Lugano's palm-lined lakeside promenade with colorful buildings, outdoor cafes, and Mediterranean atmosphere"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -5124,6 +5500,13 @@
           "Gornergrat railway cogwheel train ascending mountain with Matterhorn peak dominating the background",
           "GoldenPass panoramic train traveling along Lake Brienz with turquoise water and Alpine scenery",
           "St. Moritz elegant lakeside resort with luxury hotels, mountains reflected in lake, and blue sky"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -5208,6 +5591,13 @@
           "Traditional Swiss Christmas market with wooden chalets, twinkling lights, and snow-covered Alpine backdrop",
           "Jungfraujoch Top of Europe in winter with snow-covered observation deck, Swiss flags, and glacier panorama",
           "Traditional Swiss fondue pot with melted cheese, bread cubes, and wine in rustic mountain restaurant setting"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -5294,6 +5684,13 @@
           "Aletsch Glacier winding through Alpine valley with hikers on trail and snow-covered peaks",
           "Five Lakes Walk trail with hiker overlooking mountain lake reflecting Matterhorn and blue sky",
           "Alpine meadow filled with colorful wildflowers, traditional Swiss chalet, and mountain backdrop in summer"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       }
     ],
@@ -5374,7 +5771,8 @@
           "Board your flight with wonderful memories of your trip."
         ]
       }
-    ]
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
   },
   {
     "name": "SPAIN",
@@ -5450,6 +5848,13 @@
           "Casa Batlló's dragon-scale facade with colorful ceramic tiles, organic balconies, and skull-like windows",
           "Narrow medieval street in Gothic Quarter with stone buildings, hanging laundry, and cathedral tower visible",
           "La Boqueria market with vibrant displays of fresh fruits, vegetables, seafood, and hanging jamón legs"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -5520,6 +5925,13 @@
           "Toledo medieval city perched on hilltop surrounded by Tagus River with cathedral and Alcázar at sunset",
           "Crystal Palace in Retiro Park with glass structure reflected in lake surrounded by green trees",
           "Passionate flamenco dancer in red dress performing with dramatic lighting and guitarist in background"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -5612,6 +6024,13 @@
           "Mezquita of Córdoba interior with endless rows of red and white striped horseshoe arches",
           "Seville's Plaza de España with colorful ceramic tile work, canal, and ornate bridges at sunset",
           "View of Alhambra from Albaicín with snow-capped Sierra Nevada mountains in background at golden hour"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -5690,6 +6109,13 @@
           "Whitewashed streets of Frigiliana village with colorful flower pots, narrow alleys, and mountain views",
           "Catamaran sailing along Costa del Sol at sunset with golden light on water and coastal cliffs",
           "Beach club on Costa del Sol with white loungers, palm trees, turquoise sea, and people relaxing"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -5767,6 +6193,13 @@
           "Colorful pintxos displayed on bar counter with creative toppings, toothpicks, and wine glasses",
           "Traditional Basque cider house with wooden barrels, people catching cider streams, and rustic atmosphere",
           "Charming harbor of Getaria fishing village with colorful boats, traditional houses, and coastal mountains"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       }
     ],
@@ -5847,7 +6280,8 @@
           "Board your flight with wonderful memories of your trip."
         ]
       }
-    ]
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
   },
   {
     "name": "UNITED KINGDOM",
@@ -5923,6 +6357,13 @@
           "Tower of London medieval fortress with Beefeater guard and Crown Jewels display",
           "British Museum's Great Court with geometric glass ceiling and classical columns",
           "Traditional red double-decker bus on London street with Big Ben in background"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -6008,6 +6449,13 @@
           "Dramatic Glencoe valley with towering mountains, winding road, and Scottish Highlands landscape",
           "Traditional Scottish whisky distillery with copper pot stills and oak barrels",
           "Lone piper in kilt playing bagpipes on Edinburgh's Royal Mile with historic buildings"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -6086,6 +6534,13 @@
           "Roman Baths in Bath with green thermal water, ancient columns, and Bath Abbey in background",
           "Traditional English countryside pub with thatched roof, flower gardens, and stone walls",
           "Blenheim Palace grand facade with ornate architecture, fountain, and manicured gardens"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -6162,6 +6617,13 @@
           "Colorful Italianate buildings of Portmeirion village with coastal views and gardens",
           "Pembrokeshire Coast dramatic cliffs with turquoise sea, coastal path, and wildflowers",
           "Cardiff Castle with Roman walls, Norman keep, and Victorian Gothic towers in city center"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -6230,6 +6692,13 @@
           "Medieval Shambles street in York with overhanging timber buildings and narrow cobblestones",
           "Scottish Borders rolling hills with sheep grazing and ancient abbey ruins",
           "Panoramic view from London to Edinburgh journey showing British countryside and landmarks"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       }
     ],
@@ -6310,7 +6779,8 @@
           "Board your flight with wonderful memories of your trip."
         ]
       }
-    ]
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
   },
   {
     "name": "GREECE",
@@ -6386,6 +6856,13 @@
           "Narrow street in Plaka neighborhood with colorful bougainvillea, tavernas, and Acropolis view",
           "Temple of Poseidon at Cape Sounion on cliff edge at sunset with orange sky and Aegean Sea",
           "Ancient Agora with Temple of Hephaestus columns and ruins with tourists exploring"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/0/00/The_Ancient_Agora_from_the_Areopagus_on_May_12%2C_2020.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/7/7b/The_Acropolis_of_Athens_on_June_1%2C_2021.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/0/01/Island_of_Crete%2C_Greece.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg"
         ]
       },
       {
@@ -6471,6 +6948,13 @@
           "Mykonos iconic white windmills with thatched roofs against blue sky and sea",
           "Little Venice in Mykonos with colorful balconies hanging over turquoise water at sunset",
           "Catamaran sailing past Santorini's red cliffs with passengers swimming in crystal-clear water"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/2/21/Ios_collage.png",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bf/2011_Dimos_Thiras.png",
+          "https://upload.wikimedia.org/wikipedia/commons/0/03/Vineyard_in_Naoussa%2C_Central_Macedonia%2C_Greece.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/b2/2011_Dimos_Mykonou.png",
+          "https://upload.wikimedia.org/wikipedia/commons/d/de/Pamukkale_30.jpg"
         ]
       },
       {
@@ -6563,6 +7047,13 @@
           "Elafonissi beach with pink sand, turquoise shallow water, and people relaxing",
           "Samaria Gorge dramatic narrow passage with high rock walls and hikers on trail",
           "Traditional Cretan taverna with wooden tables, local dishes, raki, and mountain village setting"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/3/34/Egremni_beach.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/e/ea/Knossos_-_North_Portico_02.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -6643,6 +7134,13 @@
           "Paros traditional Cycladic village with white buildings, blue doors, and bougainvillea",
           "Island hopping map showing Athens, Mykonos, Paros, and Santorini with ferry routes",
           "Greek island sunset with silhouette of church dome and Aegean Sea in orange light"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -6720,6 +7218,13 @@
           "Monk walking on stone path to monastery on Meteora rock formation at sunset",
           "Delphi archaeological site with ancient theater overlooking mountain valley and olive groves",
           "Byzantine frescoes inside Meteora monastery with golden religious artwork and icons"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       }
     ],
@@ -6800,7 +7305,8 @@
           "Board your flight with wonderful memories of your trip."
         ]
       }
-    ]
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
   },
   {
     "name": "GERMANY",
@@ -6876,6 +7382,13 @@
           "Reichstag building with glass dome and German flag against blue sky",
           "Holocaust Memorial with gray concrete blocks in geometric pattern and visitors walking through",
           "Sanssouci Palace in Potsdam with yellow facade, terraced gardens, and fountains"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -6961,6 +7474,13 @@
           "Rothenburg ob der Tauber medieval town with half-timbered houses and cobblestone streets",
           "Traditional Bavarian beer hall interior with long wooden tables, beer steins, and festive atmosphere",
           "Würzburg Residenz palace with ornate baroque architecture and formal gardens"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -7039,6 +7559,13 @@
           "Black Forest dense woodland with traditional half-timbered farmhouse and misty atmosphere",
           "Triberg waterfalls cascading through Black Forest with wooden walkways and greenery",
           "Cologne Cathedral Gothic spires towering over Rhine River and city at sunset"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -7116,6 +7643,13 @@
           "Glühwein mugs steaming with mulled wine, cinnamon sticks, and Christmas decorations",
           "Rothenburg medieval town covered in snow with Christmas market and festive lights",
           "Traditional German Christmas ornaments, nutcrackers, and handcrafted decorations display"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       }
     ],
@@ -7196,7 +7730,8 @@
           "Board your flight with wonderful memories of your trip."
         ]
       }
-    ]
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
   },
   {
     "name": "NETHERLANDS",
@@ -7264,6 +7799,13 @@
           "Colorful tulips at Amsterdam flower market with canal and buildings in background",
           "Bicycles parked along Amsterdam canal with typical narrow houses and bridge",
           "Van Gogh Museum modern building with sunflowers painting display inside"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -7333,6 +7875,13 @@
           "Traditional Dutch windmill at Zaanse Schans with green wooden structure and canal",
           "Endless tulip fields in Netherlands with rows of red, yellow, and pink flowers stretching to horizon",
           "Delft canal with traditional Dutch houses, church tower, and blue pottery display"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       }
     ],
@@ -7413,7 +7962,8 @@
           "Board your flight with wonderful memories of your trip."
         ]
       }
-    ]
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
   },
   {
     "name": "PORTUGAL",
@@ -7489,6 +8039,13 @@
           "Belém Tower on Tagus River with Manueline architecture and blue sky",
           "Alfama neighborhood narrow street with laundry hanging, azulejo tiles, and castle view",
           "Traditional fado singer performing in intimate Lisbon restaurant with Portuguese guitar"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -7558,6 +8115,13 @@
           "Port wine cellar with rows of oak barrels and tasting glasses of ruby and tawny port",
           "Livraria Lello bookstore interior with ornate red staircase, carved wood, and stained glass",
           "Traditional Portuguese quinta wine estate with whitewashed buildings and vineyard views"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       }
     ],
@@ -7638,7 +8202,8 @@
           "Board your flight with wonderful memories of your trip."
         ]
       }
-    ]
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
   },
   {
     "name": "AUSTRIA",
@@ -7723,6 +8288,13 @@
           "Personal expenses like laundry, tips, phone calls",
           "Meals other than specified",
           "Any optional tours or activities"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -7802,6 +8374,13 @@
           "Personal expenses like laundry, tips, phone calls",
           "Meals other than specified",
           "Any optional tours or activities"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -7881,6 +8460,13 @@
           "Personal expenses like laundry, tips, phone calls",
           "Meals other than specified",
           "Any optional tours or activities"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       }
     ],
@@ -7961,7 +8547,8 @@
           "Board your flight with wonderful memories of your trip."
         ]
       }
-    ]
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
   },
   {
     "name": "IRELAND",
@@ -8046,6 +8633,13 @@
           "Personal expenses like laundry, tips, phone calls",
           "Meals other than specified",
           "Any optional tours or activities"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -8125,6 +8719,13 @@
           "Personal expenses like laundry, tips, phone calls",
           "Meals other than specified",
           "Any optional tours or activities"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -8204,6 +8805,13 @@
           "Personal expenses like laundry, tips, phone calls",
           "Meals other than specified",
           "Any optional tours or activities"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       }
     ],
@@ -8284,7 +8892,8 @@
           "Board your flight with wonderful memories of your trip."
         ]
       }
-    ]
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
   },
   {
     "name": "CZECH REPUBLIC",
@@ -8369,6 +8978,13 @@
           "Personal expenses like laundry, tips, phone calls",
           "Meals other than specified",
           "Any optional tours or activities"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -8448,6 +9064,13 @@
           "Personal expenses like laundry, tips, phone calls",
           "Meals other than specified",
           "Any optional tours or activities"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       },
       {
@@ -8527,6 +9150,13 @@
           "Personal expenses like laundry, tips, phone calls",
           "Meals other than specified",
           "Any optional tours or activities"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
         ]
       }
     ],
@@ -8607,7 +9237,8 @@
           "Board your flight with wonderful memories of your trip."
         ]
       }
-    ]
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
   },
   {
     "name": "NORTH INDIA",
@@ -8700,7 +9331,14 @@
           "Any optional tours or activities"
         ],
         "state": "Delhi & Agra",
-        "stateSlug": "delhi"
+        "stateSlug": "delhi",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
+        ]
       },
       {
         "title": "Rajasthan Royal (8N/9D)",
@@ -8781,7 +9419,14 @@
           "Any optional tours or activities"
         ],
         "state": "Rajasthan",
-        "stateSlug": "rajasthan"
+        "stateSlug": "rajasthan",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
+        ]
       },
       {
         "title": "Himachal Mountains (6N/7D)",
@@ -8862,7 +9507,14 @@
           "Any optional tours or activities"
         ],
         "state": "Himachal Pradesh",
-        "stateSlug": "himachal-pradesh"
+        "stateSlug": "himachal-pradesh",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
+        ]
       },
       {
         "title": "Kashmir Paradise (5N/6D)",
@@ -8943,7 +9595,14 @@
           "Any optional tours or activities"
         ],
         "state": "Jammu and Kashmir",
-        "stateSlug": "jammu-and-kashmir"
+        "stateSlug": "jammu-and-kashmir",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
+        ]
       }
     ],
     "duration": "5 Days / 4 Nights",
@@ -9023,7 +9682,8 @@
           "Board your flight with wonderful memories of your trip."
         ]
       }
-    ]
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
   },
   {
     "name": "SOUTH INDIA",
@@ -9116,7 +9776,14 @@
           "Any optional tours or activities"
         ],
         "state": "Kerala",
-        "stateSlug": "kerala"
+        "stateSlug": "kerala",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
+        ]
       },
       {
         "title": "South India Temple Trail (8N/9D)",
@@ -9197,7 +9864,14 @@
           "Any optional tours or activities"
         ],
         "state": "Tamil Nadu",
-        "stateSlug": "tamil-nadu"
+        "stateSlug": "tamil-nadu",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
+        ]
       },
       {
         "title": "Karnataka Heritage (6N/7D)",
@@ -9278,7 +9952,14 @@
           "Any optional tours or activities"
         ],
         "state": "Karnataka",
-        "stateSlug": "karnataka"
+        "stateSlug": "karnataka",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
+        ]
       }
     ],
     "duration": "5 Days / 4 Nights",
@@ -9358,7 +10039,8 @@
           "Board your flight with wonderful memories of your trip."
         ]
       }
-    ]
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
   },
   {
     "name": "EAST INDIA",
@@ -9445,7 +10127,14 @@
           "Any optional tours or activities"
         ],
         "state": "West Bengal",
-        "stateSlug": "west-bengal"
+        "stateSlug": "west-bengal",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e9/Interior_of_Juno_observation_car_at_Illinois_Railway_Museum.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4e/Tirumala_090615.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/f/f9/Matterhorn_and_Gornergratbahn.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg"
+        ]
       },
       {
         "title": "Odisha Temples (4N/5D)",
@@ -9526,7 +10215,14 @@
           "Any optional tours or activities"
         ],
         "state": "Odisha",
-        "stateSlug": "odisha"
+        "stateSlug": "odisha",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/4/47/Brit_IndianEmpireReligions3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e9/Interior_of_Juno_observation_car_at_Illinois_Railway_Museum.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4e/Tirumala_090615.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/f/f9/Matterhorn_and_Gornergratbahn.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg"
+        ]
       }
     ],
     "duration": "5 Days / 4 Nights",
@@ -9606,7 +10302,8 @@
           "Board your flight with wonderful memories of your trip."
         ]
       }
-    ]
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
   },
   {
     "name": "NORTH EAST INDIA",
@@ -9693,7 +10390,14 @@
           "Any optional tours or activities"
         ],
         "state": "Meghalaya",
-        "stateSlug": "meghalaya"
+        "stateSlug": "meghalaya",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/6/6e/Angel_of_the_North_2-10-14.png",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg"
+        ]
       },
       {
         "title": "Sikkim & Darjeeling (6N/7D)",
@@ -9774,7 +10478,14 @@
           "Any optional tours or activities"
         ],
         "state": "Sikkim",
-        "stateSlug": "sikkim"
+        "stateSlug": "sikkim",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg"
+        ]
       }
     ],
     "duration": "5 Days / 4 Nights",
@@ -9854,7 +10565,8 @@
           "Board your flight with wonderful memories of your trip."
         ]
       }
-    ]
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
   },
   {
     "name": "WEST INDIA",
@@ -9947,7 +10659,14 @@
           "Any optional tours or activities"
         ],
         "state": "Goa",
-        "stateSlug": "goa"
+        "stateSlug": "goa",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg"
+        ]
       },
       {
         "title": "Gujarat Heritage (6N/7D)",
@@ -10028,7 +10747,14 @@
           "Any optional tours or activities"
         ],
         "state": "Gujarat",
-        "stateSlug": "gujarat"
+        "stateSlug": "gujarat",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg"
+        ]
       }
     ],
     "duration": "5 Days / 4 Nights",
@@ -10108,7 +10834,8 @@
           "Board your flight with wonderful memories of your trip."
         ]
       }
-    ]
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
   },
   {
     "name": "CENTRAL INDIA",
@@ -10195,7 +10922,14 @@
           "Any optional tours or activities"
         ],
         "state": "Madhya Pradesh",
-        "stateSlug": "madhya-pradesh"
+        "stateSlug": "madhya-pradesh",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg"
+        ]
       },
       {
         "title": "Central India Heritage (6N/7D)",
@@ -10282,7 +11016,14 @@
           "Sunset over heritage temples in India"
         ],
         "state": "Madhya Pradesh",
-        "stateSlug": "madhya-pradesh"
+        "stateSlug": "madhya-pradesh",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg"
+        ]
       }
     ],
     "duration": "5 Days / 4 Nights",
@@ -10362,7 +11103,8 @@
           "Board your flight with wonderful memories of your trip."
         ]
       }
-    ]
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
   },
   {
     "name": "JORDAN",
@@ -10438,6 +11180,13 @@
           "Wadi Rum desert landscape with red sand dunes, rock formations, and 4x4 jeep safari",
           "Bedouin camp in Wadi Rum with traditional tents under starry night sky and campfire",
           "Person floating in Dead Sea reading newspaper with mountains in background"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg"
         ]
       },
       {
@@ -10509,6 +11258,13 @@
           "Madaba mosaic map of Holy Land with intricate Byzantine tile work",
           "Ajloun Castle on hilltop with stone walls and panoramic countryside views",
           "Jordan highlights collage: Petra, Wadi Rum, Dead Sea, Jerash"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg"
         ]
       },
       {
@@ -10573,6 +11329,13 @@
           "Byzantine mosaic in Madaba church showing biblical scenes and Holy Land map",
           "Lot's Cave sanctuary with Byzantine mosaics and Dead Sea view",
           "Biblical Jordan landscape with ancient ruins and desert scenery"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg"
         ]
       }
     ],
@@ -10653,7 +11416,8 @@
           "Board your flight with wonderful memories of your trip."
         ]
       }
-    ]
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
   },
   {
     "name": "OMAN",
@@ -10726,6 +11490,13 @@
           "Nizwa Fort round tower with palm trees and Hajar Mountains in background",
           "Jebel Akhdar terraced farms with rose gardens and mountain village",
           "Wadi with turquoise pools, date palms, and rocky canyon walls"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg"
         ]
       }
     ],
@@ -10806,7 +11577,8 @@
           "Board your flight with wonderful memories of your trip."
         ]
       }
-    ]
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
   },
   {
     "name": "AUSTRALIA",
@@ -10898,6 +11670,13 @@
           "Bondi Beach with golden sand, surfers, and coastal cliffs",
           "Three Sisters rock formation in Blue Mountains with eucalyptus forest and mist",
           "Aerial view of Great Barrier Reef with turquoise water, coral patterns, and islands"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg"
         ]
       }
     ],
@@ -10978,7 +11757,8 @@
           "Board your flight with wonderful memories of your trip."
         ]
       }
-    ]
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
   },
   {
     "name": "NEW ZEALAND",
@@ -11063,6 +11843,13 @@
           "Rotorua geothermal area with colorful hot springs, steam, and mineral deposits",
           "Franz Josef Glacier with blue ice, helicopter, and Southern Alps",
           "Hobbiton Movie Set with hobbit holes, green hills, and Lord of the Rings scenery"
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Eiffel_Tower_from_Trocadero.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/79/Jabal_Ramm%2C_Wadi_Rum%2C_Jordan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg"
         ]
       }
     ],
@@ -11143,6 +11930,7 @@
           "Board your flight with wonderful memories of your trip."
         ]
       }
-    ]
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
   }
 ]

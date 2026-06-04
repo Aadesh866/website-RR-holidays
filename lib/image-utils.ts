@@ -1,43 +1,40 @@
+import allPackagesData from '@/data/all-packages.json';
+
+const FALLBACK_IMAGE = "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG";
+
 /**
- * Generates a deterministic image URL based on a string and an index using LoremFlickr.
- * This ensures we get real, high-quality photography from Flickr based on context,
- * avoiding generic stock pools or hallucinatory AI images.
+ * Gets a deterministic image URL based on the slug.
+ * It looks up the country or package in the database to fetch the exact, specific Wikipedia images 
+ * associated with it, ensuring high-quality and contextually accurate photos.
  */
 export function getContextualImage(slug: string, index: number = 0, type: "hero" | "gallery" | "card" = "gallery"): string {
+  const db = allPackagesData as any[];
   
-  // Clean the slug to create perfect keywords for Flickr
-  // 1. Remove duration patterns like -6n-7d or -5n
-  let cleanSlug = slug.replace(/-\d+[a-z]-\d+[a-z]/gi, '').replace(/-\d+[a-z]/gi, '');
+  // 1. Try to find if slug matches a Country
+  const cleanSlug = slug.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+  const country = db.find(c => 
+    c.slug === cleanSlug || 
+    c.name.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '') === cleanSlug
+  );
   
-  // 2. Replace hyphens with commas for Flickr keyword searching
-  let keywords = cleanSlug.replace(/-/g, ',');
-  
-  // Add landscape to ensure we get scenic orientation
-  keywords += ',landscape';
-
-  // Determine size based on use-case
-  let width = 1600;
-  let height = 1000;
-  
-  if (type === "card") {
-    width = 800;
-    height = 500;
-  } else if (type === "gallery") {
-    // some gallery images might be smaller, but 1200x800 is a safe high-res
-    width = 1200;
-    height = 800;
-  }
-
-  // Use a simple hash of the slug to seed the lock parameter deterministically
-  let hash = 0;
-  for (let i = 0; i < slug.length; i++) {
-    hash = slug.charCodeAt(i) + ((hash << 5) - hash);
+  if (country) {
+    if (country.imageUrl) return country.imageUrl;
+    return FALLBACK_IMAGE;
   }
   
-  // Create a unique lock ID for this specific image to ensure it never changes on reload
-  const lockId = Math.abs(hash + (index * 997)) % 10000;
-
-  // Build the LoremFlickr URL
-  // Format: https://loremflickr.com/{width}/{height}/{keywords}/all?lock={lockId}
-  return `https://loremflickr.com/${width}/${height}/${keywords}/all?lock=${lockId}`;
+  // 2. Try to find if slug matches a Package
+  for (const c of db) {
+    if (!c.packages) continue;
+    const pkg = c.packages.find((p: any) => p.slug === cleanSlug || p.slug === slug);
+    if (pkg) {
+      if (pkg.images && pkg.images.length > 0) {
+        // Return the image at the requested index, wrapping around if index > length
+        return pkg.images[index % pkg.images.length];
+      }
+      return FALLBACK_IMAGE;
+    }
+  }
+  
+  // Last resort fallback
+  return FALLBACK_IMAGE;
 }
