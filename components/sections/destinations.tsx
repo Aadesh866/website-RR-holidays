@@ -69,7 +69,7 @@ export function Destinations() {
             const displayCount = getTourCount(category.id);
             
             return (
-              <Link href={`/destinations?category=${category.id}`} key={category.id}>
+              <Link href={`/packages`} key={category.id}>
                 <div className="group relative w-full aspect-square overflow-hidden bg-[#1a1f4e] cursor-pointer">
                   {/* Background Image */}
                   <Image
@@ -100,7 +100,7 @@ export function Destinations() {
         {/* View All Link */}
         <div className="mt-16 text-center">
           <Link
-            href="/destinations"
+            href="/packages"
             className="inline-flex items-center justify-center bg-[#1a1f4e] hover:bg-[#E31E24] text-white font-bold py-4 px-10 tracking-widest uppercase text-sm transition-colors duration-300 shadow-xl"
           >
             Explore All Packages

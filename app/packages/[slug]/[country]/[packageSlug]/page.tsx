@@ -39,12 +39,12 @@ export default async function PackageDetailPage({ params }: PageProps) {
               src={heroImage}
               alt={pkg.title}
               fill
-              className="object-cover opacity-50"
+              className="object-cover opacity-90"
               priority
               unoptimized
             />
           </div>
-          <div className="absolute inset-0 bg-gradient-to-t from-[#1a1f4e] via-[#1a1f4e]/50 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#1a1f4e]/90 via-[#1a1f4e]/40 to-transparent" />
           
           <div className="relative z-10 container mx-auto px-4 max-w-7xl">
             <div className="flex items-center text-sm text-white/80 font-medium mb-6 uppercase tracking-wider">
@@ -136,7 +136,7 @@ export default async function PackageDetailPage({ params }: PageProps) {
                 
                 <section className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
                   <h3 className="text-xl font-bold text-[#1a1f4e] mb-6 flex items-center">
-                    What's Included
+                    What&apos;s Included
                   </h3>
                   <ul className="space-y-4">
                     {pkg.inclusions.map((inclusion, idx) => (
