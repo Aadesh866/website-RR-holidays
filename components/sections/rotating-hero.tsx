@@ -8,7 +8,7 @@ import { motion, AnimatePresence } from "framer-motion"
 const mediaItems = [
   {
     type: "video",
-    src: "/hero-video.mp4", // User will place the downloaded video here
+    src: "/hero-video.mp4",
   },
   {
     type: "image",
@@ -17,6 +17,14 @@ const mediaItems = [
   {
     type: "image",
     src: "https://images.pexels.com/photos/1915894/pexels-photo-1915894.jpeg?auto=compress&cs=tinysrgb&w=1920",
+  },
+  {
+    type: "image",
+    src: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=2021&auto=format&fit=crop",
+  },
+  {
+    type: "image",
+    src: "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?q=80&w=2020&auto=format&fit=crop",
   }
 ]
 
@@ -26,7 +34,7 @@ export function RotatingHero() {
   useEffect(() => {
     const timer = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % mediaItems.length)
-    }, 8000) // Rotate every 8 seconds
+    }, 5000) // Rotate every 5 seconds
     return () => clearInterval(timer)
   }, [])
 
@@ -39,16 +47,17 @@ export function RotatingHero() {
           animate={{ opacity: 1, scale: 1 }}
           exit={{ opacity: 0 }}
           transition={{ duration: 1.5, ease: "easeInOut" }}
-          className="absolute inset-0 z-0"
+          className="absolute inset-0 z-0 bg-[#1a1f4e]"
         >
           {mediaItems[currentIndex].type === "video" ? (
             <video
+              ref={(el) => { if(el) el.play().catch(e => console.log("Autoplay blocked", e)) }}
               src={mediaItems[currentIndex].src}
               autoPlay
               muted
               loop
               playsInline
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover opacity-90"
             />
           ) : (
             <Image
