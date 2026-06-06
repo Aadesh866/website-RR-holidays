@@ -5,36 +5,36 @@ import Image from "next/image"
 
 const travelerImages = [
   {
-    src: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&q=95&auto=format&fit=crop",
-    alt: "Happy travelers with backpacks"
+    src: "https://images.unsplash.com/photo-1533105079780-92b9be482077?q=80&w=1974&auto=format&fit=crop", // Santorini
+    alt: "Happy travelers in Santorini"
   },
   {
-    src: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=800&q=95&auto=format&fit=crop",
-    alt: "Young woman exploring map"
+    src: "https://images.unsplash.com/photo-1516483638261-f40af5eba324?q=80&w=1974&auto=format&fit=crop", // Cinque Terre
+    alt: "Beautiful coastal town"
   },
   {
-    src: "https://images.unsplash.com/photo-1476514525535-07fb3b4ae5f1?w=800&q=95&auto=format&fit=crop",
-    alt: "Van trip in mountains"
+    src: "https://images.unsplash.com/photo-1506929562872-bb421503ef21?q=80&w=2068&auto=format&fit=crop", // Beach
+    alt: "Tropical beach vacation"
   },
   {
-    src: "https://images.unsplash.com/photo-1530789253388-582c481c54b0?w=800&q=95&auto=format&fit=crop",
-    alt: "Couple enjoying vacation"
+    src: "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?q=80&w=2020&auto=format&fit=crop", // Paris
+    alt: "Couple enjoying Paris"
   },
   {
-    src: "https://images.unsplash.com/photo-1507608616759-54f48f0af0ee?w=800&q=95&auto=format&fit=crop",
-    alt: "Friends on a trip"
+    src: "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?q=80&w=1968&auto=format&fit=crop", // Venice
+    alt: "Gondola in Venice"
   },
   {
-    src: "https://images.unsplash.com/photo-1539635278303-d4002c07eae3?w=800&q=95&auto=format&fit=crop",
-    alt: "Family on a road trip"
+    src: "https://images.unsplash.com/photo-1504150558240-0b4fd8946624?q=80&w=1964&auto=format&fit=crop", // Mountains
+    alt: "Family in mountains"
   },
   {
-    src: "https://images.unsplash.com/photo-1527631746610-bca00a040d60?w=800&q=95&auto=format&fit=crop",
-    alt: "Group of friends traveling"
+    src: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=1920&auto=format&fit=crop", // Dubai
+    alt: "City skyline"
   },
   {
-    src: "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&q=95&auto=format&fit=crop",
-    alt: "Traveler standing on viewpoint"
+    src: "https://images.unsplash.com/photo-1548013146-72479768bada?q=80&w=1920&auto=format&fit=crop", // Taj Mahal
+    alt: "Traveler at Taj Mahal"
   }
 ]
 

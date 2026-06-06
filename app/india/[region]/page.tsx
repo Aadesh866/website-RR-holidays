@@ -61,7 +61,7 @@ export default async function IndiaRegionPage(props: { params: Promise<{ region:
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0a0f2b]/90 via-[#0a0f2b]/40 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0a0f2b]/70 via-[#0a0f2b]/20 to-transparent" />
           
           <div className="absolute bottom-0 left-0 w-full p-8 md:p-16">
             <div className="container mx-auto max-w-7xl">
@@ -86,7 +86,7 @@ export default async function IndiaRegionPage(props: { params: Promise<{ region:
               <div className="w-full md:w-1/3 text-center md:text-left">
                 <h2 className="text-sm font-bold tracking-[0.2em] text-[#E31E24] uppercase mb-3">At A Glance</h2>
                 <h3 className="text-3xl md:text-4xl font-serif text-[#1a1f4e] leading-tight">
-                  South India's No.1 <br/><span className="italic text-gray-500 text-2xl">Travel Brand</span>
+                  South India&apos;s No.1 <br/><span className="italic text-gray-500 text-2xl">Travel Brand</span>
                 </h3>
               </div>
               

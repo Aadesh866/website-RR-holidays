@@ -54,13 +54,13 @@ export default function IndiaLandingPage() {
         {/* Stunning Hero Section */}
         <div className="relative h-[60vh] min-h-[500px] w-full">
           <Image
-            src={getContextualImage("taj-mahal-india", 0, "hero")}
+            src={getContextualImage("golden-triangle-5n-6d", 0, "hero")}
             alt="Incredible India Tour Packages"
             fill
             className="object-cover"
             priority
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0a0f2b]/90 via-[#0a0f2b]/40 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0a0f2b]/70 via-[#0a0f2b]/20 to-transparent" />
           
           <div className="absolute bottom-0 left-0 w-full p-8 md:p-16">
             <div className="container mx-auto max-w-7xl">

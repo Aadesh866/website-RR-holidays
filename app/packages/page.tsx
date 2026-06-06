@@ -18,7 +18,7 @@ export default function PackagesPage() {
         <PageHero
           title="Tour Packages"
           subtitle="Handcrafted itineraries for every traveler — from budget-friendly getaways to luxury experiences"
-          image="https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?w=1920&q=80&auto=format&fit=crop"
+          image="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1920&q=80&auto=format&fit=crop"
         />
         <PackagesSection showAll />
         <GroupTours />

@@ -12,19 +12,15 @@ const mediaItems = [
   },
   {
     type: "image",
-    src: "https://images.pexels.com/photos/6130011/pexels-photo-6130011.jpeg?auto=compress&cs=tinysrgb&w=1920",
+    src: "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?q=80&w=2020&auto=format&fit=crop", // Paris
+  },
+  {
+    type: "video",
+    src: "/hero-video-2.mp4",
   },
   {
     type: "image",
-    src: "https://images.pexels.com/photos/1915894/pexels-photo-1915894.jpeg?auto=compress&cs=tinysrgb&w=1920",
-  },
-  {
-    type: "image",
-    src: "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=2021&auto=format&fit=crop",
-  },
-  {
-    type: "image",
-    src: "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?q=80&w=2020&auto=format&fit=crop",
+    src: "https://upload.wikimedia.org/wikipedia/commons/8/82/MaldivesBungalows.jpg",
   }
 ]
 
@@ -57,14 +53,14 @@ export function RotatingHero() {
               muted
               loop
               playsInline
-              className="w-full h-full object-cover opacity-90"
+              className="w-full h-full object-cover opacity-100"
             />
           ) : (
             <Image
               src={mediaItems[currentIndex].src}
               alt="Premium Travel Experiences"
               fill
-              className="object-cover"
+              className="object-cover opacity-100"
               priority
             />
           )}
@@ -72,8 +68,7 @@ export function RotatingHero() {
       </AnimatePresence>
 
       {/* Very light overlay to increase brightness but keep text legible */}
-      <div className="absolute inset-0 bg-black/10 z-0" />
-      <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-black/10 z-0" />
+      <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent z-0" />
       
       <div className="container relative z-10 mx-auto px-4 max-w-5xl text-center">
         <motion.h1 

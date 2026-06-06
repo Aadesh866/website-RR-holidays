@@ -22,7 +22,7 @@ export function PageHero({ title, subtitle, image }: PageHeroProps) {
           className="object-cover"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#1a1f4e]/40 via-[#1a1f4e]/60 to-[#1a1f4e]/80" />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#1a1f4e]/20 via-[#1a1f4e]/30 to-[#1a1f4e]/60" />
       </div>
 
       {/* Content */}

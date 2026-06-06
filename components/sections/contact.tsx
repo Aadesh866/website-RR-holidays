@@ -3,6 +3,7 @@
 import { EnquiryForm } from "@/components/enquiry-form"
 import { Button } from "@/components/ui/button"
 import { Phone, MessageCircle, Check } from "lucide-react"
+import Image from "next/image"
 
 const trustPoints = [
   "Free itinerary within 24 hours",
@@ -12,11 +13,17 @@ const trustPoints = [
 
 export function Contact() {
   return (
-    <section id="contact" className="py-28 md:py-36 bg-gradient-to-br from-[#1a1f4e] to-[#0d1130] relative overflow-hidden">
-      <div className="absolute inset-0 opacity-5">
-        <div className="absolute inset-0" style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
-        }} />
+    <section id="contact" className="py-28 md:py-36 relative overflow-hidden">
+      {/* Background Image */}
+      <div className="absolute inset-0 w-full h-full">
+        <Image
+          src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?q=80&w=2068&auto=format&fit=crop"
+          alt="Contact RR Holidays"
+          fill
+          className="object-cover opacity-90"
+          unoptimized
+        />
+        <div className="absolute inset-0 bg-[#0a0f2b]/85" />
       </div>
 
       <div className="relative z-10 w-full max-w-[1600px] mx-auto px-6 sm:px-8 lg:px-12">
