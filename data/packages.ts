@@ -28,7 +28,7 @@ export const packages: Package[] = [
     name: "Romantic Maldives Escape",
     duration: "7 Days / 6 Nights",
     description: "Overwater villa stay, sunset dolphin cruise, private beach dinner under the stars",
-    image: "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=1200&q=95&auto=format&fit=crop",
+    image: "https://upload.wikimedia.org/wikipedia/commons/8/82/MaldivesBungalows.jpg",
     gallery: [
       "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=1200&q=95&auto=format&fit=crop",
@@ -116,7 +116,7 @@ export const packages: Package[] = [
     name: "Swiss Alps Adventure",
     duration: "7 Days / 6 Nights",
     description: "Jungfraujoch, Interlaken, Lucerne lake cruise, chocolate factory tour",
-    image: "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=1200&q=95&auto=format&fit=crop",
+    image: "https://upload.wikimedia.org/wikipedia/commons/8/86/Peak_of_the_Matterhorn%2C_seen_from_Zermatt%2C_Switzerland.jpg",
     gallery: [
       "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?w=1200&q=95&auto=format&fit=crop",
@@ -204,7 +204,7 @@ export const packages: Package[] = [
     name: "Kashmir Paradise",
     duration: "7 Days / 6 Nights",
     description: "Shikara ride on Dal Lake, Gulmarg gondola, Pahalgam valley, houseboat stay",
-    image: "https://images.unsplash.com/photo-1605649487212-47bdab064df7?w=1200&q=95&auto=format&fit=crop",
+    image: "https://upload.wikimedia.org/wikipedia/commons/e/e8/Srinagar_pano.jpg",
     gallery: [
       "https://images.unsplash.com/photo-1605649487212-47bdab064df7?w=1200&q=95&auto=format&fit=crop",
       "https://images.unsplash.com/photo-1595815771614-ade9d652a65d?w=1200&q=95&auto=format&fit=crop",
