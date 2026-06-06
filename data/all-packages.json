@@ -3191,11 +3191,12 @@
           "Any optional tours or activities"
         ],
         "images": [
-          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
-          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
-          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
-          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
-          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
+          "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&q=95&auto=format&fit=crop",
+          "https://images.unsplash.com/photo-1561409037-c7be81613c1f?w=1200&q=95&auto=format&fit=crop",
+          "https://images.unsplash.com/photo-1544161515-4ab6ce6db874?w=1200&q=95&auto=format&fit=crop",
+          "https://images.unsplash.com/photo-1571115765624-77d0b57b7344?w=1200&q=95&auto=format&fit=crop",
+          "https://images.unsplash.com/photo-1588392382834-a891154bca4d?w=1200&q=95&auto=format&fit=crop",
+          "https://images.unsplash.com/photo-1582719471137-c3967ffb1c42?w=1200&q=95&auto=format&fit=crop"
         ]
       },
       {
@@ -5269,11 +5270,12 @@
           "Traditional wooden chalets in car-free Zermatt village with Matterhorn peak towering in background"
         ],
         "images": [
-          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
-          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
-          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
-          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG",
-          "https://upload.wikimedia.org/wikipedia/commons/e/e8/Al_Deir_Petra.JPG"
+          "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=1200&q=95&auto=format&fit=crop",
+          "https://images.unsplash.com/photo-1544535809-ac41e629d427?w=1200&q=95&auto=format&fit=crop",
+          "https://images.unsplash.com/photo-1582719471137-c3967ffb1c42?w=1200&q=95&auto=format&fit=crop",
+          "https://images.unsplash.com/photo-1564594985645-4427056e22e2?w=1200&q=95&auto=format&fit=crop",
+          "https://images.unsplash.com/photo-1588392382834-a891154bca4d?w=1200&q=95&auto=format&fit=crop",
+          "https://images.unsplash.com/photo-1571043733612-b5b2e47f5e24?w=1200&q=95&auto=format&fit=crop"
         ]
       },
       {
@@ -9525,7 +9527,12 @@
         "state": "Jammu and Kashmir",
         "stateSlug": "jammu-and-kashmir",
         "images": [
-          "https://upload.wikimedia.org/wikipedia/commons/b/bd/Taj_Mahal%2C_Agra%2C_India_edit3.jpg"
+          "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200&q=95&auto=format&fit=crop",
+          "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1200&q=95&auto=format&fit=crop",
+          "https://images.unsplash.com/photo-1564594985645-4427056e22e2?w=1200&q=95&auto=format&fit=crop",
+          "https://images.unsplash.com/photo-1571043733612-b5b2e47f5e24?w=1200&q=95&auto=format&fit=crop",
+          "https://images.unsplash.com/photo-1582719471137-c3967ffb1c42?w=1200&q=95&auto=format&fit=crop",
+          "https://images.unsplash.com/photo-1588392382834-a891154bca4d?w=1200&q=95&auto=format&fit=crop"
         ]
       }
     ],
