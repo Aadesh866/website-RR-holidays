@@ -16,15 +16,15 @@ export function MegaMenu() {
               <div key={colIdx} className="flex flex-col gap-3 px-6 first:pl-8 last:pr-8">
                 {column.map((section, secIdx) => (
                   <div key={section.title} className="flex flex-col">
-                    <h3 className="text-[#1a1f4e] font-heading font-bold text-[14px] tracking-wide uppercase mb-2 pb-1 border-b border-gray-100/80">
+                    <h3 className="text-[#1a1f4e] font-heading font-bold text-[14px] tracking-wide uppercase mb-1 pb-1 border-b border-gray-100/80 hover:underline hover:underline-offset-4 transition-all duration-300">
                       {section.title}
                     </h3>
-                    <ul className="space-y-0.5 mt-1">
+                    <ul className="space-y-0 mt-0.5">
                       {section.links.map((link) => (
                         <li key={link.name}>
                           <Link
                             href={link.href}
-                            className="group/link text-gray-600 hover:text-[#1a1f4e] text-[12.5px] font-medium transition-all duration-300 flex items-center py-[2px] px-2 -mx-2 hover:bg-gray-50/80 rounded-md"
+                            className="group/link text-gray-600 hover:text-[#1a1f4e] text-[12.5px] font-medium transition-all duration-300 flex items-center py-[1px] px-2 -mx-2 hover:bg-gray-50/80 rounded-md"
                           >
                             <span className="mr-2 text-[#E31E24]/60 text-[8px] transition-transform duration-300 group-hover/link:scale-150 group-hover/link:text-[#E31E24]">●</span>
                             {link.name}
