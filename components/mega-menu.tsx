@@ -32,22 +32,19 @@ export function MegaMenu() {
                         </li>
                       ))}
                     </ul>
-                    
-                    {/* If this is the last column and last section, show the View All button */}
-                    {colIdx === megaMenuData.columns.length - 1 && secIdx === column.length - 1 && (
-                      <div className="mt-4 pt-3 border-t border-gray-100/80">
-                        <Link
-                          href="/packages"
-                          className="flex items-center justify-center bg-gradient-to-r from-[#1a1f4e] to-[#2a3170] hover:from-[#E31E24] hover:to-[#ff3a40] text-white font-bold py-2 px-3 text-[10px] uppercase tracking-widest transition-all duration-300 shadow-md hover:shadow-lg rounded-md w-full"
-                        >
-                          View All Packages
-                        </Link>
-                      </div>
-                    )}
                   </div>
                 ))}
               </div>
             ))}
+          </div>
+          
+          <div className="bg-gray-50/80 border-t border-gray-100 px-6 py-4 mt-6">
+            <Link
+              href="/packages"
+              className="flex items-center justify-center bg-gradient-to-r from-[#1a1f4e] to-[#2a3170] hover:from-[#E31E24] hover:to-[#ff3a40] text-white font-bold py-2.5 px-6 text-[11px] uppercase tracking-widest transition-all duration-300 shadow-md hover:shadow-lg rounded-md w-[80%] mx-auto"
+            >
+              Explore All International Packages
+            </Link>
           </div>
         </div>
       </div>
