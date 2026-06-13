@@ -10,7 +10,7 @@ export function MegaMenu() {
       <div className="absolute inset-0 bg-[#0d1130]/10 backdrop-blur-[2px] opacity-0 group-hover/mega:opacity-100 transition-opacity duration-300 pointer-events-none" />
       
       <div className="relative w-full max-w-[850px] px-6 opacity-0 invisible group-hover/mega:opacity-100 group-hover/mega:visible transition-all duration-300 pointer-events-auto origin-top transform scale-y-95 group-hover/mega:scale-y-100">
-        <div className="bg-white rounded-b-xl shadow-[0_30px_60px_-15px_rgba(0,0,0,0.15)] ring-1 ring-gray-200/50 pt-6 pb-8 max-h-[80vh] overflow-y-auto overscroll-contain scrollbar-thin scrollbar-thumb-gray-200 scrollbar-track-transparent">
+        <div className="bg-white rounded-b-xl shadow-[0_30px_60px_-15px_rgba(0,0,0,0.15)] ring-1 ring-gray-200/50 py-4 max-h-[80vh] overflow-y-auto overscroll-contain scrollbar-thin scrollbar-thumb-gray-200 scrollbar-track-transparent">
           <div className="grid grid-cols-4 divide-x divide-gray-100">
             {megaMenuData.columns.map((column, colIdx) => (
               <div key={colIdx} className="flex flex-col gap-3 px-6 first:pl-8 last:pr-8">
@@ -31,20 +31,23 @@ export function MegaMenu() {
                           </Link>
                         </li>
                       ))}
+                      
+                      {colIdx === megaMenuData.columns.length - 1 && secIdx === column.length - 1 && (
+                        <li className="mt-2 pt-2 border-t border-gray-100/80">
+                          <Link
+                            href="/packages"
+                            className="group/link text-[#E31E24] hover:text-[#ff3a40] text-[12.5px] font-bold transition-all duration-300 flex items-center py-[2px] px-2 -mx-2 hover:bg-gray-50/80 rounded-md"
+                          >
+                            <span className="mr-2 text-[#E31E24] text-[8px] transition-transform duration-300 group-hover/link:scale-150">►</span>
+                            Explore All Packages
+                          </Link>
+                        </li>
+                      )}
                     </ul>
                   </div>
                 ))}
               </div>
             ))}
-          </div>
-          
-          <div className="bg-gray-50/80 border-t border-gray-100 px-6 py-4 mt-6">
-            <Link
-              href="/packages"
-              className="flex items-center justify-center bg-gradient-to-r from-[#1a1f4e] to-[#2a3170] hover:from-[#E31E24] hover:to-[#ff3a40] text-white font-bold py-2.5 px-6 text-[11px] uppercase tracking-widest transition-all duration-300 shadow-md hover:shadow-lg rounded-md w-[80%] mx-auto"
-            >
-              Explore All International Packages
-            </Link>
           </div>
         </div>
       </div>
