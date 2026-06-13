@@ -68,7 +68,9 @@ export const megaMenuData = {
         links: [
           { name: "USA", href: "/packages/americas/usa" },
           { name: "Canada", href: "/packages/americas/canada" },
+          { name: "Mexico", href: "/packages/americas/mexico" },
           { name: "Brazil", href: "/packages/americas/brazil" },
+          { name: "Argentina", href: "/packages/americas/argentina" },
         ]
       },
       {
@@ -77,6 +79,7 @@ export const megaMenuData = {
           { name: "Australia", href: "/packages/oceania/australia" },
           { name: "New Zealand", href: "/packages/oceania/new-zealand" },
           { name: "Fiji", href: "/packages/oceania/fiji" },
+          { name: "Bora Bora", href: "/packages/oceania/bora-bora" },
         ]
       }
     ]

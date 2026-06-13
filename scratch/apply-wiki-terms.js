@@ -51,9 +51,9 @@ async function fetchCommonsImage(query, expectedCount = 5) {
 }
 
 async function applyTerms() {
-  const allTerms = JSON.parse(fs.readFileSync('scratch/NEW_COUNTRIES_WIKI_TERMS.json', 'utf8'));
+  const allTerms = JSON.parse(fs.readFileSync('scratch/NEW_3_COUNTRIES_TERMS.json', 'utf8'));
   
-  console.log(`Loaded ${allTerms.length} total packages from NEW_COUNTRIES_WIKI_TERMS.json`);
+  console.log(`Loaded ${allTerms.length} total packages from NEW_3_COUNTRIES_TERMS.json`);
   
   const dbFile = 'data/all-packages.json';
   const db = JSON.parse(fs.readFileSync(dbFile, 'utf8'));

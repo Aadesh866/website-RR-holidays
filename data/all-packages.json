@@ -14575,5 +14575,544 @@
       }
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Obama_family_in_mist_in_Rio_de_Janeiro.jpg"
+  },
+  {
+    "continent": "Americas",
+    "name": "Mexico",
+    "markdownContent": "## Why Visit Mexico?\n\nExperience the best of Mexico with our curated packages.",
+    "packages": [
+      {
+        "title": "Cancun Beach Escape (5N/6D)",
+        "slug": "cancun-beach-escape-5n-6d",
+        "duration": "5 Nights / 6 Days",
+        "price": 192000,
+        "originalPrice": 207000,
+        "category": "International",
+        "overview": "Experience the magic of Mexico with our exclusive Cancun Beach Escape (5N/6D). This carefully curated 5 Nights / 6 Days itinerary is designed to give you a perfect blend of breathtaking sightseeing, cultural immersion, and relaxing leisure time. From iconic landmarks to hidden gems, prepare for an unforgettable journey that captures the true essence of the destination.",
+        "highlights": [
+          "Comprehensive guided tour of the most iconic attractions in Mexico.",
+          "Comfortable premium accommodation with daily breakfast included.",
+          "Hassle-free airport transfers and comfortable inter-city transportation.",
+          "Dedicated time for leisure, shopping, and exploring the local cuisine.",
+          "24/7 on-ground support to ensure a seamless holiday experience."
+        ],
+        "inclusions": [
+          "Accommodation in 4-Star or 5-Star Premium Hotels",
+          "Daily Buffet Breakfast",
+          "Meet & Greet assistance at the airport",
+          "Return Airport Transfers on Private Basis",
+          "Sightseeing tours as per the itinerary",
+          "All applicable taxes"
+        ],
+        "exclusions": [
+          "International / Domestic Airfare",
+          "Visa fees and Travel Insurance",
+          "Personal expenses like laundry, tips, phone calls",
+          "Meals other than specified",
+          "Any optional tours or activities"
+        ],
+        "itinerary": [
+          {
+            "title": "Day 1: Arrival in Mexico & Leisure",
+            "activities": [
+              "Welcome to Mexico! Upon your arrival at the airport, our representative will greet you and transfer you to your premium hotel.",
+              "Complete your check-in process and take some time to relax and freshen up after your journey.",
+              "The rest of the day is at your leisure. You can explore the local markets near your hotel or enjoy a quiet dinner.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 2: Highlights and City Tour",
+            "activities": [
+              "Start your day with a delicious breakfast at the hotel.",
+              "Embark on a comprehensive guided city tour covering the most famous landmarks and historical sites of Mexico.",
+              "Enjoy ample photo opportunities and learn about the local culture and history from your expert guide.",
+              "Return to your hotel in the evening and relax.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 3: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 4: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 5: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 6: Departure with Beautiful Memories",
+            "activities": [
+              "Enjoy a hearty breakfast at your hotel and complete the check-out process.",
+              "Depending on your flight schedule, you may have some free time for last-minute shopping or sightseeing.",
+              "Our driver will transfer you to the airport in a comfortable vehicle for your onward journey.",
+              "Board your flight with wonderful memories of your trip."
+            ]
+          }
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Cancun_1600.jpg",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/c/cc/Cancun_1600.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/b5/Canc%C3%BAn%2C_Mexico_ESA23776878.jpeg",
+          "https://upload.wikimedia.org/wikipedia/commons/6/6a/Isla_cozumel_April17-2001.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/9/97/Tulum_Maya_Ruins_%28213574097%29.jpeg",
+          "https://upload.wikimedia.org/wikipedia/commons/6/65/Ik_Kil_Cenote_2021_1.jpg"
+        ]
+      },
+      {
+        "title": "Mayan Ruins Explorer (6N/7D)",
+        "slug": "mayan-ruins-explorer-6n-7d",
+        "duration": "6 Nights / 7 Days",
+        "price": 204000,
+        "originalPrice": 219000,
+        "category": "International",
+        "overview": "Experience the magic of Mexico with our exclusive Mayan Ruins Explorer (6N/7D). This carefully curated 6 Nights / 7 Days itinerary is designed to give you a perfect blend of breathtaking sightseeing, cultural immersion, and relaxing leisure time. From iconic landmarks to hidden gems, prepare for an unforgettable journey that captures the true essence of the destination.",
+        "highlights": [
+          "Comprehensive guided tour of the most iconic attractions in Mexico.",
+          "Comfortable premium accommodation with daily breakfast included.",
+          "Hassle-free airport transfers and comfortable inter-city transportation.",
+          "Dedicated time for leisure, shopping, and exploring the local cuisine.",
+          "24/7 on-ground support to ensure a seamless holiday experience."
+        ],
+        "inclusions": [
+          "Accommodation in 4-Star or 5-Star Premium Hotels",
+          "Daily Buffet Breakfast",
+          "Meet & Greet assistance at the airport",
+          "Return Airport Transfers on Private Basis",
+          "Sightseeing tours as per the itinerary",
+          "All applicable taxes"
+        ],
+        "exclusions": [
+          "International / Domestic Airfare",
+          "Visa fees and Travel Insurance",
+          "Personal expenses like laundry, tips, phone calls",
+          "Meals other than specified",
+          "Any optional tours or activities"
+        ],
+        "itinerary": [
+          {
+            "title": "Day 1: Arrival in Mexico & Leisure",
+            "activities": [
+              "Welcome to Mexico! Upon your arrival at the airport, our representative will greet you and transfer you to your premium hotel.",
+              "Complete your check-in process and take some time to relax and freshen up after your journey.",
+              "The rest of the day is at your leisure. You can explore the local markets near your hotel or enjoy a quiet dinner.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 2: Highlights and City Tour",
+            "activities": [
+              "Start your day with a delicious breakfast at the hotel.",
+              "Embark on a comprehensive guided city tour covering the most famous landmarks and historical sites of Mexico.",
+              "Enjoy ample photo opportunities and learn about the local culture and history from your expert guide.",
+              "Return to your hotel in the evening and relax.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 3: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 4: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 5: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 6: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 7: Departure with Beautiful Memories",
+            "activities": [
+              "Enjoy a hearty breakfast at your hotel and complete the check-out process.",
+              "Depending on your flight schedule, you may have some free time for last-minute shopping or sightseeing.",
+              "Our driver will transfer you to the airport in a comfortable vehicle for your onward journey.",
+              "Board your flight with wonderful memories of your trip."
+            ]
+          }
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Chichen-Itza-Castillo-Seen-From-East.JPG",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/7a/Chichen-Itza-Castillo-Seen-From-East.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/f/f9/La_Gran_Pyramide.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/5/50/055_Palenque_Pakal_Maji_%2829%29.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/1/10/Cob%C3%A1_-_10.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/17/Mexico-5810_-_Walled_City_%284620401390%29.jpg"
+        ]
+      }
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Cancun_1600.jpg"
+  },
+  {
+    "continent": "Americas",
+    "name": "Argentina",
+    "markdownContent": "## Why Visit Argentina?\n\nExperience the best of Argentina with our curated packages.",
+    "packages": [
+      {
+        "title": "Buenos Aires City Break (4N/5D)",
+        "slug": "buenos-aires-city-break-4n-5d",
+        "duration": "4 Nights / 5 Days",
+        "price": 180000,
+        "originalPrice": 195000,
+        "category": "International",
+        "overview": "Experience the magic of Argentina with our exclusive Buenos Aires City Break (4N/5D). This carefully curated 4 Nights / 5 Days itinerary is designed to give you a perfect blend of breathtaking sightseeing, cultural immersion, and relaxing leisure time. From iconic landmarks to hidden gems, prepare for an unforgettable journey that captures the true essence of the destination.",
+        "highlights": [
+          "Comprehensive guided tour of the most iconic attractions in Argentina.",
+          "Comfortable premium accommodation with daily breakfast included.",
+          "Hassle-free airport transfers and comfortable inter-city transportation.",
+          "Dedicated time for leisure, shopping, and exploring the local cuisine.",
+          "24/7 on-ground support to ensure a seamless holiday experience."
+        ],
+        "inclusions": [
+          "Accommodation in 4-Star or 5-Star Premium Hotels",
+          "Daily Buffet Breakfast",
+          "Meet & Greet assistance at the airport",
+          "Return Airport Transfers on Private Basis",
+          "Sightseeing tours as per the itinerary",
+          "All applicable taxes"
+        ],
+        "exclusions": [
+          "International / Domestic Airfare",
+          "Visa fees and Travel Insurance",
+          "Personal expenses like laundry, tips, phone calls",
+          "Meals other than specified",
+          "Any optional tours or activities"
+        ],
+        "itinerary": [
+          {
+            "title": "Day 1: Arrival in Argentina & Leisure",
+            "activities": [
+              "Welcome to Argentina! Upon your arrival at the airport, our representative will greet you and transfer you to your premium hotel.",
+              "Complete your check-in process and take some time to relax and freshen up after your journey.",
+              "The rest of the day is at your leisure. You can explore the local markets near your hotel or enjoy a quiet dinner.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 2: Highlights and City Tour",
+            "activities": [
+              "Start your day with a delicious breakfast at the hotel.",
+              "Embark on a comprehensive guided city tour covering the most famous landmarks and historical sites of Argentina.",
+              "Enjoy ample photo opportunities and learn about the local culture and history from your expert guide.",
+              "Return to your hotel in the evening and relax.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 3: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 4: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 5: Departure with Beautiful Memories",
+            "activities": [
+              "Enjoy a hearty breakfast at your hotel and complete the check-out process.",
+              "Depending on your flight schedule, you may have some free time for last-minute shopping or sightseeing.",
+              "Our driver will transfer you to the airport in a comfortable vehicle for your onward journey.",
+              "Board your flight with wonderful memories of your trip."
+            ]
+          }
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/View_to_the_Buenos_Aires_Obelisk_%285465800868%29.jpg",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/6/6e/View_to_the_Buenos_Aires_Obelisk_%285465800868%29.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1e/El_Caminito_de_La_Boca_-_Buenos-Aires.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/7/74/Plaza_de_Mayo_Casa_Rosada_fuentes_pir%C3%A1mide_palmera.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/7/73/Teatro_Col%C3%B3n_Buenos_Aires.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/3/38/Puente_de_la_mujer%2C_Buenos_Aires_%2832008%29.jpg"
+        ]
+      },
+      {
+        "title": "Patagonia Adventure (7N/8D)",
+        "slug": "patagonia-adventure-7n-8d",
+        "duration": "7 Nights / 8 Days",
+        "price": 216000,
+        "originalPrice": 231000,
+        "category": "International",
+        "overview": "Experience the magic of Argentina with our exclusive Patagonia Adventure (7N/8D). This carefully curated 7 Nights / 8 Days itinerary is designed to give you a perfect blend of breathtaking sightseeing, cultural immersion, and relaxing leisure time. From iconic landmarks to hidden gems, prepare for an unforgettable journey that captures the true essence of the destination.",
+        "highlights": [
+          "Comprehensive guided tour of the most iconic attractions in Argentina.",
+          "Comfortable premium accommodation with daily breakfast included.",
+          "Hassle-free airport transfers and comfortable inter-city transportation.",
+          "Dedicated time for leisure, shopping, and exploring the local cuisine.",
+          "24/7 on-ground support to ensure a seamless holiday experience."
+        ],
+        "inclusions": [
+          "Accommodation in 4-Star or 5-Star Premium Hotels",
+          "Daily Buffet Breakfast",
+          "Meet & Greet assistance at the airport",
+          "Return Airport Transfers on Private Basis",
+          "Sightseeing tours as per the itinerary",
+          "All applicable taxes"
+        ],
+        "exclusions": [
+          "International / Domestic Airfare",
+          "Visa fees and Travel Insurance",
+          "Personal expenses like laundry, tips, phone calls",
+          "Meals other than specified",
+          "Any optional tours or activities"
+        ],
+        "itinerary": [
+          {
+            "title": "Day 1: Arrival in Argentina & Leisure",
+            "activities": [
+              "Welcome to Argentina! Upon your arrival at the airport, our representative will greet you and transfer you to your premium hotel.",
+              "Complete your check-in process and take some time to relax and freshen up after your journey.",
+              "The rest of the day is at your leisure. You can explore the local markets near your hotel or enjoy a quiet dinner.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 2: Highlights and City Tour",
+            "activities": [
+              "Start your day with a delicious breakfast at the hotel.",
+              "Embark on a comprehensive guided city tour covering the most famous landmarks and historical sites of Argentina.",
+              "Enjoy ample photo opportunities and learn about the local culture and history from your expert guide.",
+              "Return to your hotel in the evening and relax.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 3: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 4: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 5: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 6: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 7: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 8: Departure with Beautiful Memories",
+            "activities": [
+              "Enjoy a hearty breakfast at your hotel and complete the check-out process.",
+              "Depending on your flight schedule, you may have some free time for last-minute shopping or sightseeing.",
+              "Our driver will transfer you to the airport in a comfortable vehicle for your onward journey.",
+              "Board your flight with wonderful memories of your trip."
+            ]
+          }
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/03/Glacial_iceberg_in_Argentina.jpg",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/0/03/Glacial_iceberg_in_Argentina.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/b8/El_Chalten_%28248845165%29.jpeg",
+          "https://upload.wikimedia.org/wikipedia/commons/7/78/Torres_del_Paine%2C_Patagonia_%282004%29.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/9/9f/UshuaiaFinDelMundo.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/d/d5/BeagleChannelGlacier.jpg"
+        ]
+      }
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/View_to_the_Buenos_Aires_Obelisk_%285465800868%29.jpg"
+  },
+  {
+    "continent": "Oceania",
+    "name": "Bora Bora",
+    "markdownContent": "## Why Visit Bora Bora?\n\nExperience the best of Bora Bora with our curated packages.",
+    "packages": [
+      {
+        "title": "Bora Bora Romantic Getaway (5N/6D)",
+        "slug": "bora-bora-romantic-getaway-5n-6d",
+        "duration": "5 Nights / 6 Days",
+        "price": 192000,
+        "originalPrice": 207000,
+        "category": "International",
+        "overview": "Experience the magic of Bora Bora with our exclusive Bora Bora Romantic Getaway (5N/6D). This carefully curated 5 Nights / 6 Days itinerary is designed to give you a perfect blend of breathtaking sightseeing, cultural immersion, and relaxing leisure time. From iconic landmarks to hidden gems, prepare for an unforgettable journey that captures the true essence of the destination.",
+        "highlights": [
+          "Comprehensive guided tour of the most iconic attractions in Bora Bora.",
+          "Comfortable premium accommodation with daily breakfast included.",
+          "Hassle-free airport transfers and comfortable inter-city transportation.",
+          "Dedicated time for leisure, shopping, and exploring the local cuisine.",
+          "24/7 on-ground support to ensure a seamless holiday experience."
+        ],
+        "inclusions": [
+          "Accommodation in 4-Star or 5-Star Premium Hotels",
+          "Daily Buffet Breakfast",
+          "Meet & Greet assistance at the airport",
+          "Return Airport Transfers on Private Basis",
+          "Sightseeing tours as per the itinerary",
+          "All applicable taxes"
+        ],
+        "exclusions": [
+          "International / Domestic Airfare",
+          "Visa fees and Travel Insurance",
+          "Personal expenses like laundry, tips, phone calls",
+          "Meals other than specified",
+          "Any optional tours or activities"
+        ],
+        "itinerary": [
+          {
+            "title": "Day 1: Arrival in Bora Bora & Leisure",
+            "activities": [
+              "Welcome to Bora Bora! Upon your arrival at the airport, our representative will greet you and transfer you to your premium hotel.",
+              "Complete your check-in process and take some time to relax and freshen up after your journey.",
+              "The rest of the day is at your leisure. You can explore the local markets near your hotel or enjoy a quiet dinner.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 2: Highlights and City Tour",
+            "activities": [
+              "Start your day with a delicious breakfast at the hotel.",
+              "Embark on a comprehensive guided city tour covering the most famous landmarks and historical sites of Bora Bora.",
+              "Enjoy ample photo opportunities and learn about the local culture and history from your expert guide.",
+              "Return to your hotel in the evening and relax.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 3: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 4: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 5: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 6: Departure with Beautiful Memories",
+            "activities": [
+              "Enjoy a hearty breakfast at your hotel and complete the check-out process.",
+              "Depending on your flight schedule, you may have some free time for last-minute shopping or sightseeing.",
+              "Our driver will transfer you to the airport in a comfortable vehicle for your onward journey.",
+              "Board your flight with wonderful memories of your trip."
+            ]
+          }
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Four_Seasons_Resort_Bora_Bora.jpg",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/8/8e/Four_Seasons_Resort_Bora_Bora.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/3/31/Fakarava-ponton-rotoava.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/ee/Hawaiki_Nui_Va%27a_1.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/f/ff/%27A_View_taken_in_the_bay_of_Oaite_Peha_%28Vaitepiha%29_Otaheite_%28Tahiti%29%27_%28%22Tahiti_Revisited%22%29_RMG_L9867.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/c/c2/Mountrotui.JPG"
+        ]
+      }
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Four_Seasons_Resort_Bora_Bora.jpg"
   }
 ]

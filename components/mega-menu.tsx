@@ -35,10 +35,10 @@ export function MegaMenu() {
                     
                     {/* If this is the last column and last section, show the View All button */}
                     {colIdx === megaMenuData.columns.length - 1 && secIdx === column.length - 1 && (
-                      <div className="mt-6 pt-4 border-t border-gray-100/80">
+                      <div className="mt-4 pt-3 border-t border-gray-100/80">
                         <Link
                           href="/packages"
-                          className="flex items-center justify-center bg-gradient-to-r from-[#1a1f4e] to-[#2a3170] hover:from-[#E31E24] hover:to-[#ff3a40] text-white font-bold py-2.5 px-4 text-[11px] uppercase tracking-widest transition-all duration-300 shadow-lg shadow-[#1a1f4e]/20 hover:shadow-[#E31E24]/30 rounded-lg w-full"
+                          className="flex items-center justify-center bg-gradient-to-r from-[#1a1f4e] to-[#2a3170] hover:from-[#E31E24] hover:to-[#ff3a40] text-white font-bold py-2 px-3 text-[10px] uppercase tracking-widest transition-all duration-300 shadow-md hover:shadow-lg rounded-md w-full"
                         >
                           View All Packages
                         </Link>
