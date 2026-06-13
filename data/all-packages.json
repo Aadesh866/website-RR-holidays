@@ -12034,5 +12034,2546 @@
       }
     ],
     "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Milford_Sound_%28New_Zealand%29.JPG"
+  },
+  {
+    "continent": "Asia",
+    "name": "Indonesia",
+    "markdownContent": "## Why Visit Indonesia?\n\nExperience the best of Indonesia with our curated packages.",
+    "packages": [
+      {
+        "title": "Bali Explorer (5N/6D)",
+        "slug": "bali-explorer-5n-6d",
+        "duration": "5 Nights / 6 Days",
+        "price": 117000,
+        "originalPrice": 132000,
+        "category": "International",
+        "overview": "Experience the magic of Indonesia with our exclusive Bali Explorer (5N/6D). This carefully curated 5 Nights / 6 Days itinerary is designed to give you a perfect blend of breathtaking sightseeing, cultural immersion, and relaxing leisure time. From iconic landmarks to hidden gems, prepare for an unforgettable journey that captures the true essence of the destination.",
+        "highlights": [
+          "Comprehensive guided tour of the most iconic attractions in Indonesia.",
+          "Comfortable premium accommodation with daily breakfast included.",
+          "Hassle-free airport transfers and comfortable inter-city transportation.",
+          "Dedicated time for leisure, shopping, and exploring the local cuisine.",
+          "24/7 on-ground support to ensure a seamless holiday experience."
+        ],
+        "inclusions": [
+          "Accommodation in 4-Star or 5-Star Premium Hotels",
+          "Daily Buffet Breakfast",
+          "Meet & Greet assistance at the airport",
+          "Return Airport Transfers on Private Basis",
+          "Sightseeing tours as per the itinerary",
+          "All applicable taxes"
+        ],
+        "exclusions": [
+          "International / Domestic Airfare",
+          "Visa fees and Travel Insurance",
+          "Personal expenses like laundry, tips, phone calls",
+          "Meals other than specified",
+          "Any optional tours or activities"
+        ],
+        "itinerary": [
+          {
+            "title": "Day 1: Arrival in Indonesia & Leisure",
+            "activities": [
+              "Welcome to Indonesia! Upon your arrival at the airport, our representative will greet you and transfer you to your premium hotel.",
+              "Complete your check-in process and take some time to relax and freshen up after your journey.",
+              "The rest of the day is at your leisure. You can explore the local markets near your hotel or enjoy a quiet dinner.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 2: Highlights and City Tour",
+            "activities": [
+              "Start your day with a delicious breakfast at the hotel.",
+              "Embark on a comprehensive guided city tour covering the most famous landmarks and historical sites of Indonesia.",
+              "Enjoy ample photo opportunities and learn about the local culture and history from your expert guide.",
+              "Return to your hotel in the evening and relax.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 3: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 4: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 5: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 6: Departure with Beautiful Memories",
+            "activities": [
+              "Enjoy a hearty breakfast at your hotel and complete the check-out process.",
+              "Depending on your flight schedule, you may have some free time for last-minute shopping or sightseeing.",
+              "Our driver will transfer you to the airport in a comfortable vehicle for your onward journey.",
+              "Board your flight with wonderful memories of your trip."
+            ]
+          }
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Pura_Ulun_Danu_Bratan.jpg",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/8/86/Pura_Ulun_Danu_Bratan.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e6/Bali_scenes.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/0/0f/Terrace_River_Pool_Swing_Bali.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/5/5e/Uluwatu%40bali.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/19/Kelingking_Beach_%28T-Rex_Bay%29_of_Nusa_Penida%2C_Bali_%282025%29_-_img_02.jpg"
+        ]
+      },
+      {
+        "title": "Bali & Beyond (7N/8D)",
+        "slug": "bali-beyond-7n-8d",
+        "duration": "7 Nights / 8 Days",
+        "price": 141000,
+        "originalPrice": 156000,
+        "category": "International",
+        "overview": "Experience the magic of Indonesia with our exclusive Bali & Beyond (7N/8D). This carefully curated 7 Nights / 8 Days itinerary is designed to give you a perfect blend of breathtaking sightseeing, cultural immersion, and relaxing leisure time. From iconic landmarks to hidden gems, prepare for an unforgettable journey that captures the true essence of the destination.",
+        "highlights": [
+          "Comprehensive guided tour of the most iconic attractions in Indonesia.",
+          "Comfortable premium accommodation with daily breakfast included.",
+          "Hassle-free airport transfers and comfortable inter-city transportation.",
+          "Dedicated time for leisure, shopping, and exploring the local cuisine.",
+          "24/7 on-ground support to ensure a seamless holiday experience."
+        ],
+        "inclusions": [
+          "Accommodation in 4-Star or 5-Star Premium Hotels",
+          "Daily Buffet Breakfast",
+          "Meet & Greet assistance at the airport",
+          "Return Airport Transfers on Private Basis",
+          "Sightseeing tours as per the itinerary",
+          "All applicable taxes"
+        ],
+        "exclusions": [
+          "International / Domestic Airfare",
+          "Visa fees and Travel Insurance",
+          "Personal expenses like laundry, tips, phone calls",
+          "Meals other than specified",
+          "Any optional tours or activities"
+        ],
+        "itinerary": [
+          {
+            "title": "Day 1: Arrival in Indonesia & Leisure",
+            "activities": [
+              "Welcome to Indonesia! Upon your arrival at the airport, our representative will greet you and transfer you to your premium hotel.",
+              "Complete your check-in process and take some time to relax and freshen up after your journey.",
+              "The rest of the day is at your leisure. You can explore the local markets near your hotel or enjoy a quiet dinner.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 2: Highlights and City Tour",
+            "activities": [
+              "Start your day with a delicious breakfast at the hotel.",
+              "Embark on a comprehensive guided city tour covering the most famous landmarks and historical sites of Indonesia.",
+              "Enjoy ample photo opportunities and learn about the local culture and history from your expert guide.",
+              "Return to your hotel in the evening and relax.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 3: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 4: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 5: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 6: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 7: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 8: Departure with Beautiful Memories",
+            "activities": [
+              "Enjoy a hearty breakfast at your hotel and complete the check-out process.",
+              "Depending on your flight schedule, you may have some free time for last-minute shopping or sightseeing.",
+              "Our driver will transfer you to the airport in a comfortable vehicle for your onward journey.",
+              "Board your flight with wonderful memories of your trip."
+            ]
+          }
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Mother_Temple_of_Besakih.jpg",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/0/02/Mother_Temple_of_Besakih.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/17/Going_down_the_volcano.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/46/Monkey_Forest.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/ea/Tirta_Empul_temple_%2816871048820%29.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/6/66/Sekumpul-cious.jpg"
+        ]
+      }
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/86/Pura_Ulun_Danu_Bratan.jpg"
+  },
+  {
+    "continent": "Asia",
+    "name": "Sri Lanka",
+    "markdownContent": "## Why Visit Sri Lanka?\n\nExperience the best of Sri Lanka with our curated packages.",
+    "packages": [
+      {
+        "title": "Sri Lanka Highlights (6N/7D)",
+        "slug": "sri-lanka-highlights-6n-7d",
+        "duration": "6 Nights / 7 Days",
+        "price": 129000,
+        "originalPrice": 144000,
+        "category": "International",
+        "overview": "Experience the magic of Sri Lanka with our exclusive Sri Lanka Highlights (6N/7D). This carefully curated 6 Nights / 7 Days itinerary is designed to give you a perfect blend of breathtaking sightseeing, cultural immersion, and relaxing leisure time. From iconic landmarks to hidden gems, prepare for an unforgettable journey that captures the true essence of the destination.",
+        "highlights": [
+          "Comprehensive guided tour of the most iconic attractions in Sri Lanka.",
+          "Comfortable premium accommodation with daily breakfast included.",
+          "Hassle-free airport transfers and comfortable inter-city transportation.",
+          "Dedicated time for leisure, shopping, and exploring the local cuisine.",
+          "24/7 on-ground support to ensure a seamless holiday experience."
+        ],
+        "inclusions": [
+          "Accommodation in 4-Star or 5-Star Premium Hotels",
+          "Daily Buffet Breakfast",
+          "Meet & Greet assistance at the airport",
+          "Return Airport Transfers on Private Basis",
+          "Sightseeing tours as per the itinerary",
+          "All applicable taxes"
+        ],
+        "exclusions": [
+          "International / Domestic Airfare",
+          "Visa fees and Travel Insurance",
+          "Personal expenses like laundry, tips, phone calls",
+          "Meals other than specified",
+          "Any optional tours or activities"
+        ],
+        "itinerary": [
+          {
+            "title": "Day 1: Arrival in Sri Lanka & Leisure",
+            "activities": [
+              "Welcome to Sri Lanka! Upon your arrival at the airport, our representative will greet you and transfer you to your premium hotel.",
+              "Complete your check-in process and take some time to relax and freshen up after your journey.",
+              "The rest of the day is at your leisure. You can explore the local markets near your hotel or enjoy a quiet dinner.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 2: Highlights and City Tour",
+            "activities": [
+              "Start your day with a delicious breakfast at the hotel.",
+              "Embark on a comprehensive guided city tour covering the most famous landmarks and historical sites of Sri Lanka.",
+              "Enjoy ample photo opportunities and learn about the local culture and history from your expert guide.",
+              "Return to your hotel in the evening and relax.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 3: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 4: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 5: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 6: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 7: Departure with Beautiful Memories",
+            "activities": [
+              "Enjoy a hearty breakfast at your hotel and complete the check-out process.",
+              "Depending on your flight schedule, you may have some free time for last-minute shopping or sightseeing.",
+              "Our driver will transfer you to the airport in a comfortable vehicle for your onward journey.",
+              "Board your flight with wonderful memories of your trip."
+            ]
+          }
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Sigiriya.jpg",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/c/c7/Sigiriya.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/2/26/Temple_of_the_Tooth%2C_Sitting_Buddha_statues.-_Kandy.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/6/66/A_Train_Crosses_The_Nine_Arches_Bridge_%28243270425%29.jpeg",
+          "https://upload.wikimedia.org/wikipedia/commons/3/32/Sri_Lankan_Leopard_-_Yala_National_Park.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/d/df/GALLE_FORT_AND_LIGHTHOUSE_GALLE_SRI_LANKA_JAN2013_%288510167078%29.jpg"
+        ]
+      },
+      {
+        "title": "Cultural Triangle (5N/6D)",
+        "slug": "cultural-triangle-5n-6d",
+        "duration": "5 Nights / 6 Days",
+        "price": 117000,
+        "originalPrice": 132000,
+        "category": "International",
+        "overview": "Experience the magic of Sri Lanka with our exclusive Cultural Triangle (5N/6D). This carefully curated 5 Nights / 6 Days itinerary is designed to give you a perfect blend of breathtaking sightseeing, cultural immersion, and relaxing leisure time. From iconic landmarks to hidden gems, prepare for an unforgettable journey that captures the true essence of the destination.",
+        "highlights": [
+          "Comprehensive guided tour of the most iconic attractions in Sri Lanka.",
+          "Comfortable premium accommodation with daily breakfast included.",
+          "Hassle-free airport transfers and comfortable inter-city transportation.",
+          "Dedicated time for leisure, shopping, and exploring the local cuisine.",
+          "24/7 on-ground support to ensure a seamless holiday experience."
+        ],
+        "inclusions": [
+          "Accommodation in 4-Star or 5-Star Premium Hotels",
+          "Daily Buffet Breakfast",
+          "Meet & Greet assistance at the airport",
+          "Return Airport Transfers on Private Basis",
+          "Sightseeing tours as per the itinerary",
+          "All applicable taxes"
+        ],
+        "exclusions": [
+          "International / Domestic Airfare",
+          "Visa fees and Travel Insurance",
+          "Personal expenses like laundry, tips, phone calls",
+          "Meals other than specified",
+          "Any optional tours or activities"
+        ],
+        "itinerary": [
+          {
+            "title": "Day 1: Arrival in Sri Lanka & Leisure",
+            "activities": [
+              "Welcome to Sri Lanka! Upon your arrival at the airport, our representative will greet you and transfer you to your premium hotel.",
+              "Complete your check-in process and take some time to relax and freshen up after your journey.",
+              "The rest of the day is at your leisure. You can explore the local markets near your hotel or enjoy a quiet dinner.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 2: Highlights and City Tour",
+            "activities": [
+              "Start your day with a delicious breakfast at the hotel.",
+              "Embark on a comprehensive guided city tour covering the most famous landmarks and historical sites of Sri Lanka.",
+              "Enjoy ample photo opportunities and learn about the local culture and history from your expert guide.",
+              "Return to your hotel in the evening and relax.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 3: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 4: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 5: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 6: Departure with Beautiful Memories",
+            "activities": [
+              "Enjoy a hearty breakfast at your hotel and complete the check-out process.",
+              "Depending on your flight schedule, you may have some free time for last-minute shopping or sightseeing.",
+              "Our driver will transfer you to the airport in a comfortable vehicle for your onward journey.",
+              "Board your flight with wonderful memories of your trip."
+            ]
+          }
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b0/20160124_Sri_Lanka_3733_Polonnaruwa_sRGB_%2825770864305%29.jpg",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/b/b0/20160124_Sri_Lanka_3733_Polonnaruwa_sRGB_%2825770864305%29.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/d/d7/Mucalinda_in_Dambulla_cave_temple_%282015%29.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/2/2e/Sri_Lanka_-_Anuradhapura_-_Ruwanweliseya.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/8/85/Elephants_gather_for_water_in_the_plains_at_Minneriya_National_Park_in_Sri_Lanka._It_is_one_of_the_largest_gathering_of_-_Flickr_-_Al_Jazeera_English.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/d/da/DSC_0212_2-EFFECTS.jpg"
+        ]
+      }
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Sigiriya.jpg"
+  },
+  {
+    "continent": "Asia",
+    "name": "Philippines",
+    "markdownContent": "## Why Visit Philippines?\n\nExperience the best of Philippines with our curated packages.",
+    "packages": [
+      {
+        "title": "Palawan Beach Paradise (5N/6D)",
+        "slug": "palawan-beach-paradise-5n-6d",
+        "duration": "5 Nights / 6 Days",
+        "price": 117000,
+        "originalPrice": 132000,
+        "category": "International",
+        "overview": "Experience the magic of Philippines with our exclusive Palawan Beach Paradise (5N/6D). This carefully curated 5 Nights / 6 Days itinerary is designed to give you a perfect blend of breathtaking sightseeing, cultural immersion, and relaxing leisure time. From iconic landmarks to hidden gems, prepare for an unforgettable journey that captures the true essence of the destination.",
+        "highlights": [
+          "Comprehensive guided tour of the most iconic attractions in Philippines.",
+          "Comfortable premium accommodation with daily breakfast included.",
+          "Hassle-free airport transfers and comfortable inter-city transportation.",
+          "Dedicated time for leisure, shopping, and exploring the local cuisine.",
+          "24/7 on-ground support to ensure a seamless holiday experience."
+        ],
+        "inclusions": [
+          "Accommodation in 4-Star or 5-Star Premium Hotels",
+          "Daily Buffet Breakfast",
+          "Meet & Greet assistance at the airport",
+          "Return Airport Transfers on Private Basis",
+          "Sightseeing tours as per the itinerary",
+          "All applicable taxes"
+        ],
+        "exclusions": [
+          "International / Domestic Airfare",
+          "Visa fees and Travel Insurance",
+          "Personal expenses like laundry, tips, phone calls",
+          "Meals other than specified",
+          "Any optional tours or activities"
+        ],
+        "itinerary": [
+          {
+            "title": "Day 1: Arrival in Philippines & Leisure",
+            "activities": [
+              "Welcome to Philippines! Upon your arrival at the airport, our representative will greet you and transfer you to your premium hotel.",
+              "Complete your check-in process and take some time to relax and freshen up after your journey.",
+              "The rest of the day is at your leisure. You can explore the local markets near your hotel or enjoy a quiet dinner.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 2: Highlights and City Tour",
+            "activities": [
+              "Start your day with a delicious breakfast at the hotel.",
+              "Embark on a comprehensive guided city tour covering the most famous landmarks and historical sites of Philippines.",
+              "Enjoy ample photo opportunities and learn about the local culture and history from your expert guide.",
+              "Return to your hotel in the evening and relax.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 3: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 4: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 5: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 6: Departure with Beautiful Memories",
+            "activities": [
+              "Enjoy a hearty breakfast at your hotel and complete the check-out process.",
+              "Depending on your flight schedule, you may have some free time for last-minute shopping or sightseeing.",
+              "Our driver will transfer you to the airport in a comfortable vehicle for your onward journey.",
+              "Board your flight with wonderful memories of your trip."
+            ]
+          }
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/El_Nido_limestone_cliffs_-_panoramio.jpg",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/8/82/El_Nido_limestone_cliffs_-_panoramio.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/d/dc/Pier_of_Kayangan_lagoon%2C_Coron%2C_Palawan_-_panoramio.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/b3/Puerto_Princesa_Underground_River.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/ba/Coron_-_Kayangan_Lake.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e9/Nacpan_Beach%2C_El_Nido%2C_Philippines_%2836958342541%29.jpg"
+        ]
+      },
+      {
+        "title": "Boracay Getaway (4N/5D)",
+        "slug": "boracay-getaway-4n-5d",
+        "duration": "4 Nights / 5 Days",
+        "price": 105000,
+        "originalPrice": 120000,
+        "category": "International",
+        "overview": "Experience the magic of Philippines with our exclusive Boracay Getaway (4N/5D). This carefully curated 4 Nights / 5 Days itinerary is designed to give you a perfect blend of breathtaking sightseeing, cultural immersion, and relaxing leisure time. From iconic landmarks to hidden gems, prepare for an unforgettable journey that captures the true essence of the destination.",
+        "highlights": [
+          "Comprehensive guided tour of the most iconic attractions in Philippines.",
+          "Comfortable premium accommodation with daily breakfast included.",
+          "Hassle-free airport transfers and comfortable inter-city transportation.",
+          "Dedicated time for leisure, shopping, and exploring the local cuisine.",
+          "24/7 on-ground support to ensure a seamless holiday experience."
+        ],
+        "inclusions": [
+          "Accommodation in 4-Star or 5-Star Premium Hotels",
+          "Daily Buffet Breakfast",
+          "Meet & Greet assistance at the airport",
+          "Return Airport Transfers on Private Basis",
+          "Sightseeing tours as per the itinerary",
+          "All applicable taxes"
+        ],
+        "exclusions": [
+          "International / Domestic Airfare",
+          "Visa fees and Travel Insurance",
+          "Personal expenses like laundry, tips, phone calls",
+          "Meals other than specified",
+          "Any optional tours or activities"
+        ],
+        "itinerary": [
+          {
+            "title": "Day 1: Arrival in Philippines & Leisure",
+            "activities": [
+              "Welcome to Philippines! Upon your arrival at the airport, our representative will greet you and transfer you to your premium hotel.",
+              "Complete your check-in process and take some time to relax and freshen up after your journey.",
+              "The rest of the day is at your leisure. You can explore the local markets near your hotel or enjoy a quiet dinner.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 2: Highlights and City Tour",
+            "activities": [
+              "Start your day with a delicious breakfast at the hotel.",
+              "Embark on a comprehensive guided city tour covering the most famous landmarks and historical sites of Philippines.",
+              "Enjoy ample photo opportunities and learn about the local culture and history from your expert guide.",
+              "Return to your hotel in the evening and relax.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 3: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 4: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 5: Departure with Beautiful Memories",
+            "activities": [
+              "Enjoy a hearty breakfast at your hotel and complete the check-out process.",
+              "Depending on your flight schedule, you may have some free time for last-minute shopping or sightseeing.",
+              "Our driver will transfer you to the airport in a comfortable vehicle for your onward journey.",
+              "Board your flight with wonderful memories of your trip."
+            ]
+          }
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Sunset_Borocay_White_Beach.jpg",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/9/9b/Sunset_Borocay_White_Beach.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/ec/Grotto_of_Our_Lady_of_the_Holy_Rosary%2C_Boracay.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/7/7c/1977_fiddling_before_going_berry_picking.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e4/View_from_Mount_Luho_View_Deck_Boracay_-_panoramio.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/a/ad/Flickr_-_brewbooks_-_Brenda%2C_Mary_and_I.jpg"
+        ]
+      }
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/El_Nido_limestone_cliffs_-_panoramio.jpg"
+  },
+  {
+    "continent": "Europe",
+    "name": "Turkey",
+    "markdownContent": "## Why Visit Turkey?\n\nExperience the best of Turkey with our curated packages.",
+    "packages": [
+      {
+        "title": "Best of Turkey (7N/8D)",
+        "slug": "best-of-turkey-7n-8d",
+        "duration": "7 Nights / 8 Days",
+        "price": 216000,
+        "originalPrice": 231000,
+        "category": "International",
+        "overview": "Experience the magic of Turkey with our exclusive Best of Turkey (7N/8D). This carefully curated 7 Nights / 8 Days itinerary is designed to give you a perfect blend of breathtaking sightseeing, cultural immersion, and relaxing leisure time. From iconic landmarks to hidden gems, prepare for an unforgettable journey that captures the true essence of the destination.",
+        "highlights": [
+          "Comprehensive guided tour of the most iconic attractions in Turkey.",
+          "Comfortable premium accommodation with daily breakfast included.",
+          "Hassle-free airport transfers and comfortable inter-city transportation.",
+          "Dedicated time for leisure, shopping, and exploring the local cuisine.",
+          "24/7 on-ground support to ensure a seamless holiday experience."
+        ],
+        "inclusions": [
+          "Accommodation in 4-Star or 5-Star Premium Hotels",
+          "Daily Buffet Breakfast",
+          "Meet & Greet assistance at the airport",
+          "Return Airport Transfers on Private Basis",
+          "Sightseeing tours as per the itinerary",
+          "All applicable taxes"
+        ],
+        "exclusions": [
+          "International / Domestic Airfare",
+          "Visa fees and Travel Insurance",
+          "Personal expenses like laundry, tips, phone calls",
+          "Meals other than specified",
+          "Any optional tours or activities"
+        ],
+        "itinerary": [
+          {
+            "title": "Day 1: Arrival in Turkey & Leisure",
+            "activities": [
+              "Welcome to Turkey! Upon your arrival at the airport, our representative will greet you and transfer you to your premium hotel.",
+              "Complete your check-in process and take some time to relax and freshen up after your journey.",
+              "The rest of the day is at your leisure. You can explore the local markets near your hotel or enjoy a quiet dinner.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 2: Highlights and City Tour",
+            "activities": [
+              "Start your day with a delicious breakfast at the hotel.",
+              "Embark on a comprehensive guided city tour covering the most famous landmarks and historical sites of Turkey.",
+              "Enjoy ample photo opportunities and learn about the local culture and history from your expert guide.",
+              "Return to your hotel in the evening and relax.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 3: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 4: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 5: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 6: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 7: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 8: Departure with Beautiful Memories",
+            "activities": [
+              "Enjoy a hearty breakfast at your hotel and complete the check-out process.",
+              "Depending on your flight schedule, you may have some free time for last-minute shopping or sightseeing.",
+              "Our driver will transfer you to the airport in a comfortable vehicle for your onward journey.",
+              "Board your flight with wonderful memories of your trip."
+            ]
+          }
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Hagia_Sophia_Mars_2013.jpg",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/2/22/Hagia_Sophia_Mars_2013.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/7/72/Abdullah_fr%C3%A8res_-_Sultan_Ahmet_camii%2C_Istanbul.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/2/2b/The_travertines_from_a_distance-_the_people_look_like_ants%21_%2816124352159%29.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/3/39/Library_of_Celsus%2C_Ephesus_Archaeological_Site%2C_Selcuk%2C_Turkiye_%2853528218095%29.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/9/97/View_from_the_Fourth_Courtyard_of_Topkap%C4%B1_Palace%2C_Istanbul_001.jpg"
+        ]
+      },
+      {
+        "title": "Istanbul & Cappadocia (5N/6D)",
+        "slug": "istanbul-cappadocia-5n-6d",
+        "duration": "5 Nights / 6 Days",
+        "price": 192000,
+        "originalPrice": 207000,
+        "category": "International",
+        "overview": "Experience the magic of Turkey with our exclusive Istanbul & Cappadocia (5N/6D). This carefully curated 5 Nights / 6 Days itinerary is designed to give you a perfect blend of breathtaking sightseeing, cultural immersion, and relaxing leisure time. From iconic landmarks to hidden gems, prepare for an unforgettable journey that captures the true essence of the destination.",
+        "highlights": [
+          "Comprehensive guided tour of the most iconic attractions in Turkey.",
+          "Comfortable premium accommodation with daily breakfast included.",
+          "Hassle-free airport transfers and comfortable inter-city transportation.",
+          "Dedicated time for leisure, shopping, and exploring the local cuisine.",
+          "24/7 on-ground support to ensure a seamless holiday experience."
+        ],
+        "inclusions": [
+          "Accommodation in 4-Star or 5-Star Premium Hotels",
+          "Daily Buffet Breakfast",
+          "Meet & Greet assistance at the airport",
+          "Return Airport Transfers on Private Basis",
+          "Sightseeing tours as per the itinerary",
+          "All applicable taxes"
+        ],
+        "exclusions": [
+          "International / Domestic Airfare",
+          "Visa fees and Travel Insurance",
+          "Personal expenses like laundry, tips, phone calls",
+          "Meals other than specified",
+          "Any optional tours or activities"
+        ],
+        "itinerary": [
+          {
+            "title": "Day 1: Arrival in Turkey & Leisure",
+            "activities": [
+              "Welcome to Turkey! Upon your arrival at the airport, our representative will greet you and transfer you to your premium hotel.",
+              "Complete your check-in process and take some time to relax and freshen up after your journey.",
+              "The rest of the day is at your leisure. You can explore the local markets near your hotel or enjoy a quiet dinner.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 2: Highlights and City Tour",
+            "activities": [
+              "Start your day with a delicious breakfast at the hotel.",
+              "Embark on a comprehensive guided city tour covering the most famous landmarks and historical sites of Turkey.",
+              "Enjoy ample photo opportunities and learn about the local culture and history from your expert guide.",
+              "Return to your hotel in the evening and relax.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 3: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 4: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 5: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 6: Departure with Beautiful Memories",
+            "activities": [
+              "Enjoy a hearty breakfast at your hotel and complete the check-out process.",
+              "Depending on your flight schedule, you may have some free time for last-minute shopping or sightseeing.",
+              "Our driver will transfer you to the airport in a comfortable vehicle for your onward journey.",
+              "Board your flight with wonderful memories of your trip."
+            ]
+          }
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6e/HOT_AIR_BALLOONS_GOREME_VILLAGE_CAPPADOCIA_CENTRAL_TURKEY_OCT_2011_%286363051805%29.jpg",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/6/6e/HOT_AIR_BALLOONS_GOREME_VILLAGE_CAPPADOCIA_CENTRAL_TURKEY_OCT_2011_%286363051805%29.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/3/35/Ligt_in_Goreme_Valley.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/7/73/Istanbul_as_seen_from_the_Galata_Tower_%288396801424%29.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/8/8e/Grand_bazaar_interior.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/a/ab/U%C3%A7hisar_Castle_%2811895182493%29.jpg"
+        ]
+      }
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Hagia_Sophia_Mars_2013.jpg"
+  },
+  {
+    "continent": "Middle East",
+    "name": "Egypt",
+    "markdownContent": "## Why Visit Egypt?\n\nExperience the best of Egypt with our curated packages.",
+    "packages": [
+      {
+        "title": "Pyramids & Nile Cruise (6N/7D)",
+        "slug": "pyramids-nile-cruise-6n-7d",
+        "duration": "6 Nights / 7 Days",
+        "price": 129000,
+        "originalPrice": 144000,
+        "category": "International",
+        "overview": "Experience the magic of Egypt with our exclusive Pyramids & Nile Cruise (6N/7D). This carefully curated 6 Nights / 7 Days itinerary is designed to give you a perfect blend of breathtaking sightseeing, cultural immersion, and relaxing leisure time. From iconic landmarks to hidden gems, prepare for an unforgettable journey that captures the true essence of the destination.",
+        "highlights": [
+          "Comprehensive guided tour of the most iconic attractions in Egypt.",
+          "Comfortable premium accommodation with daily breakfast included.",
+          "Hassle-free airport transfers and comfortable inter-city transportation.",
+          "Dedicated time for leisure, shopping, and exploring the local cuisine.",
+          "24/7 on-ground support to ensure a seamless holiday experience."
+        ],
+        "inclusions": [
+          "Accommodation in 4-Star or 5-Star Premium Hotels",
+          "Daily Buffet Breakfast",
+          "Meet & Greet assistance at the airport",
+          "Return Airport Transfers on Private Basis",
+          "Sightseeing tours as per the itinerary",
+          "All applicable taxes"
+        ],
+        "exclusions": [
+          "International / Domestic Airfare",
+          "Visa fees and Travel Insurance",
+          "Personal expenses like laundry, tips, phone calls",
+          "Meals other than specified",
+          "Any optional tours or activities"
+        ],
+        "itinerary": [
+          {
+            "title": "Day 1: Arrival in Egypt & Leisure",
+            "activities": [
+              "Welcome to Egypt! Upon your arrival at the airport, our representative will greet you and transfer you to your premium hotel.",
+              "Complete your check-in process and take some time to relax and freshen up after your journey.",
+              "The rest of the day is at your leisure. You can explore the local markets near your hotel or enjoy a quiet dinner.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 2: Highlights and City Tour",
+            "activities": [
+              "Start your day with a delicious breakfast at the hotel.",
+              "Embark on a comprehensive guided city tour covering the most famous landmarks and historical sites of Egypt.",
+              "Enjoy ample photo opportunities and learn about the local culture and history from your expert guide.",
+              "Return to your hotel in the evening and relax.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 3: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 4: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 5: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 6: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 7: Departure with Beautiful Memories",
+            "activities": [
+              "Enjoy a hearty breakfast at your hotel and complete the check-out process.",
+              "Depending on your flight schedule, you may have some free time for last-minute shopping or sightseeing.",
+              "Our driver will transfer you to the airport in a comfortable vehicle for your onward journey.",
+              "Board your flight with wonderful memories of your trip."
+            ]
+          }
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Egypt.Giza.Sphinx.01.jpg",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/c/c5/Egypt.Giza.Sphinx.01.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/3/3f/Luxor_Felucca_B.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/6/63/Karnak-pillars-1by7.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/b1/Entrance_to_One_of_the_Royal_Tombs_in_the_Valley_of_the_Kings._%281910%29_-_TIMEA.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/6/6b/Guardsman_of_Ramses._Abu_Simbel_temple%2C_Egypt.jpg"
+        ]
+      },
+      {
+        "title": "Ancient Wonders (8N/9D)",
+        "slug": "ancient-wonders-8n-9d",
+        "duration": "8 Nights / 9 Days",
+        "price": 153000,
+        "originalPrice": 168000,
+        "category": "International",
+        "overview": "Experience the magic of Egypt with our exclusive Ancient Wonders (8N/9D). This carefully curated 8 Nights / 9 Days itinerary is designed to give you a perfect blend of breathtaking sightseeing, cultural immersion, and relaxing leisure time. From iconic landmarks to hidden gems, prepare for an unforgettable journey that captures the true essence of the destination.",
+        "highlights": [
+          "Comprehensive guided tour of the most iconic attractions in Egypt.",
+          "Comfortable premium accommodation with daily breakfast included.",
+          "Hassle-free airport transfers and comfortable inter-city transportation.",
+          "Dedicated time for leisure, shopping, and exploring the local cuisine.",
+          "24/7 on-ground support to ensure a seamless holiday experience."
+        ],
+        "inclusions": [
+          "Accommodation in 4-Star or 5-Star Premium Hotels",
+          "Daily Buffet Breakfast",
+          "Meet & Greet assistance at the airport",
+          "Return Airport Transfers on Private Basis",
+          "Sightseeing tours as per the itinerary",
+          "All applicable taxes"
+        ],
+        "exclusions": [
+          "International / Domestic Airfare",
+          "Visa fees and Travel Insurance",
+          "Personal expenses like laundry, tips, phone calls",
+          "Meals other than specified",
+          "Any optional tours or activities"
+        ],
+        "itinerary": [
+          {
+            "title": "Day 1: Arrival in Egypt & Leisure",
+            "activities": [
+              "Welcome to Egypt! Upon your arrival at the airport, our representative will greet you and transfer you to your premium hotel.",
+              "Complete your check-in process and take some time to relax and freshen up after your journey.",
+              "The rest of the day is at your leisure. You can explore the local markets near your hotel or enjoy a quiet dinner.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 2: Highlights and City Tour",
+            "activities": [
+              "Start your day with a delicious breakfast at the hotel.",
+              "Embark on a comprehensive guided city tour covering the most famous landmarks and historical sites of Egypt.",
+              "Enjoy ample photo opportunities and learn about the local culture and history from your expert guide.",
+              "Return to your hotel in the evening and relax.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 3: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 4: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 5: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 6: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 7: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 8: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 9: Departure with Beautiful Memories",
+            "activities": [
+              "Enjoy a hearty breakfast at your hotel and complete the check-out process.",
+              "Depending on your flight schedule, you may have some free time for last-minute shopping or sightseeing.",
+              "Our driver will transfer you to the airport in a comfortable vehicle for your onward journey.",
+              "Board your flight with wonderful memories of your trip."
+            ]
+          }
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Illuminated_Column_at_Karnak_Temple%2C_Luxor.jpg",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/3/3f/Illuminated_Column_at_Karnak_Temple%2C_Luxor.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/5/52/Thebes%2C_Luxor%2C_Egypt%2C_Panoramic_view_of_Deir_el-Bahari_from_above%2C_Temple_of_Hatshepsut.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/a/a7/Philae%2C_seen_from_the_water%2C_Aswan%2C_Egypt%2C_Oct_2004.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/48/Male_head_from_Hierakonpolis._Probably_originating_from_Tomb_16_complex_%28found_in_the_vicinity%29%2C_Naqada_IC-Naqada_IIA_%28circa_3600-3500_BCE%29._Egyptian_Museum%2C_Cairo.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/eb/Colossi_of_Memnon_R01.jpg"
+        ]
+      }
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Egypt.Giza.Sphinx.01.jpg"
+  },
+  {
+    "continent": "Middle East",
+    "name": "Qatar",
+    "markdownContent": "## Why Visit Qatar?\n\nExperience the best of Qatar with our curated packages.",
+    "packages": [
+      {
+        "title": "Doha City Break (3N/4D)",
+        "slug": "doha-city-break-3n-4d",
+        "duration": "3 Nights / 4 Days",
+        "price": 93000,
+        "originalPrice": 108000,
+        "category": "International",
+        "overview": "Experience the magic of Qatar with our exclusive Doha City Break (3N/4D). This carefully curated 3 Nights / 4 Days itinerary is designed to give you a perfect blend of breathtaking sightseeing, cultural immersion, and relaxing leisure time. From iconic landmarks to hidden gems, prepare for an unforgettable journey that captures the true essence of the destination.",
+        "highlights": [
+          "Comprehensive guided tour of the most iconic attractions in Qatar.",
+          "Comfortable premium accommodation with daily breakfast included.",
+          "Hassle-free airport transfers and comfortable inter-city transportation.",
+          "Dedicated time for leisure, shopping, and exploring the local cuisine.",
+          "24/7 on-ground support to ensure a seamless holiday experience."
+        ],
+        "inclusions": [
+          "Accommodation in 4-Star or 5-Star Premium Hotels",
+          "Daily Buffet Breakfast",
+          "Meet & Greet assistance at the airport",
+          "Return Airport Transfers on Private Basis",
+          "Sightseeing tours as per the itinerary",
+          "All applicable taxes"
+        ],
+        "exclusions": [
+          "International / Domestic Airfare",
+          "Visa fees and Travel Insurance",
+          "Personal expenses like laundry, tips, phone calls",
+          "Meals other than specified",
+          "Any optional tours or activities"
+        ],
+        "itinerary": [
+          {
+            "title": "Day 1: Arrival in Qatar & Leisure",
+            "activities": [
+              "Welcome to Qatar! Upon your arrival at the airport, our representative will greet you and transfer you to your premium hotel.",
+              "Complete your check-in process and take some time to relax and freshen up after your journey.",
+              "The rest of the day is at your leisure. You can explore the local markets near your hotel or enjoy a quiet dinner.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 2: Highlights and City Tour",
+            "activities": [
+              "Start your day with a delicious breakfast at the hotel.",
+              "Embark on a comprehensive guided city tour covering the most famous landmarks and historical sites of Qatar.",
+              "Enjoy ample photo opportunities and learn about the local culture and history from your expert guide.",
+              "Return to your hotel in the evening and relax.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 3: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 4: Departure with Beautiful Memories",
+            "activities": [
+              "Enjoy a hearty breakfast at your hotel and complete the check-out process.",
+              "Depending on your flight schedule, you may have some free time for last-minute shopping or sightseeing.",
+              "Our driver will transfer you to the airport in a comfortable vehicle for your onward journey.",
+              "Board your flight with wonderful memories of your trip."
+            ]
+          }
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/West_Bay_Skyline%2C_Doha%2C_State_of_Qatar.jpg",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/d/da/West_Bay_Skyline%2C_Doha%2C_State_of_Qatar.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/b7/Museum_of_Islamic_Art%2C_Doha_00_%28101%29.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/6/6a/Souq_Waqif_by_Raymond_Clavel.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/0/0b/Doha%2C_Qatar.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/b/be/Doha_Katara_Cultural_Village_Multi_Purpose_Hall_Interior_05.jpg"
+        ]
+      }
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/West_Bay_Skyline%2C_Doha%2C_State_of_Qatar.jpg"
+  },
+  {
+    "continent": "Africa",
+    "name": "Kenya",
+    "markdownContent": "## Why Visit Kenya?\n\nExperience the best of Kenya with our curated packages.",
+    "packages": [
+      {
+        "title": "Masai Mara Safari (5N/6D)",
+        "slug": "masai-mara-safari-5n-6d",
+        "duration": "5 Nights / 6 Days",
+        "price": 162000,
+        "originalPrice": 177000,
+        "category": "International",
+        "overview": "Experience the magic of Kenya with our exclusive Masai Mara Safari (5N/6D). This carefully curated 5 Nights / 6 Days itinerary is designed to give you a perfect blend of breathtaking sightseeing, cultural immersion, and relaxing leisure time. From iconic landmarks to hidden gems, prepare for an unforgettable journey that captures the true essence of the destination.",
+        "highlights": [
+          "Comprehensive guided tour of the most iconic attractions in Kenya.",
+          "Comfortable premium accommodation with daily breakfast included.",
+          "Hassle-free airport transfers and comfortable inter-city transportation.",
+          "Dedicated time for leisure, shopping, and exploring the local cuisine.",
+          "24/7 on-ground support to ensure a seamless holiday experience."
+        ],
+        "inclusions": [
+          "Accommodation in 4-Star or 5-Star Premium Hotels",
+          "Daily Buffet Breakfast",
+          "Meet & Greet assistance at the airport",
+          "Return Airport Transfers on Private Basis",
+          "Sightseeing tours as per the itinerary",
+          "All applicable taxes"
+        ],
+        "exclusions": [
+          "International / Domestic Airfare",
+          "Visa fees and Travel Insurance",
+          "Personal expenses like laundry, tips, phone calls",
+          "Meals other than specified",
+          "Any optional tours or activities"
+        ],
+        "itinerary": [
+          {
+            "title": "Day 1: Arrival in Kenya & Leisure",
+            "activities": [
+              "Welcome to Kenya! Upon your arrival at the airport, our representative will greet you and transfer you to your premium hotel.",
+              "Complete your check-in process and take some time to relax and freshen up after your journey.",
+              "The rest of the day is at your leisure. You can explore the local markets near your hotel or enjoy a quiet dinner.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 2: Highlights and City Tour",
+            "activities": [
+              "Start your day with a delicious breakfast at the hotel.",
+              "Embark on a comprehensive guided city tour covering the most famous landmarks and historical sites of Kenya.",
+              "Enjoy ample photo opportunities and learn about the local culture and history from your expert guide.",
+              "Return to your hotel in the evening and relax.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 3: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 4: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 5: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 6: Departure with Beautiful Memories",
+            "activities": [
+              "Enjoy a hearty breakfast at your hotel and complete the check-out process.",
+              "Depending on your flight schedule, you may have some free time for last-minute shopping or sightseeing.",
+              "Our driver will transfer you to the airport in a comfortable vehicle for your onward journey.",
+              "Board your flight with wonderful memories of your trip."
+            ]
+          }
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/The_Great_Trek.jpg",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/d/de/The_Great_Trek.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/46/ONTARIO-00384_-_Grey_Crowned_Crane_%2814840877174%29.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/ec/3V7A3326.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/f/fc/Ballooning_Away_in_Maasai_Mara.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/40/Male_Cheetahs%2C_Maasai_Mara_%2843941746162%29.jpg"
+        ]
+      },
+      {
+        "title": "Kenya Wildlife Explorer (7N/8D)",
+        "slug": "kenya-wildlife-explorer-7n-8d",
+        "duration": "7 Nights / 8 Days",
+        "price": 186000,
+        "originalPrice": 201000,
+        "category": "International",
+        "overview": "Experience the magic of Kenya with our exclusive Kenya Wildlife Explorer (7N/8D). This carefully curated 7 Nights / 8 Days itinerary is designed to give you a perfect blend of breathtaking sightseeing, cultural immersion, and relaxing leisure time. From iconic landmarks to hidden gems, prepare for an unforgettable journey that captures the true essence of the destination.",
+        "highlights": [
+          "Comprehensive guided tour of the most iconic attractions in Kenya.",
+          "Comfortable premium accommodation with daily breakfast included.",
+          "Hassle-free airport transfers and comfortable inter-city transportation.",
+          "Dedicated time for leisure, shopping, and exploring the local cuisine.",
+          "24/7 on-ground support to ensure a seamless holiday experience."
+        ],
+        "inclusions": [
+          "Accommodation in 4-Star or 5-Star Premium Hotels",
+          "Daily Buffet Breakfast",
+          "Meet & Greet assistance at the airport",
+          "Return Airport Transfers on Private Basis",
+          "Sightseeing tours as per the itinerary",
+          "All applicable taxes"
+        ],
+        "exclusions": [
+          "International / Domestic Airfare",
+          "Visa fees and Travel Insurance",
+          "Personal expenses like laundry, tips, phone calls",
+          "Meals other than specified",
+          "Any optional tours or activities"
+        ],
+        "itinerary": [
+          {
+            "title": "Day 1: Arrival in Kenya & Leisure",
+            "activities": [
+              "Welcome to Kenya! Upon your arrival at the airport, our representative will greet you and transfer you to your premium hotel.",
+              "Complete your check-in process and take some time to relax and freshen up after your journey.",
+              "The rest of the day is at your leisure. You can explore the local markets near your hotel or enjoy a quiet dinner.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 2: Highlights and City Tour",
+            "activities": [
+              "Start your day with a delicious breakfast at the hotel.",
+              "Embark on a comprehensive guided city tour covering the most famous landmarks and historical sites of Kenya.",
+              "Enjoy ample photo opportunities and learn about the local culture and history from your expert guide.",
+              "Return to your hotel in the evening and relax.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 3: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 4: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 5: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 6: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 7: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 8: Departure with Beautiful Memories",
+            "activities": [
+              "Enjoy a hearty breakfast at your hotel and complete the check-out process.",
+              "Depending on your flight schedule, you may have some free time for last-minute shopping or sightseeing.",
+              "Our driver will transfer you to the airport in a comfortable vehicle for your onward journey.",
+              "Board your flight with wonderful memories of your trip."
+            ]
+          }
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3f/1993_141-9A_Amboseli_Mount_Kilimanjaro.jpg",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/3/3f/1993_141-9A_Amboseli_Mount_Kilimanjaro.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/a/a3/Alkaline_lake_%2844521927212%29.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/b3/Red_elephant.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/d/d1/MtKenya_gletscher.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/9/97/Giraffe_at_the_front_door%2C_Giraffe_Manor%2C_Nairobi%2C_Kenya.jpg"
+        ]
+      }
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/d/de/The_Great_Trek.jpg"
+  },
+  {
+    "continent": "Africa",
+    "name": "Mauritius",
+    "markdownContent": "## Why Visit Mauritius?\n\nExperience the best of Mauritius with our curated packages.",
+    "packages": [
+      {
+        "title": "Mauritius Romantic Retreat (6N/7D)",
+        "slug": "mauritius-romantic-retreat-6n-7d",
+        "duration": "6 Nights / 7 Days",
+        "price": 129000,
+        "originalPrice": 144000,
+        "category": "International",
+        "overview": "Experience the magic of Mauritius with our exclusive Mauritius Romantic Retreat (6N/7D). This carefully curated 6 Nights / 7 Days itinerary is designed to give you a perfect blend of breathtaking sightseeing, cultural immersion, and relaxing leisure time. From iconic landmarks to hidden gems, prepare for an unforgettable journey that captures the true essence of the destination.",
+        "highlights": [
+          "Comprehensive guided tour of the most iconic attractions in Mauritius.",
+          "Comfortable premium accommodation with daily breakfast included.",
+          "Hassle-free airport transfers and comfortable inter-city transportation.",
+          "Dedicated time for leisure, shopping, and exploring the local cuisine.",
+          "24/7 on-ground support to ensure a seamless holiday experience."
+        ],
+        "inclusions": [
+          "Accommodation in 4-Star or 5-Star Premium Hotels",
+          "Daily Buffet Breakfast",
+          "Meet & Greet assistance at the airport",
+          "Return Airport Transfers on Private Basis",
+          "Sightseeing tours as per the itinerary",
+          "All applicable taxes"
+        ],
+        "exclusions": [
+          "International / Domestic Airfare",
+          "Visa fees and Travel Insurance",
+          "Personal expenses like laundry, tips, phone calls",
+          "Meals other than specified",
+          "Any optional tours or activities"
+        ],
+        "itinerary": [
+          {
+            "title": "Day 1: Arrival in Mauritius & Leisure",
+            "activities": [
+              "Welcome to Mauritius! Upon your arrival at the airport, our representative will greet you and transfer you to your premium hotel.",
+              "Complete your check-in process and take some time to relax and freshen up after your journey.",
+              "The rest of the day is at your leisure. You can explore the local markets near your hotel or enjoy a quiet dinner.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 2: Highlights and City Tour",
+            "activities": [
+              "Start your day with a delicious breakfast at the hotel.",
+              "Embark on a comprehensive guided city tour covering the most famous landmarks and historical sites of Mauritius.",
+              "Enjoy ample photo opportunities and learn about the local culture and history from your expert guide.",
+              "Return to your hotel in the evening and relax.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 3: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 4: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 5: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 6: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 7: Departure with Beautiful Memories",
+            "activities": [
+              "Enjoy a hearty breakfast at your hotel and complete the check-out process.",
+              "Depending on your flight schedule, you may have some free time for last-minute shopping or sightseeing.",
+              "Our driver will transfer you to the airport in a comfortable vehicle for your onward journey.",
+              "Board your flight with wonderful memories of your trip."
+            ]
+          }
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Le_Morne_Beach_with_Le_Morne_Brabant_Mountain_in_the_background%2C_Mauritius_%2853698223315%29.jpg",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/b/b5/Le_Morne_Beach_with_Le_Morne_Brabant_Mountain_in_the_background%2C_Mauritius_%2853698223315%29.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/8/8f/Mauritius_Seven_Colored_Earths_1.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/6/64/Mauritius3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/4/41/Citrusfruit_garden.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/d/d2/Grand_Baie_%282990325541%29.jpg"
+        ]
+      },
+      {
+        "title": "Mauritius Family Fiesta (5N/6D)",
+        "slug": "mauritius-family-fiesta-5n-6d",
+        "duration": "5 Nights / 6 Days",
+        "price": 117000,
+        "originalPrice": 132000,
+        "category": "International",
+        "overview": "Experience the magic of Mauritius with our exclusive Mauritius Family Fiesta (5N/6D). This carefully curated 5 Nights / 6 Days itinerary is designed to give you a perfect blend of breathtaking sightseeing, cultural immersion, and relaxing leisure time. From iconic landmarks to hidden gems, prepare for an unforgettable journey that captures the true essence of the destination.",
+        "highlights": [
+          "Comprehensive guided tour of the most iconic attractions in Mauritius.",
+          "Comfortable premium accommodation with daily breakfast included.",
+          "Hassle-free airport transfers and comfortable inter-city transportation.",
+          "Dedicated time for leisure, shopping, and exploring the local cuisine.",
+          "24/7 on-ground support to ensure a seamless holiday experience."
+        ],
+        "inclusions": [
+          "Accommodation in 4-Star or 5-Star Premium Hotels",
+          "Daily Buffet Breakfast",
+          "Meet & Greet assistance at the airport",
+          "Return Airport Transfers on Private Basis",
+          "Sightseeing tours as per the itinerary",
+          "All applicable taxes"
+        ],
+        "exclusions": [
+          "International / Domestic Airfare",
+          "Visa fees and Travel Insurance",
+          "Personal expenses like laundry, tips, phone calls",
+          "Meals other than specified",
+          "Any optional tours or activities"
+        ],
+        "itinerary": [
+          {
+            "title": "Day 1: Arrival in Mauritius & Leisure",
+            "activities": [
+              "Welcome to Mauritius! Upon your arrival at the airport, our representative will greet you and transfer you to your premium hotel.",
+              "Complete your check-in process and take some time to relax and freshen up after your journey.",
+              "The rest of the day is at your leisure. You can explore the local markets near your hotel or enjoy a quiet dinner.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 2: Highlights and City Tour",
+            "activities": [
+              "Start your day with a delicious breakfast at the hotel.",
+              "Embark on a comprehensive guided city tour covering the most famous landmarks and historical sites of Mauritius.",
+              "Enjoy ample photo opportunities and learn about the local culture and history from your expert guide.",
+              "Return to your hotel in the evening and relax.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 3: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 4: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 5: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 6: Departure with Beautiful Memories",
+            "activities": [
+              "Enjoy a hearty breakfast at your hotel and complete the check-out process.",
+              "Depending on your flight schedule, you may have some free time for last-minute shopping or sightseeing.",
+              "Our driver will transfer you to the airport in a comfortable vehicle for your onward journey.",
+              "Board your flight with wonderful memories of your trip."
+            ]
+          }
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Gorges_Viewpoint_%2822937657943%29.jpg",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/e7/Gorges_Viewpoint_%2822937657943%29.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/2/2e/Coucher_de_Soleil_%28Flic_en_Flac%2C_Ile_Maurice%29.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/6/67/The_Kasela_Nature_2.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/c/ca/%E6%AF%9B%E9%87%8C%E6%B1%82%E6%96%AF_%E7%BA%A2%E9%A1%B6%E6%95%99%E5%A0%82.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/be/Plage_de_trou_aux_biches_ile_Maurice.JPG"
+        ]
+      }
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Le_Morne_Beach_with_Le_Morne_Brabant_Mountain_in_the_background%2C_Mauritius_%2853698223315%29.jpg"
+  },
+  {
+    "continent": "Africa",
+    "name": "Seychelles",
+    "markdownContent": "## Why Visit Seychelles?\n\nExperience the best of Seychelles with our curated packages.",
+    "packages": [
+      {
+        "title": "Seychelles Island Hop (6N/7D)",
+        "slug": "seychelles-island-hop-6n-7d",
+        "duration": "6 Nights / 7 Days",
+        "price": 129000,
+        "originalPrice": 144000,
+        "category": "International",
+        "overview": "Experience the magic of Seychelles with our exclusive Seychelles Island Hop (6N/7D). This carefully curated 6 Nights / 7 Days itinerary is designed to give you a perfect blend of breathtaking sightseeing, cultural immersion, and relaxing leisure time. From iconic landmarks to hidden gems, prepare for an unforgettable journey that captures the true essence of the destination.",
+        "highlights": [
+          "Comprehensive guided tour of the most iconic attractions in Seychelles.",
+          "Comfortable premium accommodation with daily breakfast included.",
+          "Hassle-free airport transfers and comfortable inter-city transportation.",
+          "Dedicated time for leisure, shopping, and exploring the local cuisine.",
+          "24/7 on-ground support to ensure a seamless holiday experience."
+        ],
+        "inclusions": [
+          "Accommodation in 4-Star or 5-Star Premium Hotels",
+          "Daily Buffet Breakfast",
+          "Meet & Greet assistance at the airport",
+          "Return Airport Transfers on Private Basis",
+          "Sightseeing tours as per the itinerary",
+          "All applicable taxes"
+        ],
+        "exclusions": [
+          "International / Domestic Airfare",
+          "Visa fees and Travel Insurance",
+          "Personal expenses like laundry, tips, phone calls",
+          "Meals other than specified",
+          "Any optional tours or activities"
+        ],
+        "itinerary": [
+          {
+            "title": "Day 1: Arrival in Seychelles & Leisure",
+            "activities": [
+              "Welcome to Seychelles! Upon your arrival at the airport, our representative will greet you and transfer you to your premium hotel.",
+              "Complete your check-in process and take some time to relax and freshen up after your journey.",
+              "The rest of the day is at your leisure. You can explore the local markets near your hotel or enjoy a quiet dinner.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 2: Highlights and City Tour",
+            "activities": [
+              "Start your day with a delicious breakfast at the hotel.",
+              "Embark on a comprehensive guided city tour covering the most famous landmarks and historical sites of Seychelles.",
+              "Enjoy ample photo opportunities and learn about the local culture and history from your expert guide.",
+              "Return to your hotel in the evening and relax.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 3: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 4: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 5: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 6: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 7: Departure with Beautiful Memories",
+            "activities": [
+              "Enjoy a hearty breakfast at your hotel and complete the check-out process.",
+              "Depending on your flight schedule, you may have some free time for last-minute shopping or sightseeing.",
+              "Our driver will transfer you to the airport in a comfortable vehicle for your onward journey.",
+              "Board your flight with wonderful memories of your trip."
+            ]
+          }
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/La_Digue_Granite_%2832964662712%29.jpg",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/5/5b/La_Digue_Granite_%2832964662712%29.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/0/06/Coco_de_mer_leafs.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e3/Anse_Lazio-Praslin-Seychellen.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/d/dd/2006-06-23_13-32-53_Seychelles_Beau_Vallon_Beau_Vallon.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/b4/Aldabra_Giant_Tortoise_Geochelone_gigantea_edit1.jpg"
+        ]
+      }
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5b/La_Digue_Granite_%2832964662712%29.jpg"
+  },
+  {
+    "continent": "Oceania",
+    "name": "Fiji",
+    "markdownContent": "## Why Visit Fiji?\n\nExperience the best of Fiji with our curated packages.",
+    "packages": [
+      {
+        "title": "Fiji Island Escape (5N/6D)",
+        "slug": "fiji-island-escape-5n-6d",
+        "duration": "5 Nights / 6 Days",
+        "price": 192000,
+        "originalPrice": 207000,
+        "category": "International",
+        "overview": "Experience the magic of Fiji with our exclusive Fiji Island Escape (5N/6D). This carefully curated 5 Nights / 6 Days itinerary is designed to give you a perfect blend of breathtaking sightseeing, cultural immersion, and relaxing leisure time. From iconic landmarks to hidden gems, prepare for an unforgettable journey that captures the true essence of the destination.",
+        "highlights": [
+          "Comprehensive guided tour of the most iconic attractions in Fiji.",
+          "Comfortable premium accommodation with daily breakfast included.",
+          "Hassle-free airport transfers and comfortable inter-city transportation.",
+          "Dedicated time for leisure, shopping, and exploring the local cuisine.",
+          "24/7 on-ground support to ensure a seamless holiday experience."
+        ],
+        "inclusions": [
+          "Accommodation in 4-Star or 5-Star Premium Hotels",
+          "Daily Buffet Breakfast",
+          "Meet & Greet assistance at the airport",
+          "Return Airport Transfers on Private Basis",
+          "Sightseeing tours as per the itinerary",
+          "All applicable taxes"
+        ],
+        "exclusions": [
+          "International / Domestic Airfare",
+          "Visa fees and Travel Insurance",
+          "Personal expenses like laundry, tips, phone calls",
+          "Meals other than specified",
+          "Any optional tours or activities"
+        ],
+        "itinerary": [
+          {
+            "title": "Day 1: Arrival in Fiji & Leisure",
+            "activities": [
+              "Welcome to Fiji! Upon your arrival at the airport, our representative will greet you and transfer you to your premium hotel.",
+              "Complete your check-in process and take some time to relax and freshen up after your journey.",
+              "The rest of the day is at your leisure. You can explore the local markets near your hotel or enjoy a quiet dinner.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 2: Highlights and City Tour",
+            "activities": [
+              "Start your day with a delicious breakfast at the hotel.",
+              "Embark on a comprehensive guided city tour covering the most famous landmarks and historical sites of Fiji.",
+              "Enjoy ample photo opportunities and learn about the local culture and history from your expert guide.",
+              "Return to your hotel in the evening and relax.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 3: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 4: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 5: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 6: Departure with Beautiful Memories",
+            "activities": [
+              "Enjoy a hearty breakfast at your hotel and complete the check-out process.",
+              "Depending on your flight schedule, you may have some free time for last-minute shopping or sightseeing.",
+              "Our driver will transfer you to the airport in a comfortable vehicle for your onward journey.",
+              "Board your flight with wonderful memories of your trip."
+            ]
+          }
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Mamanuca.jpg",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/3/31/Mamanuca.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/1/11/FJ_Cruiser_2007.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/f/f4/Liku3.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/c/c9/Lance_Bouma_Flames.png",
+          "https://upload.wikimedia.org/wikipedia/commons/6/6d/Floating_on_cloud_-_geograph.org.uk_-_1706065.jpg"
+        ]
+      }
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/31/Mamanuca.jpg"
+  },
+  {
+    "continent": "Americas",
+    "name": "USA",
+    "markdownContent": "## Why Visit USA?\n\nExperience the best of USA with our curated packages.",
+    "packages": [
+      {
+        "title": "Classic West Coast (8N/9D)",
+        "slug": "classic-west-coast-8n-9d",
+        "duration": "8 Nights / 9 Days",
+        "price": 228000,
+        "originalPrice": 243000,
+        "category": "International",
+        "overview": "Experience the magic of USA with our exclusive Classic West Coast (8N/9D). This carefully curated 8 Nights / 9 Days itinerary is designed to give you a perfect blend of breathtaking sightseeing, cultural immersion, and relaxing leisure time. From iconic landmarks to hidden gems, prepare for an unforgettable journey that captures the true essence of the destination.",
+        "highlights": [
+          "Comprehensive guided tour of the most iconic attractions in USA.",
+          "Comfortable premium accommodation with daily breakfast included.",
+          "Hassle-free airport transfers and comfortable inter-city transportation.",
+          "Dedicated time for leisure, shopping, and exploring the local cuisine.",
+          "24/7 on-ground support to ensure a seamless holiday experience."
+        ],
+        "inclusions": [
+          "Accommodation in 4-Star or 5-Star Premium Hotels",
+          "Daily Buffet Breakfast",
+          "Meet & Greet assistance at the airport",
+          "Return Airport Transfers on Private Basis",
+          "Sightseeing tours as per the itinerary",
+          "All applicable taxes"
+        ],
+        "exclusions": [
+          "International / Domestic Airfare",
+          "Visa fees and Travel Insurance",
+          "Personal expenses like laundry, tips, phone calls",
+          "Meals other than specified",
+          "Any optional tours or activities"
+        ],
+        "itinerary": [
+          {
+            "title": "Day 1: Arrival in USA & Leisure",
+            "activities": [
+              "Welcome to USA! Upon your arrival at the airport, our representative will greet you and transfer you to your premium hotel.",
+              "Complete your check-in process and take some time to relax and freshen up after your journey.",
+              "The rest of the day is at your leisure. You can explore the local markets near your hotel or enjoy a quiet dinner.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 2: Highlights and City Tour",
+            "activities": [
+              "Start your day with a delicious breakfast at the hotel.",
+              "Embark on a comprehensive guided city tour covering the most famous landmarks and historical sites of USA.",
+              "Enjoy ample photo opportunities and learn about the local culture and history from your expert guide.",
+              "Return to your hotel in the evening and relax.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 3: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 4: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 5: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 6: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 7: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 8: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 9: Departure with Beautiful Memories",
+            "activities": [
+              "Enjoy a hearty breakfast at your hotel and complete the check-out process.",
+              "Depending on your flight schedule, you may have some free time for last-minute shopping or sightseeing.",
+              "Our driver will transfer you to the airport in a comfortable vehicle for your onward journey.",
+              "Board your flight with wonderful memories of your trip."
+            ]
+          }
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Golden_Gate_Bridge_Yang_Ming_Line.jpg",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/a/ac/Golden_Gate_Bridge_Yang_Ming_Line.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/0/0f/El_Capitan%2C%283300_ft._high%29%2C_most_imposing_of_granite_cliffs%2C_east_to_Half_Dome%2C_Yosemite_Valley%2C_Cal%2C_by_Underwood_%26_Underwood.png",
+          "https://upload.wikimedia.org/wikipedia/commons/5/55/Grand_Canyon_%28Arizona%2C_USA%29%2C_South_Rim_nahe_Tusayan_--_2012_--_6042.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/c/cf/Las_Vegas_%28Nevada%2C_USA%29%2C_The_Strip_--_2012_--_6139.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/0/00/Hollywood_Sign.jpg"
+        ]
+      },
+      {
+        "title": "New York Highlights (4N/5D)",
+        "slug": "new-york-highlights-4n-5d",
+        "duration": "4 Nights / 5 Days",
+        "price": 180000,
+        "originalPrice": 195000,
+        "category": "International",
+        "overview": "Experience the magic of USA with our exclusive New York Highlights (4N/5D). This carefully curated 4 Nights / 5 Days itinerary is designed to give you a perfect blend of breathtaking sightseeing, cultural immersion, and relaxing leisure time. From iconic landmarks to hidden gems, prepare for an unforgettable journey that captures the true essence of the destination.",
+        "highlights": [
+          "Comprehensive guided tour of the most iconic attractions in USA.",
+          "Comfortable premium accommodation with daily breakfast included.",
+          "Hassle-free airport transfers and comfortable inter-city transportation.",
+          "Dedicated time for leisure, shopping, and exploring the local cuisine.",
+          "24/7 on-ground support to ensure a seamless holiday experience."
+        ],
+        "inclusions": [
+          "Accommodation in 4-Star or 5-Star Premium Hotels",
+          "Daily Buffet Breakfast",
+          "Meet & Greet assistance at the airport",
+          "Return Airport Transfers on Private Basis",
+          "Sightseeing tours as per the itinerary",
+          "All applicable taxes"
+        ],
+        "exclusions": [
+          "International / Domestic Airfare",
+          "Visa fees and Travel Insurance",
+          "Personal expenses like laundry, tips, phone calls",
+          "Meals other than specified",
+          "Any optional tours or activities"
+        ],
+        "itinerary": [
+          {
+            "title": "Day 1: Arrival in USA & Leisure",
+            "activities": [
+              "Welcome to USA! Upon your arrival at the airport, our representative will greet you and transfer you to your premium hotel.",
+              "Complete your check-in process and take some time to relax and freshen up after your journey.",
+              "The rest of the day is at your leisure. You can explore the local markets near your hotel or enjoy a quiet dinner.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 2: Highlights and City Tour",
+            "activities": [
+              "Start your day with a delicious breakfast at the hotel.",
+              "Embark on a comprehensive guided city tour covering the most famous landmarks and historical sites of USA.",
+              "Enjoy ample photo opportunities and learn about the local culture and history from your expert guide.",
+              "Return to your hotel in the evening and relax.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 3: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 4: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 5: Departure with Beautiful Memories",
+            "activities": [
+              "Enjoy a hearty breakfast at your hotel and complete the check-out process.",
+              "Depending on your flight schedule, you may have some free time for last-minute shopping or sightseeing.",
+              "Our driver will transfer you to the airport in a comfortable vehicle for your onward journey.",
+              "Board your flight with wonderful memories of your trip."
+            ]
+          }
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/2/28/116_NYC_%28Liberty_Island%29.jpg",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/2/28/116_NYC_%28Liberty_Island%29.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/9/9c/Times_square_at_night.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/5/55/Central_Park_and_Midtown_Manhattan.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/3/39/NYC_Top_of_the_Rock_Pano.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/3/3e/Stained_%28163069919%29.jpeg"
+        ]
+      },
+      {
+        "title": "East Coast Explorer (7N/8D)",
+        "slug": "east-coast-explorer-7n-8d",
+        "duration": "7 Nights / 8 Days",
+        "price": 216000,
+        "originalPrice": 231000,
+        "category": "International",
+        "overview": "Experience the magic of USA with our exclusive East Coast Explorer (7N/8D). This carefully curated 7 Nights / 8 Days itinerary is designed to give you a perfect blend of breathtaking sightseeing, cultural immersion, and relaxing leisure time. From iconic landmarks to hidden gems, prepare for an unforgettable journey that captures the true essence of the destination.",
+        "highlights": [
+          "Comprehensive guided tour of the most iconic attractions in USA.",
+          "Comfortable premium accommodation with daily breakfast included.",
+          "Hassle-free airport transfers and comfortable inter-city transportation.",
+          "Dedicated time for leisure, shopping, and exploring the local cuisine.",
+          "24/7 on-ground support to ensure a seamless holiday experience."
+        ],
+        "inclusions": [
+          "Accommodation in 4-Star or 5-Star Premium Hotels",
+          "Daily Buffet Breakfast",
+          "Meet & Greet assistance at the airport",
+          "Return Airport Transfers on Private Basis",
+          "Sightseeing tours as per the itinerary",
+          "All applicable taxes"
+        ],
+        "exclusions": [
+          "International / Domestic Airfare",
+          "Visa fees and Travel Insurance",
+          "Personal expenses like laundry, tips, phone calls",
+          "Meals other than specified",
+          "Any optional tours or activities"
+        ],
+        "itinerary": [
+          {
+            "title": "Day 1: Arrival in USA & Leisure",
+            "activities": [
+              "Welcome to USA! Upon your arrival at the airport, our representative will greet you and transfer you to your premium hotel.",
+              "Complete your check-in process and take some time to relax and freshen up after your journey.",
+              "The rest of the day is at your leisure. You can explore the local markets near your hotel or enjoy a quiet dinner.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 2: Highlights and City Tour",
+            "activities": [
+              "Start your day with a delicious breakfast at the hotel.",
+              "Embark on a comprehensive guided city tour covering the most famous landmarks and historical sites of USA.",
+              "Enjoy ample photo opportunities and learn about the local culture and history from your expert guide.",
+              "Return to your hotel in the evening and relax.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 3: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 4: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 5: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 6: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 7: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 8: Departure with Beautiful Memories",
+            "activities": [
+              "Enjoy a hearty breakfast at your hotel and complete the check-out process.",
+              "Depending on your flight schedule, you may have some free time for last-minute shopping or sightseeing.",
+              "Our driver will transfer you to the airport in a comfortable vehicle for your onward journey.",
+              "Board your flight with wonderful memories of your trip."
+            ]
+          }
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/US_Capitol_dome_Jan_2006.jpg",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/5/5a/US_Capitol_dome_Jan_2006.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/ea/Reflecting_pool_at_the_National_Mall_by_Kubicki%2C_Jr.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/0/04/Boston_Common_%287194230690%29.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/2/2f/American_Falls_from_Maid_of_the_Mist_Boat_Tours_building.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/3/3f/Liberty_Bell_View_of_Independence_Hall.jpg"
+        ]
+      }
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Golden_Gate_Bridge_Yang_Ming_Line.jpg"
+  },
+  {
+    "continent": "Americas",
+    "name": "Canada",
+    "markdownContent": "## Why Visit Canada?\n\nExperience the best of Canada with our curated packages.",
+    "packages": [
+      {
+        "title": "Canadian Rockies (7N/8D)",
+        "slug": "canadian-rockies-7n-8d",
+        "duration": "7 Nights / 8 Days",
+        "price": 216000,
+        "originalPrice": 231000,
+        "category": "International",
+        "overview": "Experience the magic of Canada with our exclusive Canadian Rockies (7N/8D). This carefully curated 7 Nights / 8 Days itinerary is designed to give you a perfect blend of breathtaking sightseeing, cultural immersion, and relaxing leisure time. From iconic landmarks to hidden gems, prepare for an unforgettable journey that captures the true essence of the destination.",
+        "highlights": [
+          "Comprehensive guided tour of the most iconic attractions in Canada.",
+          "Comfortable premium accommodation with daily breakfast included.",
+          "Hassle-free airport transfers and comfortable inter-city transportation.",
+          "Dedicated time for leisure, shopping, and exploring the local cuisine.",
+          "24/7 on-ground support to ensure a seamless holiday experience."
+        ],
+        "inclusions": [
+          "Accommodation in 4-Star or 5-Star Premium Hotels",
+          "Daily Buffet Breakfast",
+          "Meet & Greet assistance at the airport",
+          "Return Airport Transfers on Private Basis",
+          "Sightseeing tours as per the itinerary",
+          "All applicable taxes"
+        ],
+        "exclusions": [
+          "International / Domestic Airfare",
+          "Visa fees and Travel Insurance",
+          "Personal expenses like laundry, tips, phone calls",
+          "Meals other than specified",
+          "Any optional tours or activities"
+        ],
+        "itinerary": [
+          {
+            "title": "Day 1: Arrival in Canada & Leisure",
+            "activities": [
+              "Welcome to Canada! Upon your arrival at the airport, our representative will greet you and transfer you to your premium hotel.",
+              "Complete your check-in process and take some time to relax and freshen up after your journey.",
+              "The rest of the day is at your leisure. You can explore the local markets near your hotel or enjoy a quiet dinner.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 2: Highlights and City Tour",
+            "activities": [
+              "Start your day with a delicious breakfast at the hotel.",
+              "Embark on a comprehensive guided city tour covering the most famous landmarks and historical sites of Canada.",
+              "Enjoy ample photo opportunities and learn about the local culture and history from your expert guide.",
+              "Return to your hotel in the evening and relax.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 3: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 4: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 5: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 6: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 7: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 8: Departure with Beautiful Memories",
+            "activities": [
+              "Enjoy a hearty breakfast at your hotel and complete the check-out process.",
+              "Depending on your flight schedule, you may have some free time for last-minute shopping or sightseeing.",
+              "Our driver will transfer you to the airport in a comfortable vehicle for your onward journey.",
+              "Board your flight with wonderful memories of your trip."
+            ]
+          }
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Banff_National_Park_%28AB%2C_Canada%29%2C_Lake_Louise_--_2022_--_2197.jpg",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/f/f4/Banff_National_Park_%28AB%2C_Canada%29%2C_Lake_Louise_--_2022_--_2197.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/c/c5/Moraine_Lake_17092005.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/9/99/Columbia_Icefield_Centre_from_Athabasca_Glacier.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/c/cc/Maligne_Lake_in_Jasper_National_Park.JPG",
+          "https://upload.wikimedia.org/wikipedia/commons/c/cd/Light_Breaks_Through_%28245992649%29.jpeg"
+        ]
+      },
+      {
+        "title": "Niagara & Toronto (4N/5D)",
+        "slug": "niagara-toronto-4n-5d",
+        "duration": "4 Nights / 5 Days",
+        "price": 180000,
+        "originalPrice": 195000,
+        "category": "International",
+        "overview": "Experience the magic of Canada with our exclusive Niagara & Toronto (4N/5D). This carefully curated 4 Nights / 5 Days itinerary is designed to give you a perfect blend of breathtaking sightseeing, cultural immersion, and relaxing leisure time. From iconic landmarks to hidden gems, prepare for an unforgettable journey that captures the true essence of the destination.",
+        "highlights": [
+          "Comprehensive guided tour of the most iconic attractions in Canada.",
+          "Comfortable premium accommodation with daily breakfast included.",
+          "Hassle-free airport transfers and comfortable inter-city transportation.",
+          "Dedicated time for leisure, shopping, and exploring the local cuisine.",
+          "24/7 on-ground support to ensure a seamless holiday experience."
+        ],
+        "inclusions": [
+          "Accommodation in 4-Star or 5-Star Premium Hotels",
+          "Daily Buffet Breakfast",
+          "Meet & Greet assistance at the airport",
+          "Return Airport Transfers on Private Basis",
+          "Sightseeing tours as per the itinerary",
+          "All applicable taxes"
+        ],
+        "exclusions": [
+          "International / Domestic Airfare",
+          "Visa fees and Travel Insurance",
+          "Personal expenses like laundry, tips, phone calls",
+          "Meals other than specified",
+          "Any optional tours or activities"
+        ],
+        "itinerary": [
+          {
+            "title": "Day 1: Arrival in Canada & Leisure",
+            "activities": [
+              "Welcome to Canada! Upon your arrival at the airport, our representative will greet you and transfer you to your premium hotel.",
+              "Complete your check-in process and take some time to relax and freshen up after your journey.",
+              "The rest of the day is at your leisure. You can explore the local markets near your hotel or enjoy a quiet dinner.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 2: Highlights and City Tour",
+            "activities": [
+              "Start your day with a delicious breakfast at the hotel.",
+              "Embark on a comprehensive guided city tour covering the most famous landmarks and historical sites of Canada.",
+              "Enjoy ample photo opportunities and learn about the local culture and history from your expert guide.",
+              "Return to your hotel in the evening and relax.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 3: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 4: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 5: Departure with Beautiful Memories",
+            "activities": [
+              "Enjoy a hearty breakfast at your hotel and complete the check-out process.",
+              "Depending on your flight schedule, you may have some free time for last-minute shopping or sightseeing.",
+              "Our driver will transfer you to the airport in a comfortable vehicle for your onward journey.",
+              "Board your flight with wonderful memories of your trip."
+            ]
+          }
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Horseshoe_Falls_from_helicopter.jpg",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/3/3b/Horseshoe_Falls_from_helicopter.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/c/c6/Toronto_-_ON_-_Toronto_Skyline2.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/2/26/Casa_Loma%2C_Toronto%2C_Ontario_%2829709457170%29.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/9/92/Weathered_bricks%2C_distillery_district%2C_Toronto.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bb/Ripley%27s_Aquarium_of_Canada%2C_Toronto%2C_Ontario_%2829709384540%29.jpg"
+        ]
+      }
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Banff_National_Park_%28AB%2C_Canada%29%2C_Lake_Louise_--_2022_--_2197.jpg"
+  },
+  {
+    "continent": "Americas",
+    "name": "Brazil",
+    "markdownContent": "## Why Visit Brazil?\n\nExperience the best of Brazil with our curated packages.",
+    "packages": [
+      {
+        "title": "Rio & Iguazu Falls (6N/7D)",
+        "slug": "rio-iguazu-falls-6n-7d",
+        "duration": "6 Nights / 7 Days",
+        "price": 204000,
+        "originalPrice": 219000,
+        "category": "International",
+        "overview": "Experience the magic of Brazil with our exclusive Rio & Iguazu Falls (6N/7D). This carefully curated 6 Nights / 7 Days itinerary is designed to give you a perfect blend of breathtaking sightseeing, cultural immersion, and relaxing leisure time. From iconic landmarks to hidden gems, prepare for an unforgettable journey that captures the true essence of the destination.",
+        "highlights": [
+          "Comprehensive guided tour of the most iconic attractions in Brazil.",
+          "Comfortable premium accommodation with daily breakfast included.",
+          "Hassle-free airport transfers and comfortable inter-city transportation.",
+          "Dedicated time for leisure, shopping, and exploring the local cuisine.",
+          "24/7 on-ground support to ensure a seamless holiday experience."
+        ],
+        "inclusions": [
+          "Accommodation in 4-Star or 5-Star Premium Hotels",
+          "Daily Buffet Breakfast",
+          "Meet & Greet assistance at the airport",
+          "Return Airport Transfers on Private Basis",
+          "Sightseeing tours as per the itinerary",
+          "All applicable taxes"
+        ],
+        "exclusions": [
+          "International / Domestic Airfare",
+          "Visa fees and Travel Insurance",
+          "Personal expenses like laundry, tips, phone calls",
+          "Meals other than specified",
+          "Any optional tours or activities"
+        ],
+        "itinerary": [
+          {
+            "title": "Day 1: Arrival in Brazil & Leisure",
+            "activities": [
+              "Welcome to Brazil! Upon your arrival at the airport, our representative will greet you and transfer you to your premium hotel.",
+              "Complete your check-in process and take some time to relax and freshen up after your journey.",
+              "The rest of the day is at your leisure. You can explore the local markets near your hotel or enjoy a quiet dinner.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 2: Highlights and City Tour",
+            "activities": [
+              "Start your day with a delicious breakfast at the hotel.",
+              "Embark on a comprehensive guided city tour covering the most famous landmarks and historical sites of Brazil.",
+              "Enjoy ample photo opportunities and learn about the local culture and history from your expert guide.",
+              "Return to your hotel in the evening and relax.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 3: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 4: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 5: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 6: Explore Nature & Culture",
+            "activities": [
+              "After breakfast, set out for a scenic drive to explore the beautiful natural landscapes or cultural hubs nearby.",
+              "Participate in optional adventure activities or visit local artisan villages to experience the authentic lifestyle.",
+              "Enjoy lunch at a highly recommended local restaurant (at your own expense).",
+              "Spend the evening at your own pace.",
+              "Overnight stay at the hotel."
+            ]
+          },
+          {
+            "title": "Day 7: Departure with Beautiful Memories",
+            "activities": [
+              "Enjoy a hearty breakfast at your hotel and complete the check-out process.",
+              "Depending on your flight schedule, you may have some free time for last-minute shopping or sightseeing.",
+              "Our driver will transfer you to the airport in a comfortable vehicle for your onward journey.",
+              "Board your flight with wonderful memories of your trip."
+            ]
+          }
+        ],
+        "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Obama_family_in_mist_in_Rio_de_Janeiro.jpg",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/a/a5/Obama_family_in_mist_in_Rio_de_Janeiro.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/d/dc/Iguassu_Falls.png",
+          "https://upload.wikimedia.org/wikipedia/commons/b/b1/Rio_de_Janeiro_-_P%C3%A3o_de_A%C3%A7ucar_-_Cablecar.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/e/e6/Aerial_view_of_Copacabana_beach.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/7/73/Escalera_Seleron.jpeg"
+        ]
+      }
+    ],
+    "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Obama_family_in_mist_in_Rio_de_Janeiro.jpg"
   }
 ]

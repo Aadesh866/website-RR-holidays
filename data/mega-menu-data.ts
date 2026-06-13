@@ -33,6 +33,9 @@ export const megaMenuData = {
           { name: "UAE", href: "/packages/asia/uae-united-arab-emirates" },
           { name: "Maldives", href: "/packages/asia/maldives" },
           { name: "South Korea", href: "/packages/asia/south-korea" },
+          { name: "Indonesia", href: "/packages/asia/indonesia" },
+          { name: "Sri Lanka", href: "/packages/asia/sri-lanka" },
+          { name: "Philippines", href: "/packages/asia/philippines" },
         ]
       }
     ],
@@ -43,6 +46,8 @@ export const megaMenuData = {
         links: [
           { name: "Jordan", href: "/packages/middle-east/jordan" },
           { name: "Oman", href: "/packages/middle-east/oman" },
+          { name: "Egypt", href: "/packages/middle-east/egypt" },
+          { name: "Qatar", href: "/packages/middle-east/qatar" },
         ]
       },
       {
@@ -50,16 +55,28 @@ export const megaMenuData = {
         links: [
           { name: "South Africa", href: "/packages/africa/south-africa" },
           { name: "Morocco", href: "/packages/africa/morocco" },
+          { name: "Kenya", href: "/packages/africa/kenya" },
+          { name: "Mauritius", href: "/packages/africa/mauritius" },
+          { name: "Seychelles", href: "/packages/africa/seychelles" },
         ]
       }
     ],
     // Column 4
     [
       {
+        title: "Americas",
+        links: [
+          { name: "USA", href: "/packages/americas/usa" },
+          { name: "Canada", href: "/packages/americas/canada" },
+          { name: "Brazil", href: "/packages/americas/brazil" },
+        ]
+      },
+      {
         title: "Oceania",
         links: [
           { name: "Australia", href: "/packages/oceania/australia" },
           { name: "New Zealand", href: "/packages/oceania/new-zealand" },
+          { name: "Fiji", href: "/packages/oceania/fiji" },
         ]
       }
     ]
