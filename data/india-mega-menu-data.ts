@@ -1,6 +1,6 @@
 export const indiaMegaMenuData = {
   columns: [
-    // Column 1
+    // Column 1: 10 rows
     [
       {
         title: "North India",
@@ -17,7 +17,7 @@ export const indiaMegaMenuData = {
         ]
       }
     ],
-    // Column 2
+    // Column 2: 11 rows
     [
       {
         title: "South India",
@@ -35,7 +35,27 @@ export const indiaMegaMenuData = {
         ]
       }
     ],
-    // Column 3
+    // Column 3: 6 + 3 = 9 rows
+    [
+      {
+        title: "West India",
+        links: [
+          { name: "Ahmedabad", href: "/packages/india/west-india/gujarat-heritage-6n-7d" },
+          { name: "Goa", href: "/packages/india/west-india/mumbai-goa-5n-6d" },
+          { name: "Gujarat", href: "/packages/india/west-india/gujarat-heritage-6n-7d" },
+          { name: "Maharashtra", href: "/packages/india/west-india/mumbai-goa-5n-6d" },
+          { name: "Mumbai", href: "/packages/india/west-india/mumbai-goa-5n-6d" },
+        ]
+      },
+      {
+        title: "Central India",
+        links: [
+          { name: "Bhopal", href: "/packages/india/central-india/madhya-pradesh-wildlife-5n-6d" },
+          { name: "Madhya Pradesh", href: "/packages/india/central-india/central-india-heritage-6n-7d" },
+        ]
+      }
+    ],
+    // Column 4: 5 + 5 = 10 rows
     [
       {
         title: "East India",
@@ -47,32 +67,12 @@ export const indiaMegaMenuData = {
         ]
       },
       {
-        title: "Central India",
-        links: [
-          { name: "Bhopal", href: "/packages/india/central-india/madhya-pradesh-wildlife-5n-6d" },
-          { name: "Madhya Pradesh", href: "/packages/india/central-india/central-india-heritage-6n-7d" },
-        ]
-      }
-    ],
-    // Column 4
-    [
-      {
         title: "North East",
         links: [
           { name: "Assam", href: "/packages/india/north-east-india/assam-meghalaya-6n-7d" },
           { name: "Gangtok", href: "/packages/india/north-east-india/sikkim-darjeeling-6n-7d" },
           { name: "Meghalaya", href: "/packages/india/north-east-india/assam-meghalaya-6n-7d" },
           { name: "Sikkim", href: "/packages/india/north-east-india/sikkim-darjeeling-6n-7d" },
-        ]
-      },
-      {
-        title: "West India",
-        links: [
-          { name: "Ahmedabad", href: "/packages/india/west-india/gujarat-heritage-6n-7d" },
-          { name: "Goa", href: "/packages/india/west-india/mumbai-goa-5n-6d" },
-          { name: "Gujarat", href: "/packages/india/west-india/gujarat-heritage-6n-7d" },
-          { name: "Maharashtra", href: "/packages/india/west-india/mumbai-goa-5n-6d" },
-          { name: "Mumbai", href: "/packages/india/west-india/mumbai-goa-5n-6d" },
         ]
       }
     ]
