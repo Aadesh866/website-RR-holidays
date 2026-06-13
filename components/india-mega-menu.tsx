@@ -29,7 +29,7 @@ export function IndiaMegaMenu() {
                         </li>
                       ))}
                       
-                      {colIdx === indiaMegaMenuData.columns.length - 1 && secIdx === column.length - 1 && (
+                      {colIdx === 2 && secIdx === column.length - 1 && (
                         <li className="mt-2 pt-2 border-t border-gray-100/80">
                           <Link
                             href="/india"
