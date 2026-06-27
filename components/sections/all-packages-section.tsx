@@ -12,7 +12,7 @@ interface AllPackagesSectionProps {
 }
 
 export function AllPackagesSection({ countries }: AllPackagesSectionProps) {
-  const [displayCount, setDisplayCount] = useState(12);
+  const [currentPage, setCurrentPage] = useState(1);
 
   // Flatten all packages across all countries
   const allPackages = countries.flatMap(country => 
@@ -23,12 +23,23 @@ export function AllPackagesSection({ countries }: AllPackagesSectionProps) {
     }))
   );
   
-  // Sort or shuffle if desired, but for now we'll just display them as they are
-  const visiblePackages = allPackages.slice(0, displayCount);
-  const hasMore = displayCount < allPackages.length;
+  const itemsPerPage = 12;
+  const totalPages = Math.ceil(allPackages.length / itemsPerPage);
 
-  const handleLoadMore = () => {
-    setDisplayCount(prev => Math.min(prev + 12, allPackages.length));
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+  const visiblePackages = allPackages.slice(startIndex, endIndex);
+
+  const handlePageChange = (page: number) => {
+    setCurrentPage(page);
+    const element = document.getElementById("packages");
+    if (element) {
+      setTimeout(() => {
+        const yOffset = -80;
+        const y = element.getBoundingClientRect().top + window.scrollY + yOffset;
+        window.scrollTo({ top: y, behavior: 'smooth' });
+      }, 50);
+    }
   };
 
   return (
@@ -45,7 +56,7 @@ export function AllPackagesSection({ countries }: AllPackagesSectionProps) {
             </h2>
           </div>
           <div className="hidden md:flex text-gray-500 font-medium">
-            Showing {visiblePackages.length} of {allPackages.length} packages
+            Showing {Math.min(endIndex, allPackages.length)} of {allPackages.length} packages
           </div>
         </div>
 
@@ -53,10 +64,19 @@ export function AllPackagesSection({ countries }: AllPackagesSectionProps) {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
           {visiblePackages.map((pkg) => {
             const isIndia = pkg.continent.toLowerCase() === 'india';
-            // India packages route differently: /india/[region]/[slug] vs /packages/[slug]
-            // We'll use /packages/[slug] as the global fallback, but the India mega menu uses /packages/india/[region]/[slug]
-            // Wait, the dynamic route for international packages is /packages/[slug]
-            const href = `/packages/${pkg.slug}`;
+            
+            // Clean slugs
+            const formatSlug = (str: string) => str.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+            const continentSlug = formatSlug(pkg.continent);
+            const countrySlug = formatSlug(pkg.countryName);
+            
+            // Correct dynamic routing
+            let href = `/packages/${continentSlug}/${countrySlug}/${pkg.slug}`;
+            if (isIndia) {
+               // Map stateSlug to region for India or just use stateSlug
+               const regionSlug = pkg.stateSlug ? formatSlug(pkg.stateSlug) : 'south-india';
+               href = `/india/${regionSlug}/${pkg.slug}`;
+            }
             
             return (
               <Link 
@@ -113,15 +133,39 @@ export function AllPackagesSection({ countries }: AllPackagesSectionProps) {
           })}
         </div>
 
-        {/* Load More Button */}
-        {hasMore && (
-          <div className="flex justify-center mt-16">
+        {/* Pagination Button */}
+        {totalPages > 1 && (
+          <div className="flex justify-center items-center gap-4 mt-16">
             <button
-              onClick={handleLoadMore}
-              className="px-8 py-3 rounded-full bg-[#1a1f4e] text-white font-medium hover:bg-[#0d1130] transition-colors flex items-center group"
+              onClick={() => handlePageChange(Math.max(1, currentPage - 1))}
+              disabled={currentPage === 1}
+              className="rounded-full flex items-center justify-center w-12 h-12 border border-[#1a1f4e]/20 text-[#1a1f4e] hover:bg-[#1a1f4e] hover:text-white disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
             >
-              Load More Packages
-              <ArrowRight className="ml-2 h-4 w-4 group-hover:translate-x-1 transition-transform" />
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+            </button>
+            
+            <div className="flex gap-2">
+              {Array.from({ length: totalPages }).map((_, i) => (
+                <button
+                  key={i}
+                  onClick={() => handlePageChange(i + 1)}
+                  className={`w-10 h-10 rounded-full font-medium transition-colors flex items-center justify-center ${
+                    currentPage === i + 1 
+                      ? 'bg-[#E31E24] text-white' 
+                      : 'bg-white text-[#1a1f4e] hover:bg-gray-200 border border-gray-200'
+                  }`}
+                >
+                  {i + 1}
+                </button>
+              ))}
+            </div>
+
+            <button
+              onClick={() => handlePageChange(Math.min(totalPages, currentPage + 1))}
+              disabled={currentPage === totalPages}
+              className="rounded-full flex items-center justify-center w-12 h-12 border border-[#1a1f4e]/20 text-[#1a1f4e] hover:bg-[#1a1f4e] hover:text-white disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"/></svg>
             </button>
           </div>
         )}
