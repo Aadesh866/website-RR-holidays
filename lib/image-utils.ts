@@ -25,13 +25,13 @@ export function getContextualImage(slug: string, index: number = 0, type: "hero"
   // 2. Try to find if slug matches a Package
   for (const c of db) {
     if (!c.packages) continue;
-    const pkg = c.packages.find((p: any) => p.slug === cleanSlug || p.slug === slug);
+    const pkg = c.packages.find((p: any) => p.slug === cleanSlug || p.slug === slug || p.stateSlug === cleanSlug);
     if (pkg) {
       if (pkg.images && pkg.images.length > 0) {
         // Return the image at the requested index, wrapping around if index > length
         return pkg.images[index % pkg.images.length];
       }
-      return FALLBACK_IMAGE;
+      return c.imageUrl || FALLBACK_IMAGE;
     }
   }
   
