@@ -139,7 +139,7 @@ export default async function PackageDetailPage({ params }: PageProps) {
                     What&apos;s Included
                   </h3>
                   <ul className="space-y-4">
-                    {pkg.inclusions.map((inclusion, idx) => (
+                    {(pkg.inclusions || []).map((inclusion, idx) => (
                       <li key={idx} className="flex items-start">
                         <span className="bg-green-100 p-1 rounded-full mr-3 mt-1 flex-shrink-0">
                           <Check className="w-3 h-3 text-green-600" />
