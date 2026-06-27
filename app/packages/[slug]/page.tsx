@@ -9,7 +9,6 @@ import { packages } from "@/data/packages"
 import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { Packages as PackagesSection } from "@/components/sections/packages"
-import { Button } from "@/components/ui/button"
 import { EnquiryForm } from "@/components/enquiry-form"
 import { ImageLightbox } from "@/components/ui/image-lightbox"
 

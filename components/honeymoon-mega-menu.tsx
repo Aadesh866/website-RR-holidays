@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export function HoneymoonMegaMenu() {
+export function HoneymoonMegaMenu({ isOpen }: { isOpen: boolean }) {
   return (
     <div className="absolute top-[80px] left-1/2 -translate-x-1/2 w-auto pointer-events-none z-50 flex justify-center group-hover/mega:pointer-events-auto">
       <div className="relative w-[280px] pt-4 opacity-0 invisible group-hover/mega:opacity-100 group-hover/mega:visible transition-all duration-300 pointer-events-auto origin-top transform scale-y-95 group-hover/mega:scale-y-100">

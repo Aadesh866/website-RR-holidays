@@ -18,8 +18,7 @@ export default async function CountryPage(props: { params: Promise<{ slug: strin
   }
 
   const packages = countryData.packages
-  const firstPackage = packages[0]
-  
+    
   // Parse the markdown into structured data
   const parsedData = parseCountryMarkdown(countryData.markdownContent)
 
@@ -62,7 +61,7 @@ export default async function CountryPage(props: { params: Promise<{ slug: strin
               <div className="w-full md:w-1/3 text-center md:text-left">
                 <h2 className="text-sm font-bold tracking-[0.2em] text-[#E31E24] uppercase mb-3">At A Glance</h2>
                 <h3 className="text-3xl md:text-4xl font-serif text-[#1a1f4e] leading-tight">
-                  South India's No.1 <br/><span className="italic text-gray-500 text-2xl">Travel Brand</span>
+                  South India&apos;s No.1 <br/><span className="italic text-gray-500 text-2xl">Travel Brand</span>
                 </h3>
               </div>
               

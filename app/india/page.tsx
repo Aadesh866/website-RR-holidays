@@ -6,46 +6,52 @@ import { CountryEnquiryForm } from "@/components/country-enquiry"
 import { getContextualImage } from "@/lib/image-utils"
 import { MapPin } from "lucide-react"
 
-const indiaRegions = [
-  {
-    id: "north-india",
-    title: "North India",
-    description: "Explore the majestic Himalayas, historical monuments, and vibrant culture.",
-    packageCount: 13
-  },
-  {
-    id: "south-india",
-    title: "South India",
-    description: "Discover serene backwaters, ancient temples, and lush hill stations.",
-    packageCount: 14
-  },
-  {
-    id: "east-india",
-    title: "East India",
-    description: "Experience untouched nature, tribal heritage, and spiritual awakening.",
-    packageCount: 6
-  },
-  {
-    id: "north-east-india",
-    title: "North East India",
-    description: "Journey through misty mountains, living root bridges, and tea gardens.",
-    packageCount: 8
-  },
-  {
-    id: "west-india",
-    title: "West India",
-    description: "Immerse in desert safaris, golden beaches, and royal palaces.",
-    packageCount: 7
-  },
-  {
-    id: "central-india",
-    title: "Central India",
-    description: "Dive into rich wildlife, ancient forts, and the heart of Indian heritage.",
-    packageCount: 5
-  }
-]
+import { getPackagesByCountry } from "@/lib/packages"
 
+const getDynamicRegions = () => {
+  const regions = [
+    {
+      id: "north-india",
+      title: "North India",
+      description: "Explore the majestic Himalayas, historical monuments, and vibrant culture.",
+    },
+    {
+      id: "south-india",
+      title: "South India",
+      description: "Discover serene backwaters, ancient temples, and lush hill stations.",
+    },
+    {
+      id: "east-india",
+      title: "East India",
+      description: "Experience untouched nature, tribal heritage, and spiritual awakening.",
+    },
+    {
+      id: "north-east-india",
+      title: "North East India",
+      description: "Journey through misty mountains, living root bridges, and tea gardens.",
+    },
+    {
+      id: "west-india",
+      title: "West India",
+      description: "Immerse in desert safaris, golden beaches, and royal palaces.",
+    },
+    {
+      id: "central-india",
+      title: "Central India",
+      description: "Dive into rich wildlife, ancient forts, and the heart of Indian heritage.",
+    }
+  ];
+
+  return regions.map(region => {
+    const data = getPackagesByCountry("india", region.id);
+    return {
+      ...region,
+      packageCount: data ? data.packages.length : 0
+    };
+  });
+}
 export default function IndiaLandingPage() {
+  const dynamicRegions = getDynamicRegions();
   return (
     <>
       <Navbar />
@@ -89,7 +95,7 @@ export default function IndiaLandingPage() {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-              {indiaRegions.map((region) => {
+              {dynamicRegions.map((region) => {
                 return (
                   <Link 
                     href={`/india/${region.id}`} 

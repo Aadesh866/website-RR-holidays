@@ -26,8 +26,17 @@ export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [isSearchOpen, setIsSearchOpen] = useState(false)
+  const [activeMenu, setActiveMenu] = useState<string | null>(null)
   const pathname = usePathname()
   const isHomePage = pathname === "/"
+
+  useEffect(() => {
+    const handleClickOutside = (e: MouseEvent) => {
+      setActiveMenu(null)
+    }
+    window.addEventListener("click", handleClickOutside)
+    return () => window.removeEventListener("click", handleClickOutside)
+  }, [])
 
   useEffect(() => {
     const handleScroll = () => {
@@ -88,27 +97,27 @@ export function Navbar() {
 
               if (isPackages) {
                 return (
-                  <div key={link.name} className="group/mega h-full flex items-center cursor-pointer">
+                  <div key={link.name} className="h-full flex items-center cursor-pointer" onMouseEnter={() => setActiveMenu(link.name)} onMouseLeave={() => setActiveMenu(null)} onClick={(e) => e.stopPropagation()}>
                     {linkContent}
-                    <MegaMenu />
+                    <MegaMenu isOpen={activeMenu === link.name} />
                   </div>
                 )
               }
               
               if (isIndia) {
                 return (
-                  <div key={link.name} className="group/mega h-full flex items-center cursor-pointer">
+                  <div key={link.name} className="h-full flex items-center cursor-pointer" onMouseEnter={() => setActiveMenu(link.name)} onMouseLeave={() => setActiveMenu(null)} onClick={(e) => e.stopPropagation()}>
                     {linkContent}
-                    <IndiaMegaMenu />
+                    <IndiaMegaMenu isOpen={activeMenu === link.name} />
                   </div>
                 )
               }
 
               if (link.name === "Honeymoon") {
                 return (
-                  <div key={link.name} className="group/mega h-full flex items-center cursor-pointer relative">
+                  <div key={link.name} className="h-full flex items-center cursor-pointer relative" onMouseEnter={() => setActiveMenu(link.name)} onMouseLeave={() => setActiveMenu(null)} onClick={(e) => e.stopPropagation()}>
                     {linkContent}
-                    <HoneymoonMegaMenu />
+                    <HoneymoonMegaMenu isOpen={activeMenu === link.name} />
                   </div>
                 )
               }

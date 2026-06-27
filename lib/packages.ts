@@ -106,7 +106,7 @@ export function getPackageBySlug(continentSlug: string, countrySlug: string, pac
 
 export function getRelatedPackages(continentSlug: string, excludePackageSlug: string, limit: number = 3): (Package & { countryName: string, countrySlug: string })[] {
   const countries = getAllCountries()
-  let related: (Package & { countryName: string, countrySlug: string })[] = []
+  const related: (Package & { countryName: string, countrySlug: string })[] = []
   
   const sourceCountry = countries.find(c => sluggify(c.continent) === continentSlug && c.packages.some(p => p.slug === excludePackageSlug))
   

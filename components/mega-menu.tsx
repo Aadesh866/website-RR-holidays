@@ -1,15 +1,15 @@
 import Link from "next/link"
 import { megaMenuData } from "@/data/mega-menu-data"
 
-export function MegaMenu() {
+export function MegaMenu({ isOpen }: { isOpen: boolean }) {
   return (
-    <div className="fixed top-[100px] left-0 w-full h-[calc(100vh-100px)] pointer-events-none z-50 flex justify-center group-hover/mega:pointer-events-auto">
+    <div className={`fixed top-[100px] left-0 w-full h-[calc(100vh-100px)] pointer-events-none z-50 flex justify-center ${isOpen ? 'pointer-events-auto' : ''}`}>
       {/* 
         Subtle backdrop blur for premium feel.
       */}
-      <div className="absolute inset-0 bg-[#0d1130]/10 backdrop-blur-[2px] opacity-0 group-hover/mega:opacity-100 transition-opacity duration-300 pointer-events-none" />
+      <div className={`absolute inset-0 bg-[#0d1130]/10 backdrop-blur-[2px] transition-opacity duration-300 pointer-events-none ${isOpen ? 'opacity-100' : 'opacity-0'}`} />
       
-      <div className="relative w-full max-w-[850px] px-6 opacity-0 invisible group-hover/mega:opacity-100 group-hover/mega:visible transition-all duration-300 pointer-events-auto origin-top transform scale-y-95 group-hover/mega:scale-y-100">
+      <div className={`relative w-full max-w-[850px] px-6 transition-all duration-300 pointer-events-auto origin-top transform ${isOpen ? 'opacity-100 visible scale-y-100' : 'opacity-0 invisible scale-y-95'}`}>
         <div className="bg-white rounded-b-xl shadow-[0_30px_60px_-15px_rgba(0,0,0,0.15)] ring-1 ring-gray-200/50 py-4 max-h-[80vh] overflow-y-auto overscroll-contain scrollbar-thin scrollbar-thumb-gray-200 scrollbar-track-transparent">
           <div className="grid grid-cols-4 divide-x divide-gray-100">
             {megaMenuData.columns.map((column, colIdx) => (

@@ -27,7 +27,7 @@ export function Footer() {
               />
             </Link>
             <p className="text-white/60 leading-relaxed text-sm mb-8">
-              Crafting unforgettable travel experiences globally. As South India's premier travel brand, we specialize in curating bespoke journeys that turn your travel dreams into reality.
+              Crafting unforgettable travel experiences globally. As South India&apos;s premier travel brand, we specialize in curating bespoke journeys that turn your travel dreams into reality.
             </p>
             <div className="flex space-x-4">
               <a href="#facebook" className="w-8 h-8 rounded-full bg-white/5 flex items-center justify-center hover:bg-[#E31E24] hover:text-white transition-all text-white/70">Fb</a>

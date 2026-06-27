@@ -11,9 +11,10 @@ import { Button } from "@/components/ui/button"
 interface PackagesProps {
   showAll?: boolean
   maxItems?: number
+  isIndiaContext?: boolean
 }
 
-export function Packages({ showAll = false, maxItems }: PackagesProps) {
+export function Packages({ showAll = false, maxItems, isIndiaContext = false }: PackagesProps) {
   const gridRef = useStaggerAnimation(0.1)
   const [currentPage, setCurrentPage] = useState(1)
 
@@ -56,7 +57,7 @@ export function Packages({ showAll = false, maxItems }: PackagesProps) {
           </div>
           {!showAll && (
             <Link
-              href="/packages"
+              href={isIndiaContext ? "/india" : "/packages"}
               className="hidden md:flex items-center text-[#E31E24] font-medium hover:underline group"
             >
               View All
@@ -120,7 +121,7 @@ export function Packages({ showAll = false, maxItems }: PackagesProps) {
         {!showAll && (
           <div className="text-center mt-14 md:hidden">
             <Link
-              href="/packages"
+              href={isIndiaContext ? "/india" : "/packages"}
               className="inline-flex items-center text-[#E31E24] font-medium text-lg hover:underline group"
             >
               View All Packages

@@ -8,8 +8,6 @@ import { Packages } from "@/components/sections/packages"
 import { Testimonials } from "@/components/sections/testimonials"
 import { Contact } from "@/components/sections/contact"
 import { RotatingHero } from "@/components/sections/rotating-hero"
-import Image from "next/image"
-import Link from "next/link"
 
 export default function Home() {
   return (

@@ -253,7 +253,7 @@ export function EnquiryForm() {
           aria-live="polite"
         >
           <Check className="w-5 h-5" />
-          <span>Thank you! We'll get back to you within 24 hours.</span>
+          <span>Thank you! We&apos;ll get back to you within 24 hours.</span>
         </div>
       )}
     </form>

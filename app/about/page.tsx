@@ -3,7 +3,6 @@ import { PageHero } from "@/components/page-hero"
 import { AboutContent } from "@/components/sections/about-content"
 import { WhyChooseUs } from "@/components/sections/why-choose-us"
 import { HowItWorks } from "@/components/sections/how-it-works"
-import { Testimonials } from "@/components/sections/testimonials"
 import { Footer } from "@/components/footer"
 import type { Metadata } from "next"
 

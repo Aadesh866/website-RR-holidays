@@ -145,7 +145,7 @@ export default async function IndiaPackageDetailPage({ params }: PageProps) {
                 
                 <section className="bg-white rounded-2xl p-8 shadow-sm border border-gray-100">
                   <h3 className="text-xl font-bold text-[#1a1f4e] mb-6 flex items-center">
-                    What's Included
+                    What&apos;s Included
                   </h3>
                   <ul className="space-y-4">
                     {pkg.inclusions.map((inclusion, idx) => (
