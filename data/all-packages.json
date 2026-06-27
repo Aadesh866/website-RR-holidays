@@ -217,7 +217,7 @@
           "Collage of South Africa: safari animals, Table Mountain, wine country, Cape Point"
         ],
         "images": [
-          "https://upload.wikimedia.org/wikipedia/commons/8/8d/Camps_bay_%2853460319478%29_%28cropped%29.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/6/64/Elephant_Kruger.jpg",
           "https://upload.wikimedia.org/wikipedia/commons/f/f0/Kruger_Zebra.JPG",
           "https://upload.wikimedia.org/wikipedia/commons/6/63/Federal_Air_aircraft_in_Ulusaba%2C_South_Africa.jpg",
           "https://upload.wikimedia.org/wikipedia/commons/d/d4/Shamwari_Game_Reserve%2C_South_Africa.jpg",
@@ -10494,6 +10494,334 @@
           "https://upload.wikimedia.org/wikipedia/commons/9/9a/Cave_Temple_3%2C_Badami.JPG"
         ],
         "imageUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Krishna_Pushkarani_-_Hampi_Ruins.jpg"
+      },
+      {
+        "slug": "ooty-coonoor-getaway-3n-4d",
+        "title": "Ooty & Coonoor Getaway (3N/4D)",
+        "duration": "3N/4D",
+        "overview": "Escape to the Queen of Hill Stations. Enjoy the pleasant climate, tea gardens, and the famous Nilgiri Mountain Railway.",
+        "highlights": [
+          "Nilgiri Mountain Railway",
+          "Ooty Lake",
+          "Sim's Park",
+          "Tea Estates"
+        ],
+        "images": [],
+        "stateSlug": "tamil-nadu",
+        "itinerary": [
+          {
+            "title": "Day 1: South India Exploration",
+            "activities": [
+              "Enjoy breakfast and proceed for sightseeing.",
+              "Visit key attractions mentioned in the highlights.",
+              "Return to hotel for overnight stay."
+            ]
+          },
+          {
+            "title": "Day 2: South India Exploration",
+            "activities": [
+              "Enjoy breakfast and proceed for sightseeing.",
+              "Visit key attractions mentioned in the highlights.",
+              "Return to hotel for overnight stay."
+            ]
+          },
+          {
+            "title": "Day 3: South India Exploration",
+            "activities": [
+              "Enjoy breakfast and proceed for sightseeing.",
+              "Visit key attractions mentioned in the highlights.",
+              "Return to hotel for overnight stay."
+            ]
+          },
+          {
+            "title": "Day 4: South India Exploration",
+            "activities": [
+              "Enjoy breakfast and proceed for sightseeing.",
+              "Visit key attractions mentioned in the highlights.",
+              "Return to hotel for overnight stay."
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "mysore-coorg-trail-4n-5d",
+        "title": "Mysore & Coorg Trail (4N/5D)",
+        "duration": "4N/5D",
+        "overview": "Experience the royal heritage of Mysore followed by the serene coffee plantations and waterfalls of Coorg.",
+        "highlights": [
+          "Mysore Palace",
+          "Abbey Falls",
+          "Coffee Plantations",
+          "Namdroling Monastery"
+        ],
+        "images": [],
+        "stateSlug": "karnataka",
+        "itinerary": [
+          {
+            "title": "Day 1: South India Exploration",
+            "activities": [
+              "Enjoy breakfast and proceed for sightseeing.",
+              "Visit key attractions mentioned in the highlights.",
+              "Return to hotel for overnight stay."
+            ]
+          },
+          {
+            "title": "Day 2: South India Exploration",
+            "activities": [
+              "Enjoy breakfast and proceed for sightseeing.",
+              "Visit key attractions mentioned in the highlights.",
+              "Return to hotel for overnight stay."
+            ]
+          },
+          {
+            "title": "Day 3: South India Exploration",
+            "activities": [
+              "Enjoy breakfast and proceed for sightseeing.",
+              "Visit key attractions mentioned in the highlights.",
+              "Return to hotel for overnight stay."
+            ]
+          },
+          {
+            "title": "Day 4: South India Exploration",
+            "activities": [
+              "Enjoy breakfast and proceed for sightseeing.",
+              "Visit key attractions mentioned in the highlights.",
+              "Return to hotel for overnight stay."
+            ]
+          },
+          {
+            "title": "Day 5: South India Exploration",
+            "activities": [
+              "Enjoy breakfast and proceed for sightseeing.",
+              "Visit key attractions mentioned in the highlights.",
+              "Return to hotel for overnight stay."
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "kanyakumari-rameshwaram-pilgrimage-4n-5d",
+        "title": "Kanyakumari & Rameshwaram Pilgrimage (4N/5D)",
+        "duration": "4N/5D",
+        "overview": "A spiritual journey to the southernmost tip of India and the sacred island of Rameshwaram.",
+        "highlights": [
+          "Vivekananda Rock Memorial",
+          "Ramanathaswamy Temple",
+          "Dhanushkodi",
+          "Triveni Sangam"
+        ],
+        "images": [],
+        "stateSlug": "tamil-nadu",
+        "itinerary": [
+          {
+            "title": "Day 1: South India Exploration",
+            "activities": [
+              "Enjoy breakfast and proceed for sightseeing.",
+              "Visit key attractions mentioned in the highlights.",
+              "Return to hotel for overnight stay."
+            ]
+          },
+          {
+            "title": "Day 2: South India Exploration",
+            "activities": [
+              "Enjoy breakfast and proceed for sightseeing.",
+              "Visit key attractions mentioned in the highlights.",
+              "Return to hotel for overnight stay."
+            ]
+          },
+          {
+            "title": "Day 3: South India Exploration",
+            "activities": [
+              "Enjoy breakfast and proceed for sightseeing.",
+              "Visit key attractions mentioned in the highlights.",
+              "Return to hotel for overnight stay."
+            ]
+          },
+          {
+            "title": "Day 4: South India Exploration",
+            "activities": [
+              "Enjoy breakfast and proceed for sightseeing.",
+              "Visit key attractions mentioned in the highlights.",
+              "Return to hotel for overnight stay."
+            ]
+          },
+          {
+            "title": "Day 5: South India Exploration",
+            "activities": [
+              "Enjoy breakfast and proceed for sightseeing.",
+              "Visit key attractions mentioned in the highlights.",
+              "Return to hotel for overnight stay."
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "munnar-thekkady-wildlife-4n-5d",
+        "title": "Munnar & Thekkady Wildlife (4N/5D)",
+        "duration": "4N/5D",
+        "overview": "Discover the misty hills of Munnar and the thrilling wildlife of Periyar National Park in Thekkady.",
+        "highlights": [
+          "Periyar National Park",
+          "Mattupetty Dam",
+          "Spice Plantations",
+          "Elephant Safari"
+        ],
+        "images": [],
+        "stateSlug": "kerala",
+        "itinerary": [
+          {
+            "title": "Day 1: South India Exploration",
+            "activities": [
+              "Enjoy breakfast and proceed for sightseeing.",
+              "Visit key attractions mentioned in the highlights.",
+              "Return to hotel for overnight stay."
+            ]
+          },
+          {
+            "title": "Day 2: South India Exploration",
+            "activities": [
+              "Enjoy breakfast and proceed for sightseeing.",
+              "Visit key attractions mentioned in the highlights.",
+              "Return to hotel for overnight stay."
+            ]
+          },
+          {
+            "title": "Day 3: South India Exploration",
+            "activities": [
+              "Enjoy breakfast and proceed for sightseeing.",
+              "Visit key attractions mentioned in the highlights.",
+              "Return to hotel for overnight stay."
+            ]
+          },
+          {
+            "title": "Day 4: South India Exploration",
+            "activities": [
+              "Enjoy breakfast and proceed for sightseeing.",
+              "Visit key attractions mentioned in the highlights.",
+              "Return to hotel for overnight stay."
+            ]
+          },
+          {
+            "title": "Day 5: South India Exploration",
+            "activities": [
+              "Enjoy breakfast and proceed for sightseeing.",
+              "Visit key attractions mentioned in the highlights.",
+              "Return to hotel for overnight stay."
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "pondicherry-french-riviera-3n-4d",
+        "title": "Pondicherry French Riviera (3N/4D)",
+        "duration": "3N/4D",
+        "overview": "Relax in the French capital of India. Explore colonial architecture, serene ashrams, and beautiful beaches.",
+        "highlights": [
+          "Auroville",
+          "Promenade Beach",
+          "French Quarter",
+          "Sri Aurobindo Ashram"
+        ],
+        "images": [],
+        "stateSlug": "puducherry",
+        "itinerary": [
+          {
+            "title": "Day 1: South India Exploration",
+            "activities": [
+              "Enjoy breakfast and proceed for sightseeing.",
+              "Visit key attractions mentioned in the highlights.",
+              "Return to hotel for overnight stay."
+            ]
+          },
+          {
+            "title": "Day 2: South India Exploration",
+            "activities": [
+              "Enjoy breakfast and proceed for sightseeing.",
+              "Visit key attractions mentioned in the highlights.",
+              "Return to hotel for overnight stay."
+            ]
+          },
+          {
+            "title": "Day 3: South India Exploration",
+            "activities": [
+              "Enjoy breakfast and proceed for sightseeing.",
+              "Visit key attractions mentioned in the highlights.",
+              "Return to hotel for overnight stay."
+            ]
+          },
+          {
+            "title": "Day 4: South India Exploration",
+            "activities": [
+              "Enjoy breakfast and proceed for sightseeing.",
+              "Visit key attractions mentioned in the highlights.",
+              "Return to hotel for overnight stay."
+            ]
+          }
+        ]
+      },
+      {
+        "slug": "hampi-badami-heritage-5n-6d",
+        "title": "Hampi & Badami Heritage (5N/6D)",
+        "duration": "5N/6D",
+        "overview": "Step back in time to the glorious Vijayanagara Empire with a tour of the mesmerizing ruins of Hampi and Badami.",
+        "highlights": [
+          "Virupaksha Temple",
+          "Vittala Temple",
+          "Badami Cave Temples",
+          "Tungabhadra River"
+        ],
+        "images": [],
+        "stateSlug": "karnataka",
+        "itinerary": [
+          {
+            "title": "Day 1: South India Exploration",
+            "activities": [
+              "Enjoy breakfast and proceed for sightseeing.",
+              "Visit key attractions mentioned in the highlights.",
+              "Return to hotel for overnight stay."
+            ]
+          },
+          {
+            "title": "Day 2: South India Exploration",
+            "activities": [
+              "Enjoy breakfast and proceed for sightseeing.",
+              "Visit key attractions mentioned in the highlights.",
+              "Return to hotel for overnight stay."
+            ]
+          },
+          {
+            "title": "Day 3: South India Exploration",
+            "activities": [
+              "Enjoy breakfast and proceed for sightseeing.",
+              "Visit key attractions mentioned in the highlights.",
+              "Return to hotel for overnight stay."
+            ]
+          },
+          {
+            "title": "Day 4: South India Exploration",
+            "activities": [
+              "Enjoy breakfast and proceed for sightseeing.",
+              "Visit key attractions mentioned in the highlights.",
+              "Return to hotel for overnight stay."
+            ]
+          },
+          {
+            "title": "Day 5: South India Exploration",
+            "activities": [
+              "Enjoy breakfast and proceed for sightseeing.",
+              "Visit key attractions mentioned in the highlights.",
+              "Return to hotel for overnight stay."
+            ]
+          },
+          {
+            "title": "Day 6: South India Exploration",
+            "activities": [
+              "Enjoy breakfast and proceed for sightseeing.",
+              "Visit key attractions mentioned in the highlights.",
+              "Return to hotel for overnight stay."
+            ]
+          }
+        ]
       }
     ],
     "duration": "5 Days / 4 Nights",
