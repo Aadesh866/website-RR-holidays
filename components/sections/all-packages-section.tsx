@@ -13,18 +13,22 @@ interface AllPackagesSectionProps {
 
 export function AllPackagesSection({ countries }: AllPackagesSectionProps) {
   const [currentPage, setCurrentPage] = useState(1);
+  const [showAllPages, setShowAllPages] = useState(false);
 
-  // Flatten all packages across all countries
-  const allPackages = countries.flatMap(country => 
-    country.packages.map((pkg: Package) => ({
-      ...pkg,
-      countryName: country.name,
-      continent: country.continent
-    }))
-  );
+  // Filter to show ONLY international packages (exclude India)
+  const allPackages = countries
+    .filter(country => !country.name.includes("INDIA"))
+    .flatMap(country => 
+      country.packages.map((pkg: Package) => ({
+        ...pkg,
+        countryName: country.name,
+        continent: country.continent
+      }))
+    );
   
-  const itemsPerPage = 12;
+  const itemsPerPage = 9; // 3x3 grid
   const totalPages = Math.ceil(allPackages.length / itemsPerPage);
+  const maxVisiblePages = 5;
 
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
@@ -60,9 +64,8 @@ export function AllPackagesSection({ countries }: AllPackagesSectionProps) {
           </div>
         </div>
 
-        {/* Packages Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-          {visiblePackages.map((pkg) => {
+        {/* Packages Grid - 3x3 */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">{visiblePackages.map((pkg) => {
             const isIndia = pkg.continent.toLowerCase() === 'india';
             
             // Clean slugs
@@ -133,40 +136,83 @@ export function AllPackagesSection({ countries }: AllPackagesSectionProps) {
           })}
         </div>
 
-        {/* Pagination Button */}
+        {/* Smart Pagination with Load More */}
         {totalPages > 1 && (
-          <div className="flex justify-center items-center gap-4 mt-16">
-            <button
-              onClick={() => handlePageChange(Math.max(1, currentPage - 1))}
-              disabled={currentPage === 1}
-              className="rounded-full flex items-center justify-center w-12 h-12 border border-[#1a1f4e]/20 text-[#1a1f4e] hover:bg-[#1a1f4e] hover:text-white disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m15 18-6-6 6-6"/></svg>
-            </button>
-            
-            <div className="flex gap-2">
-              {Array.from({ length: totalPages }).map((_, i) => (
-                <button
-                  key={i}
-                  onClick={() => handlePageChange(i + 1)}
-                  className={`w-10 h-10 rounded-full font-medium transition-colors flex items-center justify-center ${
-                    currentPage === i + 1 
-                      ? 'bg-[#E31E24] text-white' 
-                      : 'bg-white text-[#1a1f4e] hover:bg-gray-200 border border-gray-200'
-                  }`}
-                >
-                  {i + 1}
-                </button>
-              ))}
-            </div>
+          <div className="flex flex-col items-center gap-6 mt-16">
+            <div className="flex justify-center items-center gap-4">
+              <button
+                onClick={() => handlePageChange(Math.max(1, currentPage - 1))}
+                disabled={currentPage === 1}
+                className="rounded-full flex items-center justify-center w-12 h-12 border border-[#1a1f4e]/20 text-[#1a1f4e] hover:bg-[#1a1f4e] hover:text-white disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+              </button>
+              
+              <div className="flex gap-2">
+                {/* Show pages 1-5 initially */}
+                {Array.from({ length: Math.min(maxVisiblePages, totalPages) }).map((_, i) => (
+                  <button
+                    key={i}
+                    onClick={() => handlePageChange(i + 1)}
+                    className={`w-10 h-10 rounded-full font-medium transition-colors flex items-center justify-center ${
+                      currentPage === i + 1 
+                        ? 'bg-[#E31E24] text-white' 
+                        : 'bg-white text-[#1a1f4e] hover:bg-gray-200 border border-gray-200'
+                    }`}
+                  >
+                    {i + 1}
+                  </button>
+                ))}
+                
+                {/* Show ellipsis and Load More if there are more than 5 pages and not expanded */}
+                {totalPages > maxVisiblePages && !showAllPages && (
+                  <>
+                    <div className="flex items-center px-2 text-gray-400">...</div>
+                    <button
+                      onClick={() => setShowAllPages(true)}
+                      className="px-4 h-10 rounded-full font-medium bg-[#1a1f4e] text-white hover:bg-[#E31E24] transition-colors flex items-center gap-2"
+                    >
+                      Load More Pages
+                    </button>
+                  </>
+                )}
+                
+                {/* Show remaining pages after Load More is clicked */}
+                {showAllPages && totalPages > maxVisiblePages && (
+                  <>
+                    {Array.from({ length: totalPages - maxVisiblePages }).map((_, i) => {
+                      const pageNum = i + maxVisiblePages + 1;
+                      return (
+                        <button
+                          key={pageNum}
+                          onClick={() => handlePageChange(pageNum)}
+                          className={`w-10 h-10 rounded-full font-medium transition-colors flex items-center justify-center ${
+                            currentPage === pageNum 
+                              ? 'bg-[#E31E24] text-white' 
+                              : 'bg-white text-[#1a1f4e] hover:bg-gray-200 border border-gray-200'
+                          }`}
+                        >
+                          {pageNum}
+                        </button>
+                      );
+                    })}
+                  </>
+                )}
+              </div>
 
-            <button
-              onClick={() => handlePageChange(Math.min(totalPages, currentPage + 1))}
-              disabled={currentPage === totalPages}
-              className="rounded-full flex items-center justify-center w-12 h-12 border border-[#1a1f4e]/20 text-[#1a1f4e] hover:bg-[#1a1f4e] hover:text-white disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
-            >
-              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"/></svg>
-            </button>
+              <button
+                onClick={() => handlePageChange(Math.min(totalPages, currentPage + 1))}
+                disabled={currentPage === totalPages}
+                className="rounded-full flex items-center justify-center w-12 h-12 border border-[#1a1f4e]/20 text-[#1a1f4e] hover:bg-[#1a1f4e] hover:text-white disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+              </button>
+            </div>
+            
+            {/* Page info */}
+            <div className="text-sm text-gray-500">
+              Page {currentPage} of {totalPages}
+            </div>
           </div>
         )}
       </div>

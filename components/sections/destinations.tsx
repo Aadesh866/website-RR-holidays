@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 import Image from "next/image"
 import Link from "next/link"
 import { useStaggerAnimation } from "@/hooks/use-scroll-animation"
-import { destinations } from "@/data/destinations"
+import { getAllCountries } from "@/lib/packages"
 import { ArrowRight } from "lucide-react"
 
 // Define the categories to display on the homepage
@@ -13,40 +13,60 @@ const popularCategories = [
     id: "Domestic",
     title: "India Tour Packages",
     image: "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=800&q=80&auto=format&fit=crop", // India (Taj Mahal)
+    href: "/india",
   },
   {
     id: "International",
     title: "International Tour Packages",
     image: "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?w=800&q=80&auto=format&fit=crop", // Italy
+    href: "/packages",
   },
   {
     id: "Honeymoon",
     title: "International Honeymoon Packages",
     image: "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=800&q=80&auto=format&fit=crop", // Maldives
+    href: "/honeymoon",
   },
-  {
-    id: "Mountains",
-    title: "Mountain Tour Packages",
-    image: "https://images.unsplash.com/photo-1530122037265-a5f1f91d3b99?w=800&q=80&auto=format&fit=crop", // Swiss Alps
-  },
-  {
-    id: "Beach",
-    title: "Beach Tour Packages",
-    image: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800&q=80&auto=format&fit=crop", // Bali
-  },
-  {
-    id: "Heritage",
-    title: "Heritage Tour Packages",
-    image: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&q=80&auto=format&fit=crop", // Japan
-  }
 ]
 
 export function Destinations() {
   const gridRef = useStaggerAnimation(0.1)
 
-  // Calculate the number of tours per category
+  // Calculate the number of tours per category from all-packages.json
   const getTourCount = (categoryId: string) => {
-    return destinations.filter(dest => dest.categories.includes(categoryId as any)).length
+    const countries = getAllCountries()
+    
+    if (categoryId === "Domestic") {
+      // Count all India packages (regions ending with "INDIA")
+      return countries
+        .filter(country => country.name.includes("INDIA"))
+        .reduce((sum, country) => sum + country.packages.length, 0)
+    }
+    
+    if (categoryId === "International") {
+      // Count all non-India packages
+      return countries
+        .filter(country => !country.name.includes("INDIA"))
+        .reduce((sum, country) => sum + country.packages.length, 0)
+    }
+    
+    if (categoryId === "Honeymoon") {
+      // Use keyword matching for honeymoon packages
+      const honeymoonKeywords = ['honeymoon', 'romantic', 'couple', 'maldives', 'bali', 'mauritius', 'seychelles', 'santorini', 'venice', 'paris']
+      let count = 0
+      
+      for (const country of countries) {
+        for (const pkg of country.packages) {
+          const searchableText = `${pkg.title} ${pkg.overview} ${pkg.highlights.join(' ')}`.toLowerCase()
+          const isMatch = honeymoonKeywords.some(keyword => searchableText.includes(keyword))
+          if (isMatch) count++
+        }
+      }
+      
+      return count
+    }
+    
+    return 0
   }
 
   return (
@@ -69,7 +89,7 @@ export function Destinations() {
             const displayCount = getTourCount(category.id);
             
             return (
-              <Link href={`/packages`} key={category.id}>
+              <Link href={category.href} key={category.id}>
                 <div className="group relative w-full aspect-square overflow-hidden bg-[#1a1f4e] cursor-pointer">
                   {/* Background Image */}
                   <Image
