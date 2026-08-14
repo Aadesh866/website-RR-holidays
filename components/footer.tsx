@@ -115,9 +115,12 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="bg-[#1a1f4e] text-white py-5 px-6 md:px-12 flex flex-col md:flex-row justify-between items-center gap-6 text-sm font-medium -mx-6 sm:-mx-8 lg:-mx-12">
           
-          <div className="flex items-center space-x-4">
+          <div className="flex flex-col space-y-1">
             <p className="text-white/60">
               Copyright © {currentYear} by RR Holidays Pvt Ltd. All Rights Reserved.
+            </p>
+            <p className="text-white/40 text-xs">
+              MADE BY <a href="https://rizeeweb.in" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">RIZEEWEB</a>
             </p>
           </div>
 
